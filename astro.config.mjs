@@ -6,7 +6,7 @@ import tailwind from "@astrojs/tailwind";
 export default defineConfig({
   integrations: [tailwind()],
   site: "https://hananinas.github.io",
-  base: "/ISE",
+  base: "/ise",
   prefetch: {
     prefetchAll: true,
   },
