@@ -107,6 +107,3 @@ An example blog post can be found in [src/pages/posts/fff7d006-6e31-81d1-b5b9-c9
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-```
-
-Feel free to customize this template to better fit your project's specifics.
