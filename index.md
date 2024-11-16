@@ -1,3 +1,13 @@
+---
+layout: home
+title: Home
+landing-title: 'ISE homepage'
+description: null
+image: null
+author: null
+show_tile: false
+---
+
 # ISE Course Homepage
 
 Welcome to the homepage for the ISE course. This page will provide you with everything you need to know
