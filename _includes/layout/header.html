@@ -1,4 +1,4 @@
-<header class="mx-auto max-w-screen-xl px-6 lg:px-24">
+<header class="mx-auto max-w-screen-xl px-6 lg:px-24 flex justify-center">
   <nav
     class="grid grid-cols-6 py-8"
     role="navigation"
@@ -23,56 +23,25 @@
       </div>
       <div id="menu-button" class="z-20 lg:hidden">
         <button
-          type="button"
-          aria-controls="mobile-menu"
-          aria-expanded="false"
-          class="lg:hidden"
+          class="text-gray-900 dark:text-gray-100 focus:outline-none"
+          aria-label="Toggle navigation"
         >
-          <span class="sr-only">Open main menu</span>
-          <!--Icon when menu is closed-->
           <svg
-            id="burger"
-            class="block h-6 w-6"
-            xmlns="http://www.w3.org/2000/svg"
+            class="h-6 w-6"
             fill="none"
-            viewBox="0 0 24 24"
             stroke="currentColor"
-            aria-hidden="true"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
           >
             <path
               stroke-linecap="round"
               stroke-linejoin="round"
               stroke-width="2"
-              d="M4 6h16M4 12h16M4 18h16"
-            />
-          </svg>
-          <!--Icon when menu is open-->
-          <svg
-            id="close"
-            class="hidden h-6 w-6"
-            xmlns="http://www.w3.org/2000/svg"
-            fill="none"
-            viewBox="0 0 24 24"
-            stroke="currentColor"
-            aria-hidden="true"
-          >
-            <path
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-width="2"
-              d="M6 18L18 6M6 6l12 12"
-            />
+              d="M4 6h16M4 12h16m-7 6h7"
+            ></path>
           </svg>
         </button>
       </div>
-    </div>
-    <div
-      id="menu"
-      class="hidden min-w-full h-screen justify-between z-10 fixed bg-gray-100 dark:bg-gray-500 top-0 left-0 overflow-hidden transition-all"
-    >
-      <ul class="mt-24 px-6 space-y-4 w-full">
-        {% include menus/menu-nav.html %}
-      </ul>
     </div>
   </nav>
 </header>

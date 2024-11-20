@@ -1,20 +1,31 @@
 ---
 layout: default
-title: Home
 ---
 
 {% include layout/header.html %}
 <main class="mx-auto max-w-screen-xl px-6 lg:px-24 mb-auto">
-  <section class="grid grid-cols-6 py-6">
-    <!-- Two -->
-    <div class="inner">
-      <header class="major">
-        <h2>Massa libero</h2>
+  <section class="py-12">{{content}}</section>
+
+  <!-- Sponsor Section -->
+  <section class="py-12">
+    <div class="bg-gray-100 p-8 rounded-lg shadow-lg">
+      <header class="mb-6">
+        <h2 class="text-4xl font-extrabold text-gray-900">Our Sponsors</h2>
       </header>
-      <p>{{ content }}</p>
-      <ul class="actions">
-        <li><a href="landing.html" class="button next">Get Started</a></li>
-      </ul>
+      <div class="flex flex-wrap justify-center items-center space-x-8">
+        {% for sponsor in site.data.sponser.sponsors %}
+        <div class="flex flex-col items-center mb-8">
+          <a href="{{ sponsor.link }}" target="_blank">
+            <img
+              src="{{ sponsor.image }}"
+              alt="{{ sponsor.name }}"
+              class="w-48 h-48 object-contain mb-4"
+            />
+          </a>
+          <p class="text-lg font-semibold text-black">{{ sponsor.name }}</p>
+        </div>
+        {% endfor %}
+      </div>
     </div>
   </section>
 </main>

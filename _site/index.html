@@ -6,34 +6,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
 
   <!-- Fonts -->
-  <link
-    rel="preload"
-    href="/assets/fonts/roboto-condensed/roboto-condensed-v24-latin-700.woff2"
-    as="font"
-    type="font/woff2"
-    crossorigin
-  />
-  <link
-    rel="preload"
-    href="/assets/fonts/source-serif/SourceSerif4-Semibold.woff2"
-    as="font"
-    type="font/woff2"
-    crossorigin
-  />
-  <link
-    rel="preconnect"
-    href="/assets/fonts/inter/Inter-roman.var.woff2"
-    as="font"
-    type="font/woff2"
-    crossorigin
-  />
-  <link
-    rel="preconnect"
-    href="/assets/fonts/source-serif/SourceSerif4-Regular.woff2"
-    as="font"
-    type="font/woff2"
-    crossorigin
-  />
 
   <!-- CSS -->
   <link rel="stylesheet" href="/assets/css/style.css" />
@@ -63,7 +35,7 @@
   <body
     class="bg-gray-50 text-gray-900 antialiased dark:bg-gray-900 dark:text-gray-100"
   >
-    <header class="mx-auto max-w-screen-xl px-6 lg:px-24">
+    <header class="mx-auto max-w-screen-xl px-6 lg:px-24 flex justify-center">
   <nav
     class="grid grid-cols-6 py-8"
     role="navigation"
@@ -83,134 +55,186 @@
         <ul
           class="flex items-center justify-between text-gray-900 dark:text-gray-100"
         >
-          <li>
-  <a class="p-1 sm:p-4 hover:text-primary dark:hover:text-primary_dark" href="/articles/">Articles</a>
-</li>
-<li>
-  <a class="p-1 sm:p-4 hover:text-primary dark:hover:text-primary_dark" href="/essays/">Essays</a>
-</li>
-<li>
-  <a class="p-1 sm:p-4 hover:text-primary dark:hover:text-primary_dark" href="/notes/">Notes</a>
-</li>
-<li>
-  <a class="p-1 sm:p-4 sm:pr-0 hover:text-primary dark:hover:text-primary_dark" href="/letters/">Letters</a>
-</li>
+           
+<ul>
+  <a
+    class="p-1 sm:p-4 hover:text-primary dark:hover:text-primary_dark"
+    href="/"
+    >Home</a
+  >
+</ul>
+
+<ul>
+  <a
+    class="p-1 sm:p-4 hover:text-primary dark:hover:text-primary_dark"
+    href="/about"
+    >About</a
+  >
+</ul>
+
+<ul>
+  <a
+    class="p-1 sm:p-4 hover:text-primary dark:hover:text-primary_dark"
+    href="/services"
+    >Services</a
+  >
+</ul>
+
+<ul>
+  <a
+    class="p-1 sm:p-4 hover:text-primary dark:hover:text-primary_dark"
+    href="/blog"
+    >Blog</a
+  >
+</ul>
+
+<ul>
+  <a
+    class="p-1 sm:p-4 hover:text-primary dark:hover:text-primary_dark"
+    href="/contact"
+    >Contact</a
+  >
+</ul>
+
+
         </ul>
       </div>
       <div id="menu-button" class="z-20 lg:hidden">
         <button
-          type="button"
-          aria-controls="mobile-menu"
-          aria-expanded="false"
-          class="lg:hidden"
+          class="text-gray-900 dark:text-gray-100 focus:outline-none"
+          aria-label="Toggle navigation"
         >
-          <span class="sr-only">Open main menu</span>
-          <!--Icon when menu is closed-->
           <svg
-            id="burger"
-            class="block h-6 w-6"
-            xmlns="http://www.w3.org/2000/svg"
+            class="h-6 w-6"
             fill="none"
-            viewBox="0 0 24 24"
             stroke="currentColor"
-            aria-hidden="true"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
           >
             <path
               stroke-linecap="round"
               stroke-linejoin="round"
               stroke-width="2"
-              d="M4 6h16M4 12h16M4 18h16"
-            />
-          </svg>
-          <!--Icon when menu is open-->
-          <svg
-            id="close"
-            class="hidden h-6 w-6"
-            xmlns="http://www.w3.org/2000/svg"
-            fill="none"
-            viewBox="0 0 24 24"
-            stroke="currentColor"
-            aria-hidden="true"
-          >
-            <path
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-width="2"
-              d="M6 18L18 6M6 6l12 12"
-            />
+              d="M4 6h16M4 12h16m-7 6h7"
+            ></path>
           </svg>
         </button>
       </div>
-    </div>
-    <div
-      id="menu"
-      class="hidden min-w-full h-screen justify-between z-10 fixed bg-gray-100 dark:bg-gray-500 top-0 left-0 overflow-hidden transition-all"
-    >
-      <ul class="mt-24 px-6 space-y-4 w-full">
-        <li>
-  <a class="p-1 sm:p-4 hover:text-primary dark:hover:text-primary_dark" href="/articles/">Articles</a>
-</li>
-<li>
-  <a class="p-1 sm:p-4 hover:text-primary dark:hover:text-primary_dark" href="/essays/">Essays</a>
-</li>
-<li>
-  <a class="p-1 sm:p-4 hover:text-primary dark:hover:text-primary_dark" href="/notes/">Notes</a>
-</li>
-<li>
-  <a class="p-1 sm:p-4 sm:pr-0 hover:text-primary dark:hover:text-primary_dark" href="/letters/">Letters</a>
-</li>
-      </ul>
     </div>
   </nav>
 </header>
 
 <main class="mx-auto max-w-screen-xl px-6 lg:px-24 mb-auto">
-  <section class="grid grid-cols-6 py-6">
-    <!-- Two -->
-    <div class="inner">
-      <header class="major">
-        <h2>Massa libero</h2>
-      </header>
-      <p><h1 id="ise-course-homepage">ISE Course Homepage</h1>
+  <section class="py-12"><h1 id="ise-course-industrial-software-engineering">ISE Course: Industrial Software Engineering</h1>
 
-<p>Welcome to the homepage for the ISE course. This page will provide you with everything you need to know</p>
+<p>Welcome to the homepage for the ISE course. This page will provide you with everything you need to know.</p>
+
+<h2 id="partner-with-us">Partner with Us</h2>
+
+<p>Join our network of industrial partners and contribute to shaping the next generation of software engineers. By sponsoring a project, you’ll gain access to fresh perspectives, innovative solutions, and potential future employees.</p>
+
+<h2 id="benefits-for-sponsors">Benefits for Sponsors</h2>
+
+<ul>
+  <li>Access to a pool of talented, motivated students</li>
+  <li>Fresh perspectives on your software challenges</li>
+  <li>Opportunity to influence curriculum and skill development</li>
+  <li>Early recruitment opportunities</li>
+  <li>Exposure to cutting-edge academic research and methodologies</li>
+</ul>
+
+<h2 id="what-were-looking-for">What We’re Looking For</h2>
+
+<ul>
+  <li>Real-world software development projects</li>
+  <li>Challenging problems that require innovative solutions</li>
+  <li>Projects that can be completed in a semester timeframe</li>
+  <li>Opportunities for students to work with industry-standard tools and practices</li>
+  <li>Mentorship and guidance from industry professionals</li>
+</ul>
 
 <h2 id="course-overview">Course Overview</h2>
 
-<h2 id="the-ise-course-covers-the-following-topics">The ISE course covers the following topics:</h2>
+<p>The ISE course is a second-year project where students actively participate in building working software according to the requirements of industrial sponsors. Working in teams of 7-9, students use the Scrum method to plan, structure, and execute projects, integrating code, analyzing, and optimizing programs.</p>
+
+<h3 id="key-features">Key Features:</h3>
 
 <ul>
-  <li>something</li>
+  <li>Real industrial projects with different sponsors</li>
+  <li>Application of Agile methodology - Scrum</li>
+  <li>Exposure to new technologies and programming languages</li>
+  <li>Practical application of software engineering skills</li>
+  <li>Development of teamwork and communication skills</li>
 </ul>
 
-<h2 id="course-materials">Course Materials</h2>
-
-<p>All course materials, including lecture notes, assignments, and readings, will
-be available on the course platform.</p>
-
-<h2 id="contact-information">Contact Information</h2>
-
-<p>For any questions or concerns, please contact the course instructor:</p>
-
-<p><strong>Instructor:</strong> paolo 
-<strong>Email:</strong> 
-<strong>Office Hours:</strong> Mondays and Wednesdays, 2:00 PM - 4:00 PM – update when
-course</p>
-
-<h2 id="important-links">Important Links</h2>
+<h2 id="learning-outcomes">Learning Outcomes</h2>
 
 <ul>
-  <li><a href="syllabus.md">Course Syllabus</a> maybe something like this</li>
-  <li><a href="lectures.md">Lecture Notes</a></li>
-  <li><a href="assignments.md">Assignments</a></li>
-  <li><a href="forum.md">Discussion Forum</a></li>
+  <li>Plan and execute large-scale software development projects</li>
+  <li>Apply Scrum methodology in real-world scenarios</li>
+  <li>Analyze and solve complex software engineering problems</li>
+  <li>Collaborate effectively with industrial partners</li>
+  <li>Adapt to new technologies and programming languages</li>
 </ul>
 
-<p>We hope you have a great learning experience in the ISE course!</p>
-</p>
-      <ul class="actions">
-        <li><a href="landing.html" class="button next">Get Started</a></li>
-      </ul>
+<h2 id="student-engagement">Student Engagement</h2>
+
+<ul>
+  <li>Project work and supervision: 80%</li>
+  <li>Exercises and assignments: 11%</li>
+  <li>Lectures and preparation: 5%</li>
+  <li>Exam and preparation: 4%</li>
+</ul>
+
+<h2 id="get-involved">Get Involved</h2>
+
+<p>We’re always looking for new industrial partners to collaborate with. If you’re interested in sponsoring a project or learning more about how you can get involved, please get in touch with us.</p>
+
+<p><a href="#">Contact Us</a></p>
+</section>
+
+  <!-- Sponsor Section -->
+  <section class="py-12">
+    <div class="bg-gray-100 p-8 rounded-lg shadow-lg">
+      <header class="mb-6">
+        <h2 class="text-4xl font-extrabold text-gray-900">Our Sponsors</h2>
+      </header>
+      <div class="flex flex-wrap justify-center items-center space-x-8">
+        
+        <div class="flex flex-col items-center mb-8">
+          <a href="https://companya.com" target="_blank">
+            <img
+              src="https://cdn.markedsforing.dk/app/uploads/20200611071313/nordea_masterbrand_50mm_rgb.jpg"
+              alt="Company A"
+              class="w-48 h-48 object-contain mb-4"
+            />
+          </a>
+          <p class="text-lg font-semibold text-black">Company A</p>
+        </div>
+        
+        <div class="flex flex-col items-center mb-8">
+          <a href="https://companyb.com" target="_blank">
+            <img
+              src="https://cdn.markedsforing.dk/app/uploads/20200611071313/nordea_masterbrand_50mm_rgb.jpg"
+              alt="Company B"
+              class="w-48 h-48 object-contain mb-4"
+            />
+          </a>
+          <p class="text-lg font-semibold text-black">Company B</p>
+        </div>
+        
+        <div class="flex flex-col items-center mb-8">
+          <a href="https://companyc.com" target="_blank">
+            <img
+              src="https://cdn.markedsforing.dk/app/uploads/20200611071313/nordea_masterbrand_50mm_rgb.jpg"
+              alt="Company C"
+              class="w-48 h-48 object-contain mb-4"
+            />
+          </a>
+          <p class="text-lg font-semibold text-black">Company C</p>
+        </div>
+        
+      </div>
     </div>
   </section>
 </main>

@@ -5,3 +5,101 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Custom styles for the homepage */
+
+.dark body {
+  background-color: #1a202c; /* dark:bg-gray-900 */
+  color: #f7fafc; /* dark:text-gray-100 */
+}
+
+h1 {
+  font-size: 1.875rem; /* text-3xl */
+  font-weight: 700; /* font-bold */
+  margin-bottom: 1rem; /* mb-4 */
+}
+
+h2 {
+  font-size: 1.5rem; /* text-2xl */
+  font-weight: 600; /* font-semibold */
+  margin-bottom: 1rem; /* mb-4 */
+}
+
+h3 {
+  font-size: 1.25rem; /* text-xl */
+  font-weight: 600; /* font-semibold */
+  margin-bottom: 1rem; /* mb-4 */
+  display: flex;
+  align-items: center;
+}
+
+p {
+  color: #ffffff; /* text-gray-700 */
+  margin-bottom: 1rem; /* mb-4 */
+}
+
+.dark p {
+  color: #a0aec0; /* dark:text-gray-300 */
+}
+
+ul {
+  list-style-type: disc; /* list-disc */
+  padding-left: 1rem; /* list-inside */
+  margin-bottom: 1.5rem; /* mb-6 */
+  color: white; /* text-white */
+}
+
+.dark ul {
+  color: #a0aec0; /* dark:text-gray-300 */
+}
+
+ul li {
+  margin-bottom: 0.5rem; /* space-y-2 */
+  color: white; /* text-white */
+}
+
+.section {
+  margin-bottom: 3rem; /* mb-12 */
+  color: white; /* text-white */
+}
+
+.grid-section {
+  margin-bottom: 3rem; /* mb-12 */
+  display: grid;
+  grid-template-columns: repeat(1, minmax(0, 1fr));
+  gap: 1.5rem; /* gap-6 */
+  color: white; /* text-white */
+}
+
+@media (min-width: 768px) {
+  .grid-section {
+    grid-template-columns: repeat(2, minmax(0, 1fr)); /* md:grid-cols-2 */
+  }
+}
+
+.card {
+  background-color: #ffffff; /* bg-white */
+  border-radius: 0.5rem; /* rounded-lg */
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
+    0 4px 6px -2px rgba(0, 0, 0, 0.05); /* shadow-md */
+  padding: 1.5rem; /* p-6 */
+}
+
+.dark .card {
+  background-color: #2d3748; /* dark:bg-gray-800 */
+}
+
+.button {
+  background-color: #3182ce; /* bg-blue-600 */
+  color: #ffffff; /* text-white */
+  font-weight: 700; /* font-bold */
+  padding-top: 0.5rem; /* py-2 */
+  padding-bottom: 0.5rem; /* py-2 */
+  padding-left: 1rem; /* px-4 */
+  padding-right: 1rem; /* px-4 */
+  border-radius: 0.25rem; /* rounded */
+}
+
+.button:hover {
+  background-color: #2b6cb0; /* hover:bg-blue-700 */
+}
