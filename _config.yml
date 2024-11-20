@@ -1,2 +1,18 @@
+title: ise
+description: A simple site for the ISE course
+repository: ind-sw-eng/ise
+url: https://ind-sw-eng.github.io/ise/
+
 plugins:
+  - jekyll-remote-theme
+  - jekyll-default-layout
+  - jekyll-gist
+  - jekyll-github-metadata
+  - jekyll-optional-front-matter
+  - jekyll-paginate
+  - jekyll-readme-index
+  - jekyll-titles-from-headings
+  - jekyll-relative-links
+  - jekyll-sitemap
+  - jekyll-seo-tag
   - jekyll-tailwindcss
