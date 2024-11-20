@@ -1,0 +1,7 @@
+---
+# This yaml frontmatter is required for jekyll to process the file
+---
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

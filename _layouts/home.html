@@ -1,37 +1,20 @@
-<!DOCTYPE html>
-<html>
-  <body>
-    <!-- Banner -->
-    <section id="banner" class="major">
-      <div class="inner">
-        <header class="major">
-          <h1>{{ page.landing-title }}</h1>
-        </header>
-        <div class="content">
-          <p style="text-transform: uppercase">{{ site.description }}</p>
-          <ul class="actions">
-            <li><a href="#one" class="button next scrolly">Get Started</a></li>
-          </ul>
-        </div>
-      </div>
-    </section>
+---
+layout: default
+title: Home
+---
 
-    <!-- Main -->
-    <div id="main">
-      <!-- One -->
-
-      <!-- Two -->
-      <section id="two">
-        <div class="inner">
-          <header class="major">
-            <h2>Massa libero</h2>
-          </header>
-          <p>{{ content }}</p>
-          <ul class="actions">
-            <li><a href="landing.html" class="button next">Get Started</a></li>
-          </ul>
-        </div>
-      </section>
+{% include layout/header.html %}
+<main class="mx-auto max-w-screen-xl px-6 lg:px-24 mb-auto">
+  <section class="grid grid-cols-6 py-6">
+    <!-- Two -->
+    <div class="inner">
+      <header class="major">
+        <h2>Massa libero</h2>
+      </header>
+      <p>{{ content }}</p>
+      <ul class="actions">
+        <li><a href="landing.html" class="button next">Get Started</a></li>
+      </ul>
     </div>
-  </body>
-</html>
+  </section>
+</main>
