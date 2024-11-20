@@ -6,7 +6,9 @@
   <!-- Fonts -->
 
   <!-- CSS -->
-  <link rel="stylesheet" href="/assets/css/style.css" />
+  <link rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'"
+  href="{{ "/assets/css/base-style.css?v=" | append: site.github.build_revision
+  | relative_url }}">
 
   <!-- Favicons -->
   <link
@@ -26,7 +28,7 @@
     sizes="16x16"
     href="/assets/img/favicon-16x16.png"
   />
-  
+
   <link rel="manifest" href="/assets/img/site.webmanifest" />
   <meta name="theme-color" content="#f9fafb" />
 </head>
