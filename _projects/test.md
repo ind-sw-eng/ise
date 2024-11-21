@@ -2,7 +2,7 @@
 layout: post
 title: project 1
 description: IBM project 
-img: "https://readfoyer.com/sites/default/files/2023-10/RSZ%20%C2%A9Jonty_Wilde_KAWS_Signy_24.9.23-4432_DA.jpg"
+img: "https://www.parents.com/thmb/z0d3l8Kbuz1cMZB4iCR_K2jqVmQ=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/cGettyImages-1049272194-2000-852e11e55cfa40d48feb03811ce0fd35.jpg"
 importance: 1
 category: work
 related_publications: true
