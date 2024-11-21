@@ -1,0 +1,16 @@
+{
+  "navigation": [
+    {
+      "title": "Home",
+      "url": "/ise/"
+    },
+    {
+      "title": "About",
+      "url": "/ise/about"
+    },
+    {
+      "title": "projects",
+      "url": "/ise/projects"
+    }
+  ]
+}

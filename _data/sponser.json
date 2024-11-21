@@ -1,0 +1,19 @@
+{
+  "sponsors": [
+    {
+      "name": "Company A",
+      "image": "https://cdn.markedsforing.dk/app/uploads/20200611071313/nordea_masterbrand_50mm_rgb.jpg",
+      "link": "https://nordea.dk"
+    },
+    {
+      "name": "Company B",
+      "image": "https://cdn.markedsforing.dk/app/uploads/20200611071313/nordea_masterbrand_50mm_rgb.jpg",
+      "link": "https://nordea.dk"
+    },
+    {
+      "name": "Company C",
+      "image": "https://cdn.markedsforing.dk/app/uploads/20200611071313/nordea_masterbrand_50mm_rgb.jpg",
+      "link": "https://nordea.dk"
+    }
+  ]
+}
