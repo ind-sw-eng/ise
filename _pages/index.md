@@ -1,7 +1,8 @@
 ---
 layout: home
 title: 404
-show_tile: false
+permalink: /
+
 ---
 
 # ISE Course: Industrial Software Engineering

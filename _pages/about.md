@@ -1,7 +1,7 @@
 ---
 layout: post
 title: About
-show_tile: false
+permalink: /about
 ---
 
 About us

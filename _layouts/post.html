@@ -2,14 +2,11 @@
 layout: default
 ---
 
-{% include layout/header.html %}
-<main class="mx-auto max-w-screen-xl px-6 lg:px-24 mb-auto">
-  <section class="py-12">
-    <div class="bg-white p-8 rounded-lg shadow-lg text-center text-black">
-      <header class="mb-6">
-        <h2 class="text-4xl font-extrabold text-gray-900">{{ page.title }}</h2>
-      </header>
-      {{ content }}
-    </div>
-  </section>
-</main>
+<section class="py-12">
+  <div class="bg-white p-8 rounded-lg shadow-lg text-center text-black">
+    <header class="mb-6">
+      <h2 class="text-4xl font-extrabold text-gray-900">{{ page.title }}</h2>
+    </header>
+    {{ content }}
+  </div>
+</section>

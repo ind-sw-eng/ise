@@ -1,4 +1,4 @@
-title: ise
+title: ISE
 description: A simple site for the ISE course
 repository: ind-sw-eng/ise
 url: https://ind-sw-eng.github.io/ise/
@@ -16,3 +16,10 @@ plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
   - jekyll-tailwindcss
+
+include: ["_pages"]
+
+collections:
+  projects:
+    output: true
+    permalink: /projects/:path/
