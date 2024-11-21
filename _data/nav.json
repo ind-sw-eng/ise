@@ -2,15 +2,15 @@
   "navigation": [
     {
       "title": "Home",
-      "url": "/ise/"
+      "url": "/"
     },
     {
       "title": "About",
-      "url": "/ise/about"
+      "url": "/about"
     },
     {
       "title": "projects",
-      "url": "/ise/projects"
+      "url": "/projects"
     }
   ]
 }
