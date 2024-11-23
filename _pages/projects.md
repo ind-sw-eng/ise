@@ -12,10 +12,10 @@ permalink: /projects
   {% for project in site.projects %}
   <li class="bg-white shadow-md rounded-lg overflow-hidden">
     <div class="p-6">
-       <img src="{{project.img}}" />
+       <img src="/ise/{{project.img}}" />
       <h2 class="text-xl font-semibold mb-2">{{ project.title }}</h2>
       <p class="text-gray-700">{{ project.description }}</p>
-      <a href="{{ project.url }}" class="text-blue-500 hover:underline mt-4 inline-block">Read more</a>
+      <a href="/ise/{{ project.url }}" class="text-blue-500 hover:underline mt-4 inline-block">Read more</a>
     </div>
   </li>
   {% endfor %}
