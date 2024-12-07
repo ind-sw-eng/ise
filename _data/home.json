@@ -22,16 +22,50 @@
     }
   ],
   "benefits": [
-    "Real-world software development projects",
+    "Real world software development projects",
     "Challenging problems that require innovative solutions",
     "Projects that can be completed in a semester timeframe",
     "Opportunities for students to work with industry-standard tools and practices",
     "Mentorship and guidance from industry professionals"
+  ],
+  "keyfeatures": [
+    "Real industrial projects with different sponsors",
+    "Application of Agile methodology - Scrum",
+    "Exposure to new technologies and programming languages",
+    "Practical application of software engineering skills",
+    "Development of teamwork and communication skills"
+  ],
+  "learningoutcomes": [
+    "Plan and execute large-scale software development projects",
+    "Apply Scrum methodology in real-world scenarios",
+    "Analyze and solve complex software engineering problems",
+    "Collaborate effectively with industrial partners",
+    "Adapt to new technologies and programming languages"
   ],
   "engagement": [
     { "title": "Project Work", "percentage": "80%" },
     { "title": "Exercises", "percentage": "11%" },
     { "title": "Lectures", "percentage": "5%" },
     { "title": "Exam", "percentage": "4%" }
+  ],
+  "professors": [
+    {
+      "name": "Paolo Tell",
+      "role": " Professor",
+      "email": "pate@itu.dk",
+      "image": "/placeholder.svg?height=400&width=400"
+    },
+    {
+      "name": "Stefano Vincenti",
+      "role": " Professor",
+      "email": "vinc@itu.dk",
+      "image": "assets\\images\\Portrait - vinc.jpeg"
+    },
+    {
+      "name": "Elda Paja",
+      "role": " Professor",
+      "email": "elpa@itu.dk",
+      "image": "/placeholder.svg?height=400&width=400"
+    }
   ]
 }

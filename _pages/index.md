@@ -66,72 +66,72 @@ permalink: /
               {% for item in site.data.home.benefits %}
                 <li  class="flex items-start ">
                   <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-right h-5 w-5 text-blue-600 mr-2 mt-1 flex-shrink-0"><path d="m9 18 6-6-6-6"></path></svg>
-                  <span class="text-black">{{item}}</span>
+                  <p class="text-black">{{item}}</p>
                 </li>
               {% endfor %}
             </ul>
           </div>
 </section>
 
+
+<section class="mb-16">
+          <h2 class="text-3xl font-bold mb-8 text-center">Course Overview</h2>
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <div class="bg-white rounded-lg shadow-md p-6">
+              <h3 class="text-xl font-semibold mb-4">Key Features</h3>
+              <ul class="space-y-2">
+                {% for item in site.data.home.keyfeatures %}
+                  <li class="flex items-start">
+                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-right h-5 w-5 text-blue-600 mr-2 mt-1 flex-shrink-0"><path d="m9 18 6-6-6-6"></path></svg>
+                     <p class="text-black">{{item}}</p>
+                  </li>
+                {% endfor %}
+              </ul>
+            </div>
+            <div class="bg-white rounded-lg shadow-md p-6">
+              <h3 class="text-xl font-semibold mb-4">Learning Outcomes</h3>
+              <ul class="space-y-2">
+                 {% for item in site.data.home.learningoutcomes %}
+                  <li class="flex items-start">
+                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-right h-5 w-5 text-blue-600 mr-2 mt-1 flex-shrink-0"><path d="m9 18 6-6-6-6"></path></svg>
+                     <p class="text-black">{{item}}</p>
+                  </li>
+                 {% endfor %}
+              </ul>
+            </div>
+        </div>
+</section>
+
+
+<section class="mb-16">
+        <h2 class="text-3xl font-bold text-center mb-12">Contact Our Professors</h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8 ">
+            {% for professor in site.data.home.professors %}
+            <div 
+              class="flex flex-col items-center bg-white  rounded-lg shadow-md p-6 transition-transform hover:scale-105"
+            >
+              <div class=" relative mb-4 rounded-full overflow-hidden">
+                <Image
+                  src="{{professor.image}}"
+                  alt={{professor.name}}
+                  fill
+                  class="object-cover h-[200px]"
+                />
+              </div>
+              <h3 class="text-xl font-semibold mb-1">{{professor.name}}</h3>
+              <p class="text-gray-600 mb-3">{{professor.role}}</p>
+              <a 
+                href="mailto:{{professor.email}}"
+                class="inline-flex items-center text-blue-600 hover:text-blue-800 transition-colors"
+              >
+                {{professor.email}}
+              </a>
+            </div>
+          {% endfor %}
+        </div>
+  </section>
+
+
 </main>
 
 
-## Partner with Us
-
-Join our network of industrial partners and contribute to shaping the next generation of software engineers. By sponsoring a project, you'll gain access to fresh perspectives, innovative solutions, and potential future employees.
-
-## Benefits for Sponsors
-
-- Access to a pool of talented, motivated students
-- Fresh perspectives on your software challenges
-- Opportunity to influence curriculum and skill development
-- Early recruitment opportunities
-- Exposure to cutting-edge academic research and methodologies
-
-## What We're Looking For
-
-- Real-world software development projects
-- Challenging problems that require innovative solutions
-- Projects that can be completed in a semester timeframe
-- Opportunities for students to work with industry-standard tools and practices
-- Mentorship and guidance from industry professionals
-
-## Course Overview
-
-The ISE course is a second-year project where students actively participate in building working software according to the requirements of industrial sponsors. Working in teams of 7-9, students use the Scrum method to plan, structure, and execute projects, integrating code, analyzing, and optimizing programs.
-
-### Key Features:
-
-- Real industrial projects with different sponsors
-- Application of Agile methodology - Scrum
-- Exposure to new technologies and programming languages
-- Practical application of software engineering skills
-- Development of teamwork and communication skills
-
-## Learning Outcomes
-
-- Plan and execute large-scale software development projects
-- Apply Scrum methodology in real-world scenarios
-- Analyze and solve complex software engineering problems
-- Collaborate effectively with industrial partners
-- Adapt to new technologies and programming languages
-
-## Student Engagement
-
-<section class="mb-16">
-  <h2 class="text-3xl font-bold mb-8 text-center">Student Engagement</h2>
-  <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
-    {% for engagement in site.data.home.engagement %}
-      <div key={{engagement.title}} class="bg-white rounded-lg shadow-md p-4 text-center justify-center items-center flex flex-col">
-        <h3 class="text-lg font-semibold mb-2 text-black">{{engagement.title}}</h3>
-        <p class="text-4xl font-bold text-blue-600">{{engagement.percentage}}</p>
-      </div>
-    {% endfor %}
-  </div>
-</section>
-
-## Get Involved
-
-We're always looking for new industrial partners to collaborate with. If you're interested in sponsoring a project or learning more about how you can get involved, please get in touch with us.
-
-[Contact Us](#)
