@@ -1,11 +1,7 @@
-<ul class="sm:space-y-0 sm:flex sm:justify-items-center space-y-1.5">
-  {% assign nav_items = site.data.nav.navigation %} {% for item in nav_items %}
-  <ul>
-    <a
-      class="px-1 sm:px-3 text-black dark:text-gray-300 hover:text-teal-700 dark:hover:text-teal-400"
-      href="{{ item.url }}"
-      >{{ item.title }}</a
-    >
-  </ul>
-  {% endfor %}
-</ul>
+{% assign nav_items = site.data.nav.navigation %} {% for item in nav_items %}
+<div>
+  <a class="text-sm text-gray-600 hover:text-blue-600" href="{{ item.url }}"
+    >{{ item.title }}</a
+  >
+</div>
+{% endfor %}
