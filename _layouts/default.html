@@ -2,12 +2,10 @@
 <html id="html-tag" class="scroll-smooth" lang="en-US">
   {% include layout/head.html %}
   <body
-    class="bg-gray-50 text-gray-900 antialiased dark:bg-gray-900 dark:text-gray-100"
+    class="bg-white text-gray-900 antialiased dark:bg-gray-900 dark:text-gray-100"
   >
     {% include layout/header.html %}
-    <main class="mx-auto max-w-screen-xl min-h-screen px-6 lg:px-24 mb-auto">
-      {{ content }}
-    </main>
+    <main class="flex flex-col min-h-screen">{{ content }}</main>
     {% include layout/footer.html %}
 
     <!-- Scripts-->
