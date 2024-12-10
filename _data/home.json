@@ -51,19 +51,19 @@
   "professors": [
     {
       "name": "Paolo Tell",
-      "role": " Professor",
+      "role": "Course manager",
       "email": "pate@itu.dk",
       "image": "/placeholder.svg?height=400&width=400"
     },
     {
       "name": "Stefano Vincenti",
-      "role": " Professor",
+      "role": "External Lecturer",
       "email": "vinc@itu.dk",
       "image": "assets\\images\\Portrait - vinc.jpeg"
     },
     {
       "name": "Elda Paja",
-      "role": " Professor",
+      "role": "Associate Professor",
       "email": "elpa@itu.dk",
       "image": "/placeholder.svg?height=400&width=400"
     }
