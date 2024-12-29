@@ -53,7 +53,7 @@
       "name": "Paolo Tell",
       "role": "Course manager",
       "email": "pate@itu.dk",
-      "image": "/placeholder.svg?height=400&width=400"
+      "image": "assets\\images\\Portrait - paolo.png"
     },
     {
       "name": "Stefano Vincenti",
@@ -65,7 +65,7 @@
       "name": "Elda Paja",
       "role": "Associate Professor",
       "email": "elpa@itu.dk",
-      "image": "/placeholder.svg?height=400&width=400"
+      "image": "assets\\images\\Portrait - elda.png"
     }
   ]
 }
