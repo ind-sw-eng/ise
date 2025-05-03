@@ -181,14 +181,14 @@
   },
   "active": "a286234ab0a3a92c",
   "lastOpenFiles": [
-    "_data/home.json",
-    "_pages/index.md",
     "_pages/html.md",
+    "_pages/projects.md",
+    "_pages/index.md",
+    "_data/home.json",
     "_pages/about.md",
     "_data/sponser.json",
     "_data/nav.json",
     "_pages/404.md",
-    "_pages/projects.md",
     "_projects/test copy 2.md",
     "_projects/test copy.md",
     "_projects/test.md"

@@ -12,10 +12,10 @@ permalink: /
     <div class="flex flex-col md:flex-row items-center justify-between">
       <div class="md:w-1/2 mb-8 md:mb-0">
         <h1 class="text-4xl md:text-5xl font-bold mb-4">
-          ISE Course: Industrial Software Engineering 2026
+          ISE Course: Industrial Software Engineering
         </h1>
         <p class="text-xl mb-8">
-          Bridging academia and industry through innovative software projects
+          Bridging academia and industry closer together through innovative software projects
         </p>
         <a
           href="{{ site.baseurl }}/about"
