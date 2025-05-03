@@ -13,10 +13,10 @@
             "state": {
               "type": "json",
               "state": {
-                "file": "_data/nav.json"
+                "file": "_data/sponsor.json"
               },
               "icon": "lucide-file",
-              "title": "nav"
+              "title": "sponsor"
             }
           }
         ]
@@ -177,13 +177,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a286234ab0a3a92c",
+  "active": "1860ac72a1cd15d9",
   "lastOpenFiles": [
-    "_data/home.json",
-    "_data/nav.json",
-    "_data/sponser.json",
     "_pages/index.md",
+    "_data/sponsor.json",
     "_pages/html.md",
+    "_data/nav.json",
+    "_data/home.json",
     "_pages/404.md",
     "_pages/about.md",
     "_pages/projects.md",
