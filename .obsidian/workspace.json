@@ -11,12 +11,14 @@
             "id": "a286234ab0a3a92c",
             "type": "leaf",
             "state": {
-              "type": "json",
+              "type": "markdown",
               "state": {
-                "file": "_data/sponsor.json"
+                "file": "_pages/index.md",
+                "mode": "source",
+                "source": false
               },
               "icon": "lucide-file",
-              "title": "sponsor"
+              "title": "index"
             }
           }
         ]
@@ -177,10 +179,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "1860ac72a1cd15d9",
+  "active": "a286234ab0a3a92c",
   "lastOpenFiles": [
-    "_pages/index.md",
     "_data/sponsor.json",
+    "_pages/index.md",
     "_pages/html.md",
     "_data/nav.json",
     "_data/home.json",

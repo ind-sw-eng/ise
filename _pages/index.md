@@ -104,6 +104,18 @@ permalink: /
 
 
 <section class="mb-16">
+  <h2 class="text-3xl font-bold mb-8 text-center">Our Sponsors</h2>
+  <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 items-center justify-center">
+    {% for sponsor in site.data.sponsor.sponsors %}
+      <a href="{{ sponsor.link }}" target="_blank" rel="noopener" class="flex items-center justify-center bg-white p-4 rounded-lg shadow-md transition-transform hover:scale-105">
+        <img src="{{ sponsor.image }}" alt="{{ sponsor.name }}" class="max-h-24 object-contain">
+      </a>
+    {% endfor %}
+  </div>
+</section>
+
+
+<section class="mb-16">
         <h2 class="text-3xl font-bold text-center mb-12">Contact Our Professors</h2>
         <div class="grid grid-cols-1 md:grid-cols-3 gap-8 ">
             {% for professor in site.data.home.professors %}
