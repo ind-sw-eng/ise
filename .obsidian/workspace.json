@@ -150,13 +150,23 @@
               "icon": "lucide-list",
               "title": "Outline of projects"
             }
+          },
+          {
+            "id": "02ec18011ebab2f1",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -172,9 +182,9 @@
   "active": "a286234ab0a3a92c",
   "lastOpenFiles": [
     "_data/home.json",
-    "_pages/about.md",
-    "_pages/html.md",
     "_pages/index.md",
+    "_pages/html.md",
+    "_pages/about.md",
     "_data/sponser.json",
     "_data/nav.json",
     "_pages/404.md",
