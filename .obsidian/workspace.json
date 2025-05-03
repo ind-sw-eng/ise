@@ -13,10 +13,10 @@
             "state": {
               "type": "json",
               "state": {
-                "file": "_data/home.json"
+                "file": "_data/nav.json"
               },
               "icon": "lucide-file",
-              "title": "home"
+              "title": "nav"
             }
           }
         ]
@@ -179,9 +179,9 @@
   },
   "active": "a286234ab0a3a92c",
   "lastOpenFiles": [
+    "_data/home.json",
     "_data/nav.json",
     "_data/sponser.json",
-    "_data/home.json",
     "_pages/index.md",
     "_pages/html.md",
     "_pages/404.md",
