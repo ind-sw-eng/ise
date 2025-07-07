@@ -160,9 +160,19 @@
               "icon": "git-pull-request",
               "title": "Source Control"
             }
+          },
+          {
+            "id": "5e1c7b7768f4a3e7",
+            "type": "leaf",
+            "state": {
+              "type": "git-history-view",
+              "state": {},
+              "icon": "history",
+              "title": "History"
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -181,6 +191,7 @@
   },
   "active": "a286234ab0a3a92c",
   "lastOpenFiles": [
+    "Gemfile.sb-74f1e714-XY6WqA",
     "_pages/html.md",
     "_pages/about.md",
     "_pages/404.md",
