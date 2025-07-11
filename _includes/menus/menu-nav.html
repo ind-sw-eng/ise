@@ -1,9 +1,9 @@
 {% assign nav_items = site.data.nav.navigation %} {% for item in nav_items %}
-<ul>
+<li>
   <a
-    class="p-1 sm:p-4 hover:text-primary text-black dark:text-black hover:text-primary_dark text-md"
+    class="p-2 hover:text-blue-600 text-black dark:text-black hover:bg-blue-50 rounded-md transition-colors duration-200 text-md font-medium"
     href="{{ site.baseurl }}{{ item.url }}"
     >{{ item.title }}</a
   >
-</ul>
+</li>
 {% endfor %}

@@ -1,4 +1,4 @@
-<header class="mx-auto max-w-screen-xl px-6 lg:px-24 flex justify-center">
+<header class="mx-auto max-w-screen-xl px-6 lg:px-24 flex justify-center bg-white shadow-sm">
   <nav
     class="w-full flex justify-center py-8"
     role="navigation"
@@ -16,15 +16,22 @@
       </div>
       <div id="nav-wrap" class="hidden lg:block">
         <ul
-          class="flex items-center justify-between text-black dark:text-black"
+          class="flex items-center space-x-6 text-black dark:text-black"
         >
+          {% include menus/menu-nav.html %}
+        </ul>
+      </div>
+      <!-- Mobile menu -->
+      <div id="mobile-menu" class="hidden lg:hidden absolute top-20 left-0 right-0 bg-white shadow-lg border-t z-50">
+        <ul class="flex flex-col items-center py-4 space-y-4 text-black">
           {% include menus/menu-nav.html %}
         </ul>
       </div>
       <div id="menu-button" class="z-20 lg:hidden">
         <button
-          class="text-gray-900 dark:text-black focus:outline-none"
+          class="text-gray-900 dark:text-black focus:outline-none focus:ring-2 focus:ring-blue-500 p-2"
           aria-label="Toggle navigation"
+          aria-expanded="false"
         >
           <svg
             class="h-6 w-6"

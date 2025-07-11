@@ -3,6 +3,26 @@
     {
       "title": "Home",
       "url": "/"
+    },
+    {
+      "title": "About",
+      "url": "/about"
+    },
+    {
+      "title": "Projects", 
+      "url": "/projects"
+    },
+    {
+      "title": "For Students",
+      "url": "/students"
+    },
+    {
+      "title": "For Industry",
+      "url": "/industry"
+    },
+    {
+      "title": "Contact",
+      "url": "/contact"
     }
   ]
 }

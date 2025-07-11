@@ -1,0 +1,36 @@
+{% if page.toc %}
+<div class="bg-blue-50 border border-blue-200 rounded-lg p-4 mb-8 sticky top-4 z-10">
+  <h2 class="text-lg font-semibold text-blue-900 mb-3 flex items-center">
+    <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 10h16M4 14h16M4 18h16"></path>
+    </svg>
+    Table of Contents
+  </h2>
+  <nav class="toc">
+    <ul class="space-y-1 text-sm">
+      {% assign headers = content | split: '<h' %}
+      {% for header in headers %}
+        {% if header contains '>' %}
+          {% assign header_parts = header | split: '>' %}
+          {% assign header_level = header_parts[0] | slice: 0, 1 %}
+          {% assign header_text = header_parts[1] | split: '</h' | first %}
+          {% assign header_id = header_text | slugify %}
+          {% if header_level == '2' %}
+            <li>
+              <a href="#{{ header_id }}" class="text-blue-700 hover:text-blue-900 hover:underline block py-1">
+                {{ header_text }}
+              </a>
+            </li>
+          {% elsif header_level == '3' %}
+            <li class="ml-4">
+              <a href="#{{ header_id }}" class="text-blue-600 hover:text-blue-800 hover:underline block py-1">
+                {{ header_text }}
+              </a>
+            </li>
+          {% endif %}
+        {% endif %}
+      {% endfor %}
+    </ul>
+  </nav>
+</div>
+{% endif %}
