@@ -7,7 +7,7 @@ permalink: /
 
 
 
-<div class="bg-gradient-to-r from-blue-600 to-blue-800 text-white flex items-center max-w-screen ">
+<div class="bg-gradient-to-r from-blue-600 to-blue-800 text-white flex items-center w-full">
   <div class="container mx-auto px-4 py-8 md:py-16">
     <div class="flex flex-col md:flex-row items-center justify-between">
       <div class="md:w-1/2 mb-8 md:mb-0">
