@@ -47,7 +47,7 @@ permalink: /contact
 
 ## Contact Information by Topic
 
-### 📚 **For Students**
+### 📧 **Course Registration & Academic Questions**
 <div class="bg-blue-50 border-l-4 border-blue-500 p-4 mb-6">
   <h4 class="font-semibold text-blue-900 mb-2">Course Registration & Academic Questions</h4>
   <p class="text-blue-800">
@@ -57,6 +57,7 @@ permalink: /contact
   </p>
 </div>
 
+### 🔧 **Technical Support & Project Help**
 <div class="bg-green-50 border-l-4 border-green-500 p-4 mb-6">
   <h4 class="font-semibold text-green-900 mb-2">Technical Support & Project Help</h4>
   <p class="text-green-800">

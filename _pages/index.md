@@ -23,11 +23,6 @@ permalink: /
             class="bg-white text-blue-800 font-semibold py-3 px-6 rounded-lg shadow-lg hover:bg-gray-100 transition-colors text-center"
             >Learn More</a
           >
-          <a
-            href="{{ site.baseurl }}/students"
-            class="bg-transparent border-2 border-white text-white font-semibold py-3 px-6 rounded-lg hover:bg-white hover:text-blue-800 transition-colors text-center"
-            >For Students</a
-          >
         </div>
       </div>
       <div class="md:w-1/2">
@@ -53,12 +48,7 @@ permalink: /
 
   <section class="mb-16">
     <h2 class="text-3xl font-bold mb-8 text-center">Quick Access</h2>
-    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-      <a href="{{ site.baseurl }}/students" class="block bg-blue-50 hover:bg-blue-100 rounded-lg p-6 transition-colors border border-blue-200">
-        <div class="text-blue-600 text-3xl mb-3">🎓</div>
-        <h3 class="text-xl font-semibold mb-2">For Students</h3>
-        <p class="text-gray-600">Course information, enrollment, and resources</p>
-      </a>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
       <a href="{{ site.baseurl }}/industry" class="block bg-green-50 hover:bg-green-100 rounded-lg p-6 transition-colors border border-green-200">
         <div class="text-green-600 text-3xl mb-3">🏢</div>
         <h3 class="text-xl font-semibold mb-2">For Industry</h3>

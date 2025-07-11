@@ -60,12 +60,6 @@ Our industrial partners demonstrate remarkable enthusiasm and commitment:
 
 ## Course Impact
 
-### For Students
-- **Practical Skills**: Hands-on experience with real projects
-- **Industry Exposure**: Direct contact with professional mentors
-- **Career Preparation**: Portfolio development and networking opportunities
-- **Technical Growth**: Exposure to cutting-edge technologies and practices
-
 ### For Industry Partners
 - **Fresh Perspectives**: Innovative approaches from motivated students
 - **Talent Pipeline**: Early access to skilled future employees
@@ -91,13 +85,6 @@ Students completing the ISE course will demonstrate:
 - **Problem-Solving**: Capacity to tackle complex, real-world challenges
 
 ## Get Involved
-
-### For Students
-Interested in joining the ISE course? Visit our [For Students](/students) section for detailed information about:
-- Course requirements and prerequisites
-- Application process and deadlines
-- What to expect during the course
-- Resources and support available
 
 ### For Industry Partners
 Ready to collaborate with talented students on your next project? Check our [For Industry Partners](/industry) section to learn about:
