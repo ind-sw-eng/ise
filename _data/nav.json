@@ -3,6 +3,22 @@
     {
       "title": "Home",
       "url": "/"
+    },
+    {
+      "title": "About",
+      "url": "/about"
+    },
+    {
+      "title": "Projects", 
+      "url": "/projects"
+    },
+    {
+      "title": "For Industry",
+      "url": "/industry"
+    },
+    {
+      "title": "Contact",
+      "url": "/contact"
     }
   ]
 }

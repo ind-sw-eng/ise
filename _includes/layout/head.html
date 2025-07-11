@@ -3,6 +3,28 @@
   <meta http-equiv="x-ua-compatible" content="ie=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
 
+  <!-- SEO Meta Tags -->
+  <title>{% if page.title %}{{ page.title }} - {{ site.title }}{% else %}{{ site.title }} - {{ site.description }}{% endif %}</title>
+  <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+  <meta name="keywords" content="industrial software engineering, ITU, software development, industry collaboration, scrum, agile, student projects">
+  <meta name="author" content="IT University of Copenhagen">
+  <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="{{ page.url | absolute_url }}">
+  <meta property="og:title" content="{% if page.title %}{{ page.title }} - {{ site.title }}{% else %}{{ site.title }}{% endif %}">
+  <meta property="og:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+  <meta property="og:image" content="{{ site.url }}/assets/images/logo.png">
+  <meta property="og:site_name" content="{{ site.title }}">
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:url" content="{{ page.url | absolute_url }}">
+  <meta property="twitter:title" content="{% if page.title %}{{ page.title }} - {{ site.title }}{% else %}{{ site.title }}{% endif %}">
+  <meta property="twitter:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+  <meta property="twitter:image" content="{{ site.url }}/assets/images/logo.png">
+
   <!-- Fonts -->
 
   <!-- Tailwind CSS -->
@@ -15,21 +37,43 @@
   href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision |
   relative_url }}">
 
-  <!-- TODO:Favicons -->
-  <link rel="apple-touch-icon" sizes="180x180" href="assets\images\logo.png" />
+  <!-- Favicons -->
+  <link rel="apple-touch-icon" sizes="180x180" href="{{ site.baseurl }}/assets/images/logo.png" />
   <link
     rel="icon"
     type="image/png"
     sizes="32x32"
-    href="assets\images\logo.png"
+    href="{{ site.baseurl }}/assets/images/logo.png"
   />
   <link
     rel="icon"
     type="image/png"
     sizes="16x16"
-    href="assets\images\logo.png"
+    href="{{ site.baseurl }}/assets/images/logo.png"
   />
 
-  <link rel="manifest" href="/assets/img/site.webmanifest" />
-  <meta name="theme-color" content="#f9fafb" />
+  <link rel="manifest" href="{{ site.baseurl }}/assets/img/site.webmanifest" />
+  <meta name="theme-color" content="#2563eb" />
+  
+  <!-- Schema.org markup for Google+ -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "EducationalOrganization",
+    "name": "{{ site.title }}",
+    "description": "{{ site.description }}",
+    "url": "{{ site.url }}",
+    "logo": "{{ site.url }}/assets/images/logo.png",
+    "sameAs": [
+      "https://www.itu.dk"
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Rued Langgaards Vej 7",
+      "addressLocality": "Copenhagen",
+      "postalCode": "2300",
+      "addressCountry": "DK"
+    }
+  }
+  </script>
 </head>
