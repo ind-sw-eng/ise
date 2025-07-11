@@ -17,11 +17,18 @@ permalink: /
         <p class="text-xl mb-8">
           Bridging academia and industry closer together through innovative software projects
         </p>
-        <a
-          href="{{ site.baseurl }}/about"
-          class="bg-white text-blue-800 font-semibold py-2 px-4 rounded-lg shadow-lg"
-          >Learn More</a
-        >
+        <div class="flex flex-col sm:flex-row gap-4">
+          <a
+            href="{{ site.baseurl }}/about"
+            class="bg-white text-blue-800 font-semibold py-3 px-6 rounded-lg shadow-lg hover:bg-gray-100 transition-colors text-center"
+            >Learn More</a
+          >
+          <a
+            href="{{ site.baseurl }}/students"
+            class="bg-transparent border-2 border-white text-white font-semibold py-3 px-6 rounded-lg hover:bg-white hover:text-blue-800 transition-colors text-center"
+            >For Students</a
+          >
+        </div>
       </div>
       <div class="md:w-1/2">
         <img
@@ -42,6 +49,27 @@ permalink: /
           <p class="text-xl text-gray-600 max-w-2xl mx-auto">
             Discover how our Industrial Software Engineering course is shaping the future of software development through hands-on industry collaboration.
           </p>
+  </section>
+
+  <section class="mb-16">
+    <h2 class="text-3xl font-bold mb-8 text-center">Quick Access</h2>
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+      <a href="{{ site.baseurl }}/students" class="block bg-blue-50 hover:bg-blue-100 rounded-lg p-6 transition-colors border border-blue-200">
+        <div class="text-blue-600 text-3xl mb-3">🎓</div>
+        <h3 class="text-xl font-semibold mb-2">For Students</h3>
+        <p class="text-gray-600">Course information, enrollment, and resources</p>
+      </a>
+      <a href="{{ site.baseurl }}/industry" class="block bg-green-50 hover:bg-green-100 rounded-lg p-6 transition-colors border border-green-200">
+        <div class="text-green-600 text-3xl mb-3">🏢</div>
+        <h3 class="text-xl font-semibold mb-2">For Industry</h3>
+        <p class="text-gray-600">Partnership opportunities and project collaboration</p>
+      </a>
+      <a href="{{ site.baseurl }}/projects" class="block bg-purple-50 hover:bg-purple-100 rounded-lg p-6 transition-colors border border-purple-200">
+        <div class="text-purple-600 text-3xl mb-3">💻</div>
+        <h3 class="text-xl font-semibold mb-2">Current Projects</h3>
+        <p class="text-gray-600">Explore ongoing student projects and outcomes</p>
+      </a>
+    </div>
   </section>
 
 
