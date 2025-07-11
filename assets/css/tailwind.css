@@ -6,6 +6,11 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Prevent horizontal scrolling on mobile */
+html, body {
+  overflow-x: hidden;
+}
+
 /* Custom styles for the homepage */
 
 .dark body {
