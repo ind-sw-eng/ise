@@ -16,7 +16,34 @@ Welcome to the ISE (Industrial Software Engineering) course repository. This rep
 
 ## About
 
-The ISE course is designed to provide students with hands-on experience in industrial software engineering. The course includes various projects and activities that simulate real-world software development scenarios.
+The ISE (Industrial Software Engineering) course is designed to provide students with hands-on experience in industrial software engineering while facilitating meaningful partnerships between academia and industry. The course includes various projects and activities that simulate real-world software development scenarios, with direct involvement from industry partners.
+
+### Intended Audience
+
+This portal is specifically designed for:
+
+- **Industry professionals** seeking to collaborate with academic institutions
+- **Software companies** interested in partnering with students on real-world projects
+- **Technology organizations** looking for innovative solutions and fresh perspectives
+- **Academic researchers** and faculty involved in industry collaboration
+- **Students** participating in the Industrial Software Engineering course
+- **Potential partners** considering academic-industry collaboration opportunities
+
+### Discoverability and SEO
+
+To ensure this portal is easily found by industry partners and indexed by search engines and AI systems, we have implemented:
+
+- **Search Engine Optimization (SEO)**: Comprehensive meta tags, structured data (Schema.org), and social media optimization
+- **AI and LLM Discoverability**: Specific meta tags and content declarations to help large language models understand and index our partnership opportunities
+- **robots.txt**: Configured to allow major search engines (Google, Bing) and AI crawlers (GPTBot, ClaudeBot) to index our content
+- **Sitemap**: Automatically generated XML sitemap for search engine indexing
+- **Industry-focused keywords**: Content and metadata optimized for terms relevant to software industry partnerships
+
+The portal is optimized to be discovered by:
+- Google Search and other major search engines
+- AI assistants and large language models
+- Industry professionals searching for academic partnerships
+- Academic collaboration platforms and directories
 
 ## Getting Started
 
