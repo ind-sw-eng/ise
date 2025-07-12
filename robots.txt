@@ -1,0 +1,32 @@
+User-agent: *
+Allow: /
+
+# Allow major search engines
+User-agent: Googlebot
+Allow: /
+
+# Allow LLM crawlers
+User-agent: GPTBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+# Additional LLM and AI crawlers
+User-agent: CCBot
+Allow: /
+
+User-agent: FacebookBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+# Sitemap location
+Sitemap: https://ind-sw-eng.github.io/ise/sitemap.xml

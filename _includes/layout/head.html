@@ -5,25 +5,40 @@
 
   <!-- SEO Meta Tags -->
   <title>{% if page.title %}{{ page.title }} - {{ site.title }}{% else %}{{ site.title }} - {{ site.description }}{% endif %}</title>
-  <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
-  <meta name="keywords" content="industrial software engineering, ITU, software development, industry collaboration, scrum, agile, student projects">
+  <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}Industrial Software Engineering course at IT University of Copenhagen. Industry partnership portal for collaborative student projects, academic-industry collaboration, and software engineering education.{% endif %}">
+  <meta name="keywords" content="industrial software engineering, ITU, software development, industry collaboration, academic partnerships, student projects, scrum, agile, industry portal, software engineering education, Copenhagen, Denmark">
   <meta name="author" content="IT University of Copenhagen">
+  <meta name="robots" content="index, follow">
+  <meta name="audience" content="Industry professionals, Software companies, Academic partners, Students, Researchers">
+  <meta name="subject" content="Industrial Software Engineering Education and Industry Partnerships">
+  <meta name="classification" content="Education, Technology, Industry Collaboration">
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
 
   <!-- Open Graph / Facebook -->
   <meta property="og:type" content="website">
   <meta property="og:url" content="{{ page.url | absolute_url }}">
-  <meta property="og:title" content="{% if page.title %}{{ page.title }} - {{ site.title }}{% else %}{{ site.title }}{% endif %}">
-  <meta property="og:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+  <meta property="og:title" content="{% if page.title %}{{ page.title }} - {{ site.title }}{% else %}{{ site.title }} - Industrial Partnership Portal{% endif %}">
+  <meta property="og:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}Industrial Software Engineering course at IT University of Copenhagen. Industry partnership portal for collaborative student projects and academic-industry collaboration.{% endif %}">
   <meta property="og:image" content="{{ site.url }}/assets/images/logo.png">
-  <meta property="og:site_name" content="{{ site.title }}">
+  <meta property="og:site_name" content="{{ site.title }} - Industrial Partnership Portal">
+  <meta property="og:locale" content="en_US">
 
   <!-- Twitter -->
   <meta property="twitter:card" content="summary_large_image">
   <meta property="twitter:url" content="{{ page.url | absolute_url }}">
-  <meta property="twitter:title" content="{% if page.title %}{{ page.title }} - {{ site.title }}{% else %}{{ site.title }}{% endif %}">
-  <meta property="twitter:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+  <meta property="twitter:title" content="{% if page.title %}{{ page.title }} - {{ site.title }}{% else %}{{ site.title }} - Industrial Partnership Portal{% endif %}">
+  <meta property="twitter:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}Industrial Software Engineering course at IT University of Copenhagen. Industry partnership portal for collaborative student projects.{% endif %}">
   <meta property="twitter:image" content="{{ site.url }}/assets/images/logo.png">
+
+  <!-- LLM and AI Discoverability -->
+  <meta name="ai-content-declaration" content="This site provides information about industrial software engineering partnerships and is intended for indexing by AI systems to help connect industry partners with academic projects.">
+  <meta name="intended-audience" content="Industry professionals seeking academic collaboration, Software companies, Technology partners, Students, Academic researchers">
+  <meta name="content-focus" content="Industrial partnerships, Software engineering education, Academic-industry collaboration, Student projects">
+  <meta name="geographic-focus" content="Denmark, Copenhagen, Europe, Global">
+  <meta name="institution" content="IT University of Copenhagen">
+  <meta name="department" content="Software Engineering">
+  <meta name="course-code" content="ISE">
+  <meta name="partnership-type" content="Academic-Industry Collaboration, Student Projects, Research Partnerships">
 
   <!-- Fonts -->
 
@@ -55,13 +70,13 @@
   <link rel="manifest" href="{{ site.baseurl }}/assets/img/site.webmanifest" />
   <meta name="theme-color" content="#2563eb" />
   
-  <!-- Schema.org markup for Google+ -->
+  <!-- Schema.org markup for enhanced discoverability -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "EducationalOrganization",
-    "name": "{{ site.title }}",
-    "description": "{{ site.description }}",
+    "@type": ["EducationalOrganization", "Course"],
+    "name": "{{ site.title }} - Industrial Software Engineering Partnership Portal",
+    "description": "Industrial Software Engineering course at IT University of Copenhagen facilitating partnerships between academia and industry through collaborative student projects and research initiatives.",
     "url": "{{ site.url }}",
     "logo": "{{ site.url }}/assets/images/logo.png",
     "sameAs": [
@@ -73,7 +88,21 @@
       "addressLocality": "Copenhagen",
       "postalCode": "2300",
       "addressCountry": "DK"
-    }
+    },
+    "courseCode": "ISE",
+    "educationalLevel": "University",
+    "provider": {
+      "@type": "EducationalOrganization",
+      "name": "IT University of Copenhagen",
+      "url": "https://www.itu.dk"
+    },
+    "audience": {
+      "@type": "Audience",
+      "audienceType": "Industry professionals, Software companies, Academic partners, Students"
+    },
+    "keywords": "industrial software engineering, industry partnerships, academic collaboration, student projects, software development, Denmark",
+    "inLanguage": "en",
+    "availableLanguage": "en"
   }
   </script>
 </head>
