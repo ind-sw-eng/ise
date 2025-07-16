@@ -15,7 +15,7 @@ permalink: /projects
       <img src="{{project.img}}" alt="{{project.title}} logo" class="w-full h-48 object-cover" />
       <h2 class="text-xl font-semibold mb-2">{{ project.title }}</h2>
       <p class="text-gray-700">{{ project.description }}</p>
-      <a href="{{ project.url }}" class="text-blue-500 hover:underline mt-4 inline-block">Read more</a>
+      <a href="{{ site.baseurl }}{{ project.url }}" class="text-blue-500 hover:underline mt-4 inline-block">Read more</a>
     </div>
   </li>
   {% endfor %}
