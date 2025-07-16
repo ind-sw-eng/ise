@@ -8,5 +8,19 @@ layout: default
       <h2 class="text-4xl font-extrabold text-gray-900">{{ page.title }}</h2>
     </header>
     {{ content }}
+    
+    {% if page.testimonial %}
+    <div class="mt-8 p-6 bg-gray-50 rounded-lg border-l-4 border-blue-500">
+      <h3 class="text-2xl font-semibold text-gray-900 mb-4">Client Testimonial</h3>
+      <blockquote class="text-lg text-gray-700 italic">
+        "{{ page.testimonial }}"
+      </blockquote>
+      {% if page.testimonial_author %}
+      <div class="mt-4 text-gray-600">
+        — {{ page.testimonial_author }}
+      </div>
+      {% endif %}
+    </div>
+    {% endif %}
   </div>
 </section>
