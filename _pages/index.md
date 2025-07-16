@@ -1,6 +1,6 @@
 ---
 layout: home
-title: 404
+title: Home
 permalink: /
 
 ---
