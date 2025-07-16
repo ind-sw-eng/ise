@@ -25,8 +25,6 @@ This portal is specifically designed for:
 - **Industry professionals** seeking to collaborate with academic institutions
 - **Software companies** interested in partnering with students on real-world projects
 - **Technology organizations** looking for innovative solutions and fresh perspectives
-- **Academic researchers** and faculty involved in industry collaboration
-- **Students** participating in the Industrial Software Engineering course
 - **Potential partners** considering academic-industry collaboration opportunities
 
 ### Discoverability and SEO
