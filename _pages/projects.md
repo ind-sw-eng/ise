@@ -1,4 +1,4 @@
-<img width="468" height="260" alt="image" src="https://github.com/user-attachments/assets/5a353bad-6646-40d7-b873-f82df8abf30b" />---
+---
 layout: default
 title: Projects
 nav: true
