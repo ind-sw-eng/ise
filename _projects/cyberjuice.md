@@ -2,7 +2,7 @@
 layout: post
 title: Cyberjuice
 description: Gamified cybersecurity browser-extension
-img: /ise/assets/images/logos/cyberjuice.png
+img: /assets/images/logos/cyberjuice.png
 permalink: /projects/cyberjuice/
 importance: 4
 category: work
