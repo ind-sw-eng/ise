@@ -3,12 +3,20 @@ layout: default
 ---
 
 <section class="py-12">
-  <div class="bg-white p-8 rounded-lg shadow-lg text-center text-black">
+  <div class="bg-white p-8 rounded-lg shadow-lg text-center text-black max-w-3xl mx-auto">
+    {% if page.img %}
+      <img src="{{ site.baseurl }}{{ page.img }}" alt="{{ page.title }} logo"
+           class="mx-auto h-32 max-w-[200px] object-contain bg-white p-2 mb-4" />
+    {% endif %}
     <header class="mb-6">
       <h2 class="text-4xl font-extrabold text-gray-900">{{ page.title }}</h2>
+      {% if page.description %}
+      <p class="text-lg text-gray-600 mt-2">{{ page.description }}</p>
+      {% endif %}
     </header>
-    {{ content }}
-    
+    <div class="text-left prose prose-lg mx-auto">
+      {{ content }}
+    </div>
     {% if page.testimonial %}
     <div class="mt-8 p-6 bg-gray-50 rounded-lg border-l-4 border-blue-500">
       <h3 class="text-2xl font-semibold text-gray-900 mb-4">Client Testimonial</h3>
