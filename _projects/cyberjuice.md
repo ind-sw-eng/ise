@@ -11,7 +11,7 @@ testimonial: "The gamified approach to cybersecurity education that the ISE team
 testimonial_author: "Product Manager, Cyberjuice"
 ---
 
-## Project Overview
+## Project Overview 
 
 Cyberjuice collaborated with ISE students to develop an innovative gamified cybersecurity browser extension. This unique solution combines security education with engaging gameplay to improve user cybersecurity awareness and behavior.
 
