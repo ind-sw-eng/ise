@@ -2,7 +2,7 @@
 layout: post
 title: Mindtalize
 description: Employee-mindset survey web application
-img: /assets/images/logos/mindtalize.png
+img: /ise/assets/images/logos/mindtalize.png
 permalink: /projects/mindtalize/
 importance: 7
 category: work
