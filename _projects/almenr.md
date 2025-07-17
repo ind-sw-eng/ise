@@ -1,5 +1,5 @@
 ---
-layout: post
+_layouts/post.html
 title: Almenr
 description: Digital board-games for the Almenr platform
 img: /assets/images/logos/almenr.png
@@ -10,6 +10,8 @@ related_publications: false
 testimonial: "The digital board games created by the ISE team have brought our platform to life. The multiplayer functionality and engaging user experience have significantly increased user retention."
 testimonial_author: "Founder, Almenr"
 ---
+
+{{ content }}
 
 ## Project Overview 
 
