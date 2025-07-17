@@ -2,7 +2,7 @@
 layout: post
 title: Lexentry
 description: GenAI powered GDPR-violation detection system
-img: /ise/assets/images/logos/lexentry.png
+img: /assets/images/logos/lexentry.png
 permalink: /projects/lexentry/
 importance: 3
 category: work
