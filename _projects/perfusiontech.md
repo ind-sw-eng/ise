@@ -2,7 +2,7 @@
 layout: post
 title: PerfusionTech
 description: Intra-operative blood-flow imaging platform
-img: /assets/images/logos/perfusiontech.png
+img: /ise/assets/images/logos/perfusiontech.png
 permalink: /projects/perfusiontech/
 importance: 2
 category: work
