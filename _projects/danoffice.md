@@ -2,7 +2,7 @@
 layout: post
 title: DanOffice
 description: Retraining AI models for image recognition
-img: /assets/images/logos/danoffice.png
+img: /ise/assets/images/logos/danoffice.png
 permalink: /projects/danoffice/
 importance: 1
 category: work
