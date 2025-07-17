@@ -1,5 +1,5 @@
 ---
-layouts: post
+layout: post
 title: Almenr
 description: Digital board-games for the Almenr platform
 img: /assets/images/logos/almenr.png
