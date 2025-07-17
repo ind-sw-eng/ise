@@ -2,7 +2,7 @@
 layout: post
 title: Toolpack
 description: Unified school-platform MVP
-img: /assets/images/logos/toolpack.png
+img: /ise/assets/images/logos/toolpack.png
 permalink: /projects/toolpack/
 importance: 5
 category: work
