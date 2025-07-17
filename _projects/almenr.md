@@ -2,7 +2,7 @@
 layout: post
 title: Almenr
 description: Digital board-games for the Almenr platform
-img: /assets/images/logos/almenr.png
+img: /ise/assets/images/logos/almenr.png
 permalink: /projects/almenr/
 importance: 6
 category: work
