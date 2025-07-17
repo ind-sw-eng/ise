@@ -11,7 +11,7 @@ testimonial: "The digital board games created by the ISE team have brought our p
 testimonial_author: "Founder, Almenr"
 ---
 
-## Project Overview
+## Project Overview 
 
 Almenr collaborated with ISE students to develop a collection of digital board games for their gaming platform. This project focused on creating engaging, multiplayer digital experiences that capture the essence of traditional board games.
 
