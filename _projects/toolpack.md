@@ -15,11 +15,13 @@ testimonial_author: "Head of Developlment, Toolpack"
 
 Toolpack partnered with ISE students to develop a comprehensive MVP for a unified school platform for high schools. This all-in-one solution integrates various educational tools and services into a single, cohesive system for high schools.
 
+
 ## Platform Features
 
 1. **Student Management**: Comprehensive student information system
 2. **Course Administration**: Enable administrators to add and remove users and manage courses by editing and scheduling
 3. **Teachers and Students Tools**: Providing calendar integration 
+
 
 ## Technical Stack
 
@@ -29,13 +31,6 @@ The platform was developed using:
 3. MS SQL as database
 4. Tailwind CSS & shadcn/ui as component library
 
-
-## User Experience
-
-The platform focuses on:
-- Intuitive navigation for all three user types
-- Responsive design for various devices
-- Accessibility compliance (WCAG 2.1)
 
 ## Impact
 
