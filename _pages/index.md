@@ -46,6 +46,20 @@ permalink: /
           </p>
   </section>
 
+
+<section class="mb-16 flex flex-col items-center">
+  <div class="w-full max-w-3xl mx-auto aspect-video rounded-lg shadow-lg overflow-hidden bg-black">
+    <video controls poster="{{ site.baseurl }}/assets/images/hero.png" class="w-full h-full">
+      <source src="{{ site.baseurl }}/assets/media/SECOND YEAR PROJECT SOFTWARE DEVELOPMENT IN LARGE TEAMS - IT University of Copenhagen.mp4" type="video/mp4" />
+      Your browser does not support the video tag.
+    </video>
+  </div>
+  <p class="mt-4 text-lg text-gray-700 text-center max-w-2xl">
+    Watch our course video: <strong>Software Development in Large Teams – IT University of Copenhagen</strong>
+  </p>
+</section>
+
+
   <section class="mb-16">
     <h2 class="text-3xl font-bold mb-8 text-center">Quick Access</h2>
     <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
