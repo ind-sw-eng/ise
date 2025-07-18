@@ -17,17 +17,17 @@ Toolpack partnered with ISE students to develop a comprehensive MVP for a unifie
 
 ## Platform Features
 
-**Student Management**: Comprehensive student information system
-**Course Administration**: Enable administrators to add and remove users and manage courses by editing and scheduling
-**Teachers and Students Tools**: Providing calendar integration 
+1. **Student Management**: Comprehensive student information system
+2. **Course Administration**: Enable administrators to add and remove users and manage courses by editing and scheduling
+3. **Teachers and Students Tools**: Providing calendar integration 
 
 ## Technical Stack
 
 The platform was developed using:
-- Next.js /React for the frontend
-- .NET for the backend API
-- MS SQL as database
-- Tailwind CSS & shadcn/ui as component library
+1. Next.js /React for the frontend
+2. .NET for the backend API
+3. MS SQL as database
+4. Tailwind CSS & shadcn/ui as component library
 
 
 ## User Experience
