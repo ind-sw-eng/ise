@@ -7,7 +7,7 @@ permalink: /projects/toolpack/
 importance: 5
 category: work
 related_publications: false
-PO testimonial: "The unified school platform MVP met our expectations. The ISE students delivered a solution that streamlines educational processes and can potentially become a full-blown educational solution for high schools."
+testimonial: "The unified school platform MVP met our expectations. The ISE students delivered a solution that streamlines educational processes and can potentially become a full-blown educational solution for high schools."
 testimonial_author: "Head of Developlment, Toolpack"
 ---
 
@@ -17,9 +17,9 @@ Toolpack partnered with ISE students to develop a comprehensive MVP for a unifie
 
 ## Platform Features
 
-- **Student Management**: Comprehensive student information system
-- **Course Administration**: Enable administrators to add and remove users and manage courses by editing and scheduling
-- **Teachers and Students Tools**: Providing calendar integration 
+**Student Management**: Comprehensive student information system
+**Course Administration**: Enable administrators to add and remove users and manage courses by editing and scheduling
+**Teachers and Students Tools**: Providing calendar integration 
 
 ## Technical Stack
 
