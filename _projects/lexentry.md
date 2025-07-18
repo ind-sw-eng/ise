@@ -1,42 +1,38 @@
 ---
 layout: post
 title: Lexentry
-description: GenAI powered GDPR-violation detection system
+description: GenAI-powered GDPR-violation detection system
 img: /assets/images/logos/lexentry.png
 permalink: /projects/lexentry/
 importance: 3
 category: work
 related_publications: false
-testimonial: "The innovative AI-powered GDPR compliance system developed by the ISE students has transformed our approach to data protection. Their solution is both comprehensive and user-friendly."
-testimonial_author: "Head of Compliance, Lexentry"
+testimonial: "The innovative AI-powered GDPR compliance system developed by the ISE students has met our expectations. The solution is comprehensive, secure, and user-friendly."
+testimonial_author: "Product Owner, Lexentry"
 ---
 
 ## Project Overview
 
-Lexentry partnered with ISE students to create a cutting-edge GenAI-powered system for detecting GDPR violations. This innovative solution leverages artificial intelligence to automatically identify potential privacy compliance issues.
+Lexentry partnered with ISE students to create a cutting-edge GenAI-powered system for detecting GDPR violations across internal corporate channels. This innovative solution leverages artificial intelligence to identify potential privacy & compliance issues.
 
 ## Core Capabilities
 
-- **Automated Detection**: AI-powered identification of GDPR violations
-- **Real-time Monitoring**: Continuous compliance monitoring across systems
-- **Risk Assessment**: Automated risk scoring and prioritization
-- **Compliance Reporting**: Comprehensive audit trails and reports
+1. **Automated Detection**: AI-powered identification of GDPR violations
+2. **Real-time Monitoring**: Continuous compliance monitoring across configurable systems: Exchange mail, Slack, Google Workspace
+3. **GDPR Violation Assessment**: Capability to detect Article 9 GDPR violations
+4. **Flexible Compliance Reporting**: Ability to configure enabling and disabling of specific GDPR articles
+5. **NFRs**: Security, Scalability and Extensibility
 
+ 
 ## Technical Architecture
 
 The system was developed using:
-- Large Language Models (LLMs) for text analysis
-- Natural Language Processing (NLP) for document understanding
-- Machine Learning models for pattern recognition
-- RESTful API architecture
-- Cloud-native deployment with Docker and Kubernetes
+1. Large Language Models (LLMs) for text analysis
+2. C# Backend with .NET packages
+3. API.NET and API SDKs
+4. Inspection and detection engine written in Python with Dagster data orchestration
+5. Front end: TypeScript, Next.js, tailwind, and pnpm
 
-## Key Features
-
-- **Multi-language Support**: Handles compliance documents in multiple languages
-- **Contextual Analysis**: Understands legal context and nuances
-- **Integration Ready**: APIs for seamless integration with existing systems
-- **Dashboard Interface**: Intuitive web dashboard for compliance teams
 
 ## Impact
 
