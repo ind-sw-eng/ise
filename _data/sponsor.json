@@ -7,12 +7,12 @@
     },
     {
       "name": "Capgemini",
-      "image": "https://www.capgemini.com/wp-content/themes/capgemini-komposite/assets/images/capgemini-logo.svg",
+      "image": "{{ site.baseurl }}/assets/images/sponsors/capgemini.png",
       "link": "https://www.capgemini.com/"
     },
     {
       "name": "agile42",
-      "image": "https://www.agile42.com/wp-content/uploads/2019/04/agile42-logo.png",
+      "image": "{{ site.baseurl }}/assets/images/sponsors/agile42.png",
       "link": "https://www.agile42.com/"
     }
   ]
