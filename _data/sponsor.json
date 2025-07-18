@@ -1,9 +1,19 @@
 {
   "sponsors": [
     {
-      "name": "Company A",
+      "name": "Saxo",
       "image": "https://www.home.saxo/-/media/global/logos/saxo-2022/saxo-beinvested-logo-blue.svg?la=en&hash=B0BFCC6BC40413F0DFC2F93C2C0C05AF",
       "link": "https://www.home.saxo/"
+    },
+    {
+      "name": "Capgemini",
+      "image": "https://www.capgemini.com/wp-content/themes/capgemini-komposite/assets/images/capgemini-logo.svg",
+      "link": "https://www.capgemini.com/"
+    },
+    {
+      "name": "agile42",
+      "image": "https://www.agile42.com/wp-content/uploads/2019/04/agile42-logo.png",
+      "link": "https://www.agile42.com/"
     }
   ]
 }
