@@ -127,7 +127,7 @@ permalink: /
   <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 items-center justify-center">
     {% for sponsor in site.data.sponsor.sponsors %}
       <a href="{{ sponsor.link }}" target="_blank" rel="noopener" class="flex items-center justify-center bg-white p-4 rounded-lg shadow-md transition-transform hover:scale-105">
-        <img src="{{ sponsor.image }}" alt="{{ sponsor.name }}" class="max-h-24 object-contain">
+        <img src="{{ site.baseurl }}/assets/images/sponsors/{{ sponsor.image }}" alt="{{ sponsor.name }}" class="max-h-24 object-contain">
       </a>
     {% endfor %}
   </div>
