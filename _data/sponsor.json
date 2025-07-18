@@ -7,12 +7,12 @@
     },
     {
       "name": "Capgemini",
-      "image": "{{ site.baseurl }}/assets/images/sponsors/capgemini.png",
+      "image": "{{ site.baseurl }}/assets/images/sponsors/CapGemini.png",
       "link": "https://www.capgemini.com/"
     },
     {
       "name": "agile42",
-      "image": "{{ site.baseurl }}/assets/images/sponsors/agile42.png",
+      "image": "{{ site.baseurl }}/assets/images/sponsors/Agile42.png",
       "link": "https://www.agile42.com/"
     }
   ]
