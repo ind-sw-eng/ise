@@ -13,7 +13,7 @@ toc: true
 
 ## Partnership Overview
 
-Join our proven industry-academia collaboration that has been connecting companies with talented students since 2017. Our Industrial Software Engineering course offers your organization access to fresh perspectives, innovative solutions, and potential future talent. You will get a student team of 7-8 people to solve a specific development challenge in your company!  
+Join our industry-academia collaboration that has been connecting companies with talented students since 2017. Our Industrial Software Engineering course offers your organization access to fresh perspectives, innovative solutions, and potential future talent. You can get a student team of 7-8 software developers to solve your specific challenge in your company!  
 
 ## Why Partner with Us?
 
@@ -23,7 +23,7 @@ Join our proven industry-academia collaboration that has been connecting compani
 3. **High satisfaction rate** from returning industry partners
 
 ### 💡 **Innovation & Fresh Perspectives**
-1. Students bring unbiased approaches to complex problems
+1. Students bring unbiased, fresh approaches to complex problems
 2. Exposure to the latest technologies and methodologies
 3. Creative solutions from diverse student backgrounds
 
@@ -40,17 +40,17 @@ Join our proven industry-academia collaboration that has been connecting compani
 ## Partnership Models
 
 ### 🏢 **Project Participant**
-**Commitment**: Provide a real project challenge, or two! Yes, you can submit more than one Project! 
+**Commitment**: Provide a real project challenge, or two (you can submit more than one Project) 
 **Benefits**: 
 1. Dedicated student team (7-8 students)
-2. Iterative development using scrum
-3. Get an MVP or a working Proof of Concept for your company
+2. Iterative development using Scrum
+3. Get an MVP or a working prototype for your company
 
 ### 👨‍💼 **Project Sponsor**
 **Commitment**: Provide monetary sponsorship to the ISE Course
 **Benefits**:
-1. Sponsor boots and logo exposure benefits
-2. Connecting to the next generation of software engineers
+1. Sponsor boots and branding exposure benefits
+2. Direct facilitated connection to the next generation of software engineers
 3. Enhance the company's opportunity to attract the best talent
 
 
@@ -58,7 +58,7 @@ Join our proven industry-academia collaboration that has been connecting compani
 
 ### 📋 **Ideal Project Characteristics**
 1. **Real business value**: Genuine problems that matter to your organization
-2. **Appropriate scope**: Completable within a semester (12-16 weeks)
+2. **Appropriate scope**: Completable within a semester (12-14 weeks)
 3. **Learning opportunity**: Allows students to apply and learn new technologies
 4. **Mentorship potential**: Can benefit from industry professional guidance
 5. **Innovation space**: Room for creative and experimental approaches
@@ -70,7 +70,7 @@ Our students work across diverse technology stacks:
 3. **Cloud & DevOps**: AWS, Azure, Google Cloud, Docker, Kubernetes
 4. **Data & AI**: Python, R, TensorFlow, PyTorch, data visualization
 5. **Enterprise**: .NET, Java, microservices, APIs
-6. **Emerging Tech**: IoT, AI, GenAI, AR/VR, machine learning
+6. **Emerging Tech**: IoT, GenAI, AI, machine learning/ neural network, AR/VR
 
 
 ## Partnership Process
@@ -78,86 +78,79 @@ Our students work across diverse technology stacks:
 ### 1. **Initial Consultation** (August-November)
 - **Timeline**: 5-6 months before course start
 - **Activities**: 
-  - Discuss project ideas and requirements
-  - Assess feasibility and learning objectives
-  - Define success criteria and deliverables
-  - Establish communication protocols
-
+  1. Discuss project ideas and requirements
+  2. Assess feasibility and learning objectives
+  3. Define success criteria and deliverables
+  
 ### 2. **Project Definition** (Pre-Semester)
 - **Timeline**: 1 month before course start
 - **Activities**:
-  - Finalize project scope and requirements
-  - Prepare project brief and materials
-  - Identify key stakeholders and contacts
-  - Set up development environments and access
+  1. Finalize project scope and requirements
+  2. Prepare project brief and "pitch" for the students
 
 ### 3. **Team Matching** (Week 1)
 - **Timeline**: First week of semester
 - **Activities**:
-  - Present project to student teams
-  - Conduct team selection process
-  - Introduce team to key stakeholders
-  - Establish regular meeting schedule
+  1. Present the project to student teams at the "Match Making Event"
+  2. Get a student team + a scrum master and an agile coach allocated
+  3. Introduce the team to key stakeholders in your company
+  4. Set up access and infrastructure to work with the team
+  5. Establish a regular meeting schedule + the Scrum events
 
-### 4. **Project Execution** (Weeks 2-14)
+### 4. **Project Execution** (Weeks 2-12)
 - **Timeline**: Core semester period
 - **Activities**:
-  - Weekly sprint meetings with student team
-  - Regular progress reviews and feedback
-  - Mid-semester checkpoint presentations
-  - Continuous mentorship and guidance
+  1. Bi-weekly sprint reviews & planning with the student team
+  2. Regular retrospectives, progress reviews, and feedback
+  3. Mid-semester check-in sessions in March and May
+  4. Continuous mentorship and guidance
 
-### 5. **Project Completion** (Week 15-16)
+### 5. **Project Completion** (Week 13-14)
 - **Timeline**: End of semester
 - **Activities**:
-  - Final project presentations
-  - Code delivery and documentation
-  - Project retrospective and feedback
-  - Evaluation of partnership success
+  1. Final project presentations
+  2. Code delivery and documentation
+  3. Project retrospective and feedback
+  4. Evaluation of partnership success
 
 ## Support Structure
 
 ### 🎓 **Academic Support**
-- **Course Instructors**: Provide technical and project guidance
-- **Scrum Masters**: Master's students facilitate agile processes
-- **Agile Coaches**: Industry professionals ensure best practices
+1. **Course Instructors**: Provide educational and project guidance
+2. **Scrum Masters**: Master's students facilitate Scrum events
+3. **Agile Coaches**: Industry professionals ensure best practices
 
-### 📋 **Project Management**
-- **Regular Sprint Reviews**: Every 2-3 weeks
-- **Stakeholder Updates**: Weekly progress reports
-- **Risk Management**: Proactive identification and mitigation
-- **Quality Assurance**: Code reviews and testing protocols
 
 ### 🤝 **Communication Channels**
-- **Primary Contact**: Designated product owner from your organization
-- **Regular Meetings**: Weekly video calls with student team
-- **Instant Communication**: Slack/Teams channels for quick questions
-- **Documentation**: Shared project spaces and documentation
+1. **Primary Contact**: Designated Product Owner from your organization
+2. **Instant Communication**: Discord channels for comms
+3. **Documentation**: Shared project spaces and documentation
 
 ## Investment & Resources
 
 ### 💰 **Financial Commitment**
-- **No direct fees**: Course is funded by the university
-- **Optional sponsorship**: Support for student events and resources
-- **Travel expenses**: If on-site meetings are preferred
+1. **No direct fees**: Course is funded by the university
+2. **Optional sponsorship**: Support for student events and resources
 
-### ⏰ **Time Investment**
-- **Project Owner**: 2-4 hours per week
-- **Team Meetings**: 1-2 hours per week
-- **Reviews & Feedback**: 1-2 hours per sprint
-- **Total**: Approximately 4-8 hours per week
+
+### ⏰ **Time Investment for the Product Owner**
+1. **Product Ownership**: 2-4 hours per week
+2. **Team Meetings**: 1-2 hours per week
+3. **Reviews & Feedback**: 1-2 hours per sprint
+4. **Total**: Approximately 4-8 hours per week
 
 ### 🛠 **Resource Provision**
-- **Development Environment**: Cloud access or development tools
-- **Data & APIs**: Access to relevant data sources (anonymized)
-- **Documentation**: Existing system documentation or requirements
-- **Mentorship**: Subject matter expert availability
+1. **Development Environment**: Cloud access or development tools
+2. **Data & APIs**: Access to relevant data sources
+3. **Documentation**: Existing system documentation or requirements
+4. **Mentorship**: Subject matter expert availability
 
 ## Success Stories
 
 ### 🏆 **Previous Projects**
+1. See "Projects" section in this site
 - **Financial Services**: Real-time fraud detection system deployed in production
-- **Healthcare**: Patient monitoring dashboard adopted by medical facility
+- **Healthcare**: Patient monitoring dashboard adopted by a medical facility
 - **E-commerce**: Recommendation engine improving conversion rates by 15%
 - **Manufacturing**: IoT monitoring system reducing downtime by 20%
 
@@ -176,17 +169,17 @@ Our students work across diverse technology stacks:
 4. **Partnership Agreement**: Finalize terms and expectations
 
 ### 📅 **Important Deadlines**
-- **Project Proposals**: 3 months before semester start
-- **Final Commitment**: 1 month before semester start
-- **Course Kickoff**: First week of semester
+1. **Project Proposals**: submit in Sept-Nov. for next year start
+2. **Final Commitment**: 1 month before semester start
+3. **Course Kickoff**: First week of semester
 
 ### 📞 **Next Steps**
 Ready to explore partnership opportunities? Contact our team:
 
 **Primary Contacts:**
-- **Paolo Tell** (Course Manager for ISE): [pate@itu.dk](mailto:pate@itu.dk)
-- **Stefano Vincenti** (External Lecturer): [vinc@itu.dk](mailto:vinc@itu.dk)
-- **Elda Paja** (Associate Professor and Course Manager for Scrum Training ISE): [elpa@itu.dk](mailto:elpa@itu.dk)
+1. **Paolo Tell** (Course Manager for ISE): [pate@itu.dk](mailto:pate@itu.dk)
+2. **Stefano Vincenti** (External Lecturer): [vinc@itu.dk](mailto:vinc@itu.dk)
+3. **Elda Paja** (Associate Professor): [elpa@itu.dk](mailto:elpa@itu.dk)
 
 **Partnership Inquiry:**
 - Email: [ise-partnerships@itu.dk](mailto:ise-partnerships@itu.dk)
