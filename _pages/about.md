@@ -12,73 +12,55 @@ Welcome to the **Industrial Software Engineering (ISE)** course at the IT Univer
 
 ## 🚀 Course Overview
 
-ISE offers students the chance to collaborate with leading technology companies, work in agile teams, and gain hands-on experience with real industry projects. The course is designed to foster meaningful partnerships between students and professionals, equipping graduates with practical skills for their future careers.
+**For companies**: ISE gives companies direct access to motivated, talented students who work on your real-world software challenges. By participating, your company can: 
+1. Explore innovative solutions tailored to your organization’s needs
+2. Engage with multidisciplinary agile teams guided by a scrum master M.Sc, student, and an Agile Coach from the industry
+3. Evaluate potential future hires in a real project setting
+4. Support talent development and strengthen ties with ITU and the next generation of engineers
+5. Your partnership not only accelerates your projects but also shapes the practical skills of tomorrow’s tech professionals.
+
+**For students:** ISE offers students the chance to collaborate with leading companies, work in agile teams, and gain hands-on experience with real industry projects. The course is designed to foster meaningful partnerships between students and professionals, equipping them with practical skills, critical thinking, and the ability to work in large teams, which fosters their future careers.
 
 ---
 
-## 🗂️ Course Structure
-
-<div style="display: flex; flex-wrap: wrap; gap: 2rem; margin-bottom: 2rem;">
-  <div style="flex: 1; min-width: 260px;">
-    <h3>Core Components</h3>
-    <ul>
-      <li><b>ITU Second Year Project:</b> Software development in large teams</li>
-      <li><b>Master's Level Integration:</b> Master's students act as Scrum Masters</li>
-      <li><b>Industry Collaboration:</b> Direct partnership with leading tech companies</li>
-    </ul>
-  </div>
-  <div style="flex: 1; min-width: 260px;">
-    <h3>Team Formation</h3>
-    <p>
-      Each project team consists of <b>8-9 students</b> and is supported by:
-    </p>
-    <ul>
-      <li>🏢 <b>Product Owner:</b> Industry professional</li>
-      <li>🎓 <b>Scrum Master:</b> Master's student enrolled in the elective course</li>
-      <li>👨‍💼 <b>Agile Coach:</b> Experienced industry mentor</li>
-    </ul>
-  </div>
-</div>
-
----
 
 ## 🌍 Real-World Experience
 
 ISE students collaborate with industrial partners on projects that address genuine business needs. This ensures students:
 
-- Experience authentic project environments
-- Apply software engineering skills in practical contexts
-- Learn new, industry-driven technologies
-- Build professional relationships
+1, Experience authentic project environments
+2. Apply software engineering skills in practical contexts
+3. Learn new, industry-driven technologies
+4. Build professional relationships
 
 ---
 
 ## 🌀 Educational Philosophy
 
-ISE emphasizes active, hands-on learning through agile methodologies, especially Scrum:
+ISE emphasizes active, hands-on learning through agile methodologies, applying Scrum in practice:
 
-- **Short Sprint Iterations:** Regular development cycles with clear deliverables
-- **Continuous Feedback:** Frequent reviews and retrospectives
-- **Professional Practices:** Use of industry-standard tools and workflows
-- **Teamwork:** Focus on communication and collaboration
+1. **Short Sprint Iterations:** Regular development cycles with clear deliverables
+2. **Continuous Feedback:** Frequent reviews and retrospectives
+3. **Professional Practices:** Use of industry-standard tools and workflows
+4. **Teamwork:** Focus on communication and collaboration
 
 ---
 
 ## 📈 Track Record
 
-- **7+ years** of continuous operation
-- **High industry satisfaction** with many returning partners
-- **Strong student outcomes** and excellent employment rates
-- **Proven methodology** that bridges academic theory and industry practice
+1. **7+ years** of continuous operation and improvements on this course
+2. **High industry satisfaction** with many returning partners
+3. **Strong student outcomes** and good opportunities for employment at the companies
+4. **Proven methodology** that bridges academic theory and industry practice
 
 ---
 
 ## 🤝 Industry Partnership
 
-- Partners return with new projects annually
-- Growing network of companies and startups
-- Diverse range of project types and technologies
-- Strong mentorship and industry engagement
+1, Partners return with new projects annually
+2. A growing network of companies and startups
+3. Diverse range of project types and technologies applied
+4. Strong mentorship and industry engagement
 
 ---
 
@@ -86,10 +68,10 @@ ISE emphasizes active, hands-on learning through agile methodologies, especially
 
 ### For Industry Partners
 
-- **Fresh Perspectives:** Innovative ideas from motivated students
-- **Talent Pipeline:** Early access to future employees
-- **Research Collaboration:** Links to academic research and innovation
-- **Cost-Effective Solutions:** Prototype and proof-of-concept development
+1. **Fresh Perspectives:** Innovative ideas from motivated students
+2. **Talent Pipeline:** Early access to future employees
+3. **Research Collaboration:** Links to academic research and innovation
+4. **Cost-Effective Solutions:** Prototype and proof-of-concept development
 
 ---
 
@@ -97,19 +79,18 @@ ISE emphasizes active, hands-on learning through agile methodologies, especially
 
 ISE is an integral part of ITU's curriculum:
 
-- **Foundation Building:** Builds on prior software engineering coursework
-- **Practical Application:** Bridges theory and practice
-- **Career Preparation:** Industry-relevant experience before graduation
-- **Research Connection:** Links to ongoing academic research
+1. **Foundation Building:** Builds on prior software engineering coursework
+2. **Practical Application:** Bridges theory and practice
+3. **Career Preparation:** Industry-relevant experience before graduation
 
 ### Learning Objectives
 
 ISE graduates demonstrate:
 
-- **Technical Proficiency:** Advanced software development skills
-- **Project Management:** Agile methodologies in practice
-- **Professional Communication:** Effective industry interactions
-- **Problem-Solving:** Tackling complex, real-world challenges
+1. **Technical Proficiency:** Advanced software development skills
+2. **Project Management:** Scrum and Agile in practice
+3. **Professional Communication:** Effective industry interactions
+4. **Problem-Solving:** Tackling complex, real-world challenges in a large development team
 
 ---
 
@@ -119,15 +100,14 @@ ISE graduates demonstrate:
 
 Interested in collaborating? Visit our [For Industry Partners](/industry) page for:
 
-- Partnership opportunities & benefits
-- Project requirements & expectations
-- Support structure & timeline
-- How to get started
+1. Partnership opportunities & benefits
+2. Project requirements & expectations
+3. How to get started
 
 ---
 
 ## 📬 Contact
 
-For general inquiries about the ISE course, please contact the **Course Leadership**.
+For general inquiries about the ISE course, please contact **pate@itu.dk**. 
 
 --- 
