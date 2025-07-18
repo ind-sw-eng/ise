@@ -25,16 +25,16 @@ permalink: /
           >
         </div>
       </div>
-      <div class="md:w-1/2">
-        <img
-          src="{{ site.baseurl }}/assets/images/hero.png"
-          alt="Hero"
-          class="w-full"
-        />
+      <div class="md:w-1/2 flex items-center justify-center">
+        <video controls poster="{{ site.baseurl }}/assets/images/hero.png" class="w-full max-w-md rounded-lg shadow-lg">
+          <source src="{{ site.baseurl }}/assets/media/SECOND YEAR PROJECT SOFTWARE DEVELOPMENT IN LARGE TEAMS - IT University of Copenhagen.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
       </div>
     </div>
   </div>
 </div>
+
 
 <main class="   px-4">
 
@@ -45,19 +45,6 @@ permalink: /
             Discover how our Industrial Software Engineering course is shaping the future of software development through hands-on industry collaboration.
           </p>
   </section>
-
-
-<section class="mb-16 flex flex-col items-center">
-  <div class="w-full max-w-3xl mx-auto aspect-video rounded-lg shadow-lg overflow-hidden bg-black">
-    <video controls poster="{{ site.baseurl }}/assets/images/hero.png" class="w-full h-full">
-      <source src="{{ site.baseurl }}/assets/media/SECOND YEAR PROJECT SOFTWARE DEVELOPMENT IN LARGE TEAMS - IT University of Copenhagen.mp4" type="video/mp4" />
-      Your browser does not support the video tag.
-    </video>
-  </div>
-  <p class="mt-4 text-lg text-gray-700 text-center max-w-2xl">
-    Watch our course video: <strong>Software Development in Large Teams – IT University of Copenhagen</strong>
-  </p>
-</section>
 
 
   <section class="mb-16">
