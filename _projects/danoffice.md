@@ -8,28 +8,35 @@ importance: 1
 category: work
 related_publications: false
 testimonial: "The collaboration with ISE students was exceptional. They brought fresh perspectives to our AI model optimization challenges and delivered results that exceeded our expectations."
-testimonial_author: "Technical Lead, DanOffice"
+testimonial_author: "Technical Lead - AI Specialist, DanOffice"
 ---
 
 ## Project Overview
 
-DanOffice partnered with ISE students to enhance their image recognition capabilities through advanced AI model retraining. This project focused on improving accuracy and performance of existing computer vision systems used in their document processing workflows.
+DanOffice partnered with ISE students to enhance their image recognition capabilities through an advanced AI model retraining. This project focused on improving the accuracy and performance of an existing computer vision system. The goal is to allow on-site, non-technical individuals to retrain and publish an AI model in a line clearance process. 
+
 
 ## Key Achievements
 
-- **Model Accuracy Improvement**: Achieved 15% improvement in image classification accuracy
-- **Performance Optimization**: Reduced inference time by 30% through model optimization
-- **Data Pipeline Enhancement**: Implemented robust data preprocessing and augmentation techniques
-- **Real-time Processing**: Developed efficient real-time image processing capabilities
+1. **Model Improvement**: Achieved improvements in image classification
+2. **Process Improvement**: Non-technical people can retrain and publish an AI model in a line clearance process
 
-## Technical Approach
+## Technical Overview
 
-The project utilized state-of-the-art machine learning techniques including:
-- Transfer learning with pre-trained models
-- Custom data augmentation strategies
-- Hyperparameter optimization
-- Model quantization for deployment
+The project utilized state-of-the-art tech, including:
+
+1. AI-codebase is run on a Jupyter notebook
+2. Google Colab, Cloud-based Python code execution with GPU support on Google's GPU servers
+3. Google Drive, for images and file storage
+4. HTML and CSS for the user interface
+5. Docker, App containerization
+6. Azure, as a cloud hosting service
+7. ASP.NET for the Backend
+8. Identity framework for user authentication
+9. Entity Framework Core for database interactions
+10. Database: SQLite server
+
 
 ## Impact
 
-The enhanced AI models have significantly improved DanOffice's document processing efficiency, enabling faster and more accurate document digitization for their clients.
+The enhanced AI image recognition has improved DanOffice's product offering, enabling non-technical individuals to retrain and publish AI models. 
