@@ -7,7 +7,7 @@ permalink: /industry
 toc: true
 ---
 
-{% include toc.html %}
+
 
 # For Industry Partners
 
