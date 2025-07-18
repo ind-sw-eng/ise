@@ -7,7 +7,7 @@ permalink: /projects/almenr/
 importance: 6
 category: work
 related_publications: false
-testimonial: "The digital board games created by the ISE team have brought our platform to life. It has been a learning process for me to attend reviews and demos. I am very happy for the collaboration and also learned a lot."
+testimonial: "The digital board games created by the ISE team have brought our platform to life. It has been wonderful attending reviews and demos. I am very happy for the collaboration and also learned a lot."
 testimonial_author: "Founder, Almenr"
 ---
 
