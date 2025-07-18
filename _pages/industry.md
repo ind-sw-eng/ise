@@ -13,89 +13,70 @@ toc: true
 
 ## Partnership Overview
 
-Join our proven industry-academia collaboration that has been connecting companies with talented students since 2017. Our Industrial Software Engineering course offers your organization access to fresh perspectives, innovative solutions, and potential future talent.
+Join our proven industry-academia collaboration that has been connecting companies with talented students since 2017. Our Industrial Software Engineering course offers your organization access to fresh perspectives, innovative solutions, and potential future talent. You will get a student team of 7-8 people to solve a specific development challenge in your company!  
 
 ## Why Partner with Us?
 
 ### 🎯 **Proven Track Record**
-- **7+ years** of successful industry partnerships
-- **50+ completed projects** across diverse industries
-- **High satisfaction rate** from returning industry partners
-- **Award-winning** student projects and innovations
+1. **7+ years** of successful industry partnerships
+2. **120+ completed projects** across diverse industries
+3. **High satisfaction rate** from returning industry partners
 
 ### 💡 **Innovation & Fresh Perspectives**
-- Access to cutting-edge academic research
-- Students bring unbiased approaches to complex problems
-- Exposure to latest technologies and methodologies
-- Creative solutions from diverse student backgrounds
+1. Students bring unbiased approaches to complex problems
+2. Exposure to the latest technologies and methodologies
+3. Creative solutions from diverse student backgrounds
 
 ### 🎓 **Talent Pipeline**
-- Early access to skilled, motivated students
-- Evaluate potential future employees through real projects
-- Build relationships with top-performing students
-- Influence curriculum to meet industry needs
+1. Early access to skilled, motivated students
+2. Evaluate potential future employees through real projects
+3. Build relationships with top-performing students
 
 ### 🚀 **Business Value**
-- Prototype development and proof-of-concept solutions
-- Research and development support
-- Cost-effective project exploration
-- Enhanced company reputation in academic community
+1. Prototype development and proof-of-concept solutions
+2. Cost-effective project exploration
+3. Enhanced company reputation in the academic community
 
 ## Partnership Models
 
-### 🏢 **Project Sponsor**
-**Commitment**: Provide a real project challenge
+### 🏢 **Project Participant**
+**Commitment**: Provide a real project challenge, or two! Yes, you can submit more than one Project! 
 **Benefits**: 
-- Dedicated student team (8-9 students)
-- Professional product owner support
-- Agile project management
-- Regular deliverables and updates
+1. Dedicated student team (7-8 students)
+2. Iterative development using scrum
+3. Get an MVP or a working Proof of Concept for your company
 
-### 👨‍💼 **Mentor/Coach**
-**Commitment**: Provide industry expertise and guidance
+### 👨‍💼 **Project Sponsor**
+**Commitment**: Provide monetary sponsorship to the ISE Course
 **Benefits**:
-- Shape next generation of software engineers
-- Share industry best practices
-- Build professional network
-- Enhance company's talent brand
+1. Sponsor boots and logo exposure benefits
+2. Connecting to the next generation of software engineers
+3. Enhance the company's opportunity to attract the best talent
 
-### 🎯 **Technology Partner**
-**Commitment**: Provide tools, platforms, or technical expertise
-**Benefits**:
-- Showcase your technology to students
-- Gather feedback on products/services
-- Build ecosystem awareness
-- Potential case studies and testimonials
 
 ## What We're Looking For
 
 ### 📋 **Ideal Project Characteristics**
-- **Real business value**: Genuine problems that matter to your organization
-- **Appropriate scope**: Completable within a semester (12-16 weeks)
-- **Learning opportunity**: Allows students to apply and learn new technologies
-- **Mentorship potential**: Can benefit from industry professional guidance
-- **Innovation space**: Room for creative and experimental approaches
+1. **Real business value**: Genuine problems that matter to your organization
+2. **Appropriate scope**: Completable within a semester (12-16 weeks)
+3. **Learning opportunity**: Allows students to apply and learn new technologies
+4. **Mentorship potential**: Can benefit from industry professional guidance
+5. **Innovation space**: Room for creative and experimental approaches
 
 ### 🛠 **Technology Areas**
 Our students work across diverse technology stacks:
-- **Web Development**: React, Angular, Vue.js, Node.js, Django, Spring
-- **Mobile Development**: iOS, Android, React Native, Flutter
-- **Cloud & DevOps**: AWS, Azure, Google Cloud, Docker, Kubernetes
-- **Data & AI**: Python, R, TensorFlow, PyTorch, data visualization
-- **Enterprise**: .NET, Java, microservices, APIs
-- **Emerging Tech**: IoT, blockchain, AR/VR, machine learning
+1. **Web Development**: React, Angular, Vue.js, Node.js, Django, Spring
+2. **Mobile Development**: iOS, Android, React Native, Flutter
+3. **Cloud & DevOps**: AWS, Azure, Google Cloud, Docker, Kubernetes
+4. **Data & AI**: Python, R, TensorFlow, PyTorch, data visualization
+5. **Enterprise**: .NET, Java, microservices, APIs
+6. **Emerging Tech**: IoT, AI, GenAI, AR/VR, machine learning
 
-### 📊 **Project Examples**
-- **FinTech**: Trading platform prototypes, payment systems, fraud detection
-- **Healthcare**: Patient management systems, medical data analytics
-- **E-commerce**: Recommendation engines, inventory management, customer analytics
-- **Manufacturing**: IoT monitoring systems, supply chain optimization
-- **Sustainability**: Environmental monitoring, energy optimization tools
 
 ## Partnership Process
 
-### 1. **Initial Consultation** (Early Semester)
-- **Timeline**: 2-3 months before course start
+### 1. **Initial Consultation** (August-November)
+- **Timeline**: 5-6 months before course start
 - **Activities**: 
   - Discuss project ideas and requirements
   - Assess feasibility and learning objectives
@@ -203,8 +184,9 @@ Our students work across diverse technology stacks:
 Ready to explore partnership opportunities? Contact our team:
 
 **Primary Contacts:**
-- **Paolo Tell** (Course Manager): [pate@itu.dk](mailto:pate@itu.dk)
+- **Paolo Tell** (Course Manager for ISE): [pate@itu.dk](mailto:pate@itu.dk)
 - **Stefano Vincenti** (External Lecturer): [vinc@itu.dk](mailto:vinc@itu.dk)
+- **Elda Paja** (Associate Professor and Course Manager for Scrum Training ISE): [elpa@itu.dk](mailto:elpa@itu.dk)
 
 **Partnership Inquiry:**
 - Email: [ise-partnerships@itu.dk](mailto:ise-partnerships@itu.dk)
