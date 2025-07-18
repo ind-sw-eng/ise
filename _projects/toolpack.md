@@ -8,7 +8,7 @@ importance: 5
 category: work
 related_publications: false
 testimonial: "The unified school platform MVP met our expectations. The ISE students delivered a solution that streamlines educational processes and can potentially become a full-blown educational solution for high schools."
-testimonial_author: "Head of Developlment, Toolpack"
+testimonial_author: "Head of Development, Toolpack"
 ---
 
 ## Project Overview
