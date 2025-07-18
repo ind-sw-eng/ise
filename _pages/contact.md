@@ -45,8 +45,8 @@ permalink: /contact
 <div class="bg-purple-50 border-l-4 border-purple-500 p-4 mb-6">
   <h4 class="font-semibold text-purple-900 mb-2">Partnership Opportunities</h4>
   <p class="text-purple-800">
-    <strong>Primary Contact:</strong> Stefano Vincenti<br>
-    <strong>Email:</strong> <a href="mailto:pate@itu.dk" class="text-purple-600 hover:underline">vinc@itu.dk</a><br>
+    <strong>Primary Contact:</strong> Paolo Tell or Stefano Vincenti<br>
+    <strong>Email:</strong> <a href="mailto:pate@itu.dk" class="text-purple-600 hover:underline">pate@itu.dk</a><br>
     <strong>Best for:</strong> New partnerships, project proposals, collaboration inquiries
   </p>
 </div>
@@ -55,14 +55,16 @@ permalink: /contact
 <div class="bg-blue-50 border-l-4 border-blue-500 p-4 mb-6">
   <h4 class="font-semibold text-blue-900 mb-2">Course Registration & Academic Questions</h4>
   <p class="text-blue-800">
-    <strong>Primary Contact:</strong> Paolo Tell<br>
+    <strong>Primary Contact:</strong> Paolo Tell or Elda Paja<br>
     <strong>Email:</strong> <a href="mailto:pate@itu.dk" class="text-blue-600 hover:underline">pate@itu.dk</a><br>
     <strong>Best for:</strong> Course enrollment, academic requirements
   </p>
 </div>
 
 
+
 ## Physical Location
+
 
 ### 🏛️ **IT University of Copenhagen**
 ```
@@ -71,30 +73,20 @@ Rued Langgaards Vej 7
 Denmark
 ```
 
+
 ### 🚇 **Getting Here**
 1. **Metro:** Ørestad Station (Line M1/M2)
 2. **Bus:** Lines 5A, 35, 233N
 3. **Parking:** Limited visitor parking available
-
+4. 
 
 ## Frequently Asked Questions
 
 
 **Q: Who should I contact to discuss my company participation to the course?**
-A: For company partnership, contact Paolo Tell directly by email.
+A: For company partnership, contact Paolo Tell or Stefano Vincenti by email.
 
 
 **Q: Can I contact professors directly about project ideas?**
 A: Yes, but please first discuss it in your company so it is a well-formulated idea. For industry partnerships, contact Paolo Tell or Stefano Vincenti.
 
-
-## Course Communication Channels
-
-### 📢 **Announcements**
-1.  **Primary:** Course management system at ITU
-2.  **Secondary:** Email notifications and internal Discord channels
-
-
----
-
-*We're here to help! Don't hesitate to reach out with any questions or concerns about the ISE course.*
