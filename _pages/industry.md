@@ -86,10 +86,10 @@ Download the Word template below:
     <svg class="h-6 w-6 mr-2" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
       <path stroke-linecap="round" stroke-linejoin="round" d="M4 16v2a2 2 0 002 2h12a2 2 0 002-2v-2M7 10l5 5m0 0l5-5m-5 5V4"></path>
     </svg>
-    Download Word Template
+    Download Project Proposal Template
   </a>
   <p class="mt-4 text-gray-600 text-center max-w-xl">
-    Click the button to download our Word document template. 
+    Click the button to download our Word template. 
   </p>
 </div>
 
@@ -164,18 +164,12 @@ Download the Word template below:
 
 ### 🛠 **Resource Provision**
 1. **Development Environment**: Cloud access or development tools
-2. **Data & APIs**: Access to relevant data sources
-3. **Documentation**: Existing system documentation or requirements
-4. **Mentorship**: Subject matter expert availability
+2. **Data & APIs**: Access to relevant data sources, if applicable
+3. **Documentation**: Existing system documentation, if applicable
+
 
 ## Success Stories
 
-### 🏆 **Previous Projects**
-1. See the "Projects" section on this site
-- **Financial Services**: Real-time fraud detection system deployed in production
-- **Healthcare**: Patient monitoring dashboard adopted by a medical facility
-- **E-commerce**: Recommendation engine improving conversion rates by 15%
-- **Manufacturing**: IoT monitoring system reducing downtime by 20%
 
 ### 🎯 **Partnership Outcomes**
 1. **Many partners** return with new projects
@@ -197,9 +191,9 @@ Download the Word template below:
 3. **Course Kickoff**: First week of semester
 
 ### 📞 **Next Steps**
-Ready to explore partnership opportunities? Contact our team:
+Ready to explore partnership opportunities? Submit a Project Proposal and/or contact our team:
 
-**Primary Contacts:**
+**ISE Contacts:**
 1. **Paolo Tell** (ISE Course Manager): [pate@itu.dk](mailto:pate@itu.dk)
 2. **Stefano Vincenti** (External Lecturer): [vinc@itu.dk](mailto:vinc@itu.dk)
 3. **Elda Paja** (Associate Professor): [elpa@itu.dk](mailto:elpa@itu.dk)
@@ -208,30 +202,30 @@ Ready to explore partnership opportunities? Contact our team:
 ## Frequently Asked Questions
 
 ### Q: What is required from the Company as a Project Participant?
-A: A solid project proposal with a motivating topic. A good "pitch" to be delivered during the Matchmaking event, where companies are matched student teams. Additionally, a Product Owner who will participate in all sprint planning and review meetings, they are accessible throughout the project and participates in the two mid-project reviews in March and May, as well as the final review. Calendar invites will be provided in due time. 
+### A: A solid project proposal with a motivating topic. A good "pitch" to be delivered during the Matchmaking event, where companies are matched student teams. Additionally, a Product Owner who will participate in all sprint planning and review meetings, they are accessible throughout the project and participates in the two mid-project reviews in March and May, as well as the final review. Calendar invites will be provided in due time. 
 
 ### Q: Can I get some inspiration for filling out the Project Proposal from previous projects?
-A: Contact either Paolo or Stefano to get inspiration from previous projects we have run successfully in the ISE course. 
+### A: Contact either Paolo or Stefano to get inspiration from previous projects we have run successfully in the ISE course. 
 
 ### Q: What intellectual property rights apply to student projects?
-A: Industry partners retain rights to their data, and business concepts, and concerning Intellectual Property Rights (IPR) for the code implementations, either one of the following will apply: 
+### A: Industry partners retain rights to their data, and business concepts, and concerning Intellectual Property Rights (IPR) for the code implementations, either one of the following will apply: 
 Intellectual Property Rights (IPR):
-1.	1. The results are published under open-source licence X (name the licence, if already known, e.g., MIT licence)
-2.	2. The client gets all IPRs to the results.
+1. The results are published under open-source licence X (name the licence, if already known, e.g., MIT licence)
+2. Or... the client gets all IPRs to the results.
 
 
 ### Q: How do you ensure project quality and professionalism?
-A: All projects are supervised by experienced faculty and industry coaches. Students follow professional development practices, including code reviews, testing, and documentation standards.
+### A: All projects are supervised by experienced faculty and industry coaches. Students follow professional development practices, including code reviews, testing, and documentation standards.
 
 ### Q: Can we hire students after the project?
-A: Yes. Many of our industry partners have successfully hired students who worked on their projects. 
+### A: Yes. Many of our industry partners have successfully hired students who worked on their projects. 
 
 ### Q: What if the project doesn't meet our expectations?
-A: We have regular checkpoints and feedback cycles to ensure projects stay on track. Our experienced team helps navigate any challenges that arise.
+### A: We have regular checkpoints and feedback cycles to ensure projects stay on track. Our experienced team helps navigate any challenges that arise.
 
 ### Q: Do you work with international companies?
-A: Yes, we welcome international partnerships. Many projects can be conducted remotely, and we have positive experiences with global collaboration.
+### A: Yes, we welcome international partnerships. Many projects can be conducted remotely, and we have positive experiences with global collaboration.
 
 ---
 
-0. *Join the growing community of industry partners who are shaping the future of software engineering education while advancing their own innovation goals.*
+### *Join the growing community of industry partners who are shaping the future of software engineering education while advancing their own innovation goals.*
