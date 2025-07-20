@@ -13,7 +13,29 @@ toc: true
 
 ## Partnership Overview
 
-Join our industry-academia collaboration that has been connecting companies with talented students since 2017. Our Industrial Software Engineering course offers your organization access to fresh perspectives, innovative solutions, and potential future talent. You can hire a student team of software developers to solve your specific challenge within your organization, at zero cost. We expect you to provide a Product Owner to direct the development project. More info below. 
+Join our industry-academia collaboration that has been connecting companies with talented students since 2017. Our Industrial Software Engineering course offers your organization access to fresh perspectives, innovative solutions, and potential future talent. You can hire a student team of software developers to solve your specific challenge within your organization, at zero cost. We expect you to provide a Product Owner to direct the development project. To kick off the collaboration, submit your Project Proposal! 
+
+## Download Project Proposal Template
+
+To participate as an industry partner, please fill out and return the project proposal form to **Paolo Tell** (ISE Course Manager): [pate@itu.dk](mailto:pate@itu.dk). 
+Download the Word template below:
+
+<div class="my-8 flex flex-col items-center">
+  <a
+    href="{{ site.baseurl }}/assets/docs/ISE_Project_Proposal_Template.docx"
+    download
+    class="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-6 rounded-lg shadow-lg transition-colors text-lg inline-flex items-center"
+  >
+    <svg class="h-6 w-6 mr-2" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+      <path stroke-linecap="round" stroke-linejoin="round" d="M4 16v2a2 2 0 002 2h12a2 2 0 002-2v-2M7 10l5 5m0 0l5-5m-5 5V4"></path>
+    </svg>
+    Download Project Proposal Template
+  </a>
+  <p class="mt-4 text-gray-600 text-center max-w-xl">
+    Click the button to download our Word template. 
+  </p>
+</div>
+
 
 ## Why Partner with Us?
 
@@ -78,27 +100,6 @@ Our students work across diverse technology stacks:
 5. **Enterprise**: .NET, Java, microservices, APIs
 6. **Emerging Tech**: IoT, GenAI, AI, machine learning/ neural network, AR/VR
 7. 
-
-## Download Project Proposal Template
-
-To participate as an industry partner, please fill out and return the project proposal form to **Paolo Tell** (ISE Course Manager): [pate@itu.dk](mailto:pate@itu.dk). 
-Download the Word template below:
-
-<div class="my-8 flex flex-col items-center">
-  <a
-    href="{{ site.baseurl }}/assets/docs/ISE_Project_Proposal_Template.docx"
-    download
-    class="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-6 rounded-lg shadow-lg transition-colors text-lg inline-flex items-center"
-  >
-    <svg class="h-6 w-6 mr-2" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
-      <path stroke-linecap="round" stroke-linejoin="round" d="M4 16v2a2 2 0 002 2h12a2 2 0 002-2v-2M7 10l5 5m0 0l5-5m-5 5V4"></path>
-    </svg>
-    Download Project Proposal Template
-  </a>
-  <p class="mt-4 text-gray-600 text-center max-w-xl">
-    Click the button to download our Word template. 
-  </p>
-</div>
 
 
 ## Partnership Process
