@@ -40,7 +40,7 @@ Join our industry-academia collaboration that has been connecting companies with
 ## Partnership Models
 
 ### 🏢 **Project Participant**
-0. **Commitment**: Provide a real project challenge, or two (you can submit more than one Project) 
+0. **Commitment**: Provide a real project challenge, or two (you can submit more than one Project). See the Project Proposal Template below. 
 0. **Benefits**: 
 1. Dedicated student team 
 2. Iterative development using Scrum
@@ -72,15 +72,37 @@ Our students work across diverse technology stacks:
 5. **Enterprise**: .NET, Java, microservices, APIs
 6. **Emerging Tech**: IoT, GenAI, AI, machine learning/ neural network, AR/VR
 
+### Download Project Proposal Template
+
+To participate as an industry partner, please fill out and return the project proposal form to **Paolo Tell** (ISE Course Manager): [pate@itu.dk](mailto:pate@itu.dk). 
+Download the Word template below:
+
+<div class="my-8 flex flex-col items-center">
+  <a
+    href="{{ site.baseurl }}/assets/docs/ISE_Project_Proposal_Template.docx"
+    download
+    class="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-6 rounded-lg shadow-lg transition-colors text-lg inline-flex items-center"
+  >
+    <svg class="h-6 w-6 mr-2" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+      <path stroke-linecap="round" stroke-linejoin="round" d="M4 16v2a2 2 0 002 2h12a2 2 0 002-2v-2M7 10l5 5m0 0l5-5m-5 5V4"></path>
+    </svg>
+    Download Word Template
+  </a>
+  <p class="mt-4 text-gray-600 text-center max-w-xl">
+    Click the button to download our Word document template. 
+  </p>
+</div>
+
 
 ## Partnership Process
 
 ### 1. **Initial Consultation** (August-November)
 0. **Timeline**: 5-6 months before course start
 0. **Activities**: 
-1. Discuss project ideas and requirements
-2. Assess feasibility and learning objectives
-3. Define success criteria and deliverables
+1. Submit a Project Proposal Template filled out with your project idea
+2. Discuss project ideas and requirements
+3. Assess feasibility and learning objectives
+4. Define success criteria and deliverables
   
 ### 2. **Project Definition** (Pre-Semester)
 0. **Timeline**: 1 month before course start
