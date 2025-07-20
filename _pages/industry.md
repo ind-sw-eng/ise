@@ -168,6 +168,7 @@ Our students work across diverse technology stacks:
 3. **Proposal Submission**: Submit formal project proposal
 4. **Partnership Agreement**: Finalize terms and expectations
 
+
 ### 📅 **Important Deadlines**
 1. **Project Proposals**: submit in Sept-Nov. For the following semester
 2. **Final Commitment**: 1 month before the semester starts in February
@@ -183,6 +184,9 @@ Ready to explore partnership opportunities? Contact our team:
 
 
 ## Frequently Asked Questions
+
+### Q: What is required from the Company as a Project Participant?
+A: A solid project proposal with a motivating topic. A good "pitch" to be delivered during the Matchmaking event, where companies are matched student teams. Additionally, a Product Owner who will participate in all sprint planning and review meetings, they are accessible throughout the project and participate in the two mid-project reviews in March and May, as well as the final review. Calendar invites will be provided in due time. 
 
 ### Q: What intellectual property rights apply to student projects?
 A: Industry partners retain rights to their data, business concepts, and code implementations.
