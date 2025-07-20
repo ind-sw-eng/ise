@@ -208,10 +208,14 @@ Ready to explore partnership opportunities? Contact our team:
 ## Frequently Asked Questions
 
 ### Q: What is required from the Company as a Project Participant?
-A: A solid project proposal with a motivating topic. A good "pitch" to be delivered during the Matchmaking event, where companies are matched student teams. Additionally, a Product Owner who will participate in all sprint planning and review meetings, they are accessible throughout the project and participate in the two mid-project reviews in March and May, as well as the final review. Calendar invites will be provided in due time. 
+A: A solid project proposal with a motivating topic. A good "pitch" to be delivered during the Matchmaking event, where companies are matched student teams. Additionally, a Product Owner who will participate in all sprint planning and review meetings, they are accessible throughout the project and participates in the two mid-project reviews in March and May, as well as the final review. Calendar invites will be provided in due time. 
 
 ### Q: What intellectual property rights apply to student projects?
-A: Industry partners retain rights to their data, business concepts, and code implementations.
+A: Industry partners retain rights to their data, and business concepts, and concerning Intellectual Property Rights (IPR) for the code implementations, either one of the following will apply: 
+Intellectual Property Rights (IPR):
+1.	1. The results are published under open-source licence X (name the licence, if already known, e.g., MIT licence)
+2.	2. The client gets all IPRs to the results.
+
 
 ### Q: How do you ensure project quality and professionalism?
 A: All projects are supervised by experienced faculty and industry coaches. Students follow professional development practices, including code reviews, testing, and documentation standards.
