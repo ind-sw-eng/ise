@@ -210,6 +210,9 @@ Ready to explore partnership opportunities? Contact our team:
 ### Q: What is required from the Company as a Project Participant?
 A: A solid project proposal with a motivating topic. A good "pitch" to be delivered during the Matchmaking event, where companies are matched student teams. Additionally, a Product Owner who will participate in all sprint planning and review meetings, they are accessible throughout the project and participates in the two mid-project reviews in March and May, as well as the final review. Calendar invites will be provided in due time. 
 
+### Q: Can I get some inspiration for filling out the Project Proposal from previous projects?
+A: Contact either Paolo or Stefano to get inspiration from previous projects we have run successfully in the ISE course. 
+
 ### Q: What intellectual property rights apply to student projects?
 A: Industry partners retain rights to their data, and business concepts, and concerning Intellectual Property Rights (IPR) for the code implementations, either one of the following will apply: 
 Intellectual Property Rights (IPR):
