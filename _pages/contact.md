@@ -19,6 +19,15 @@ permalink: /contact
       <p><strong>Email:</strong> <a href="mailto:pate@itu.dk" class="text-blue-600 hover:underline">pate@itu.dk</a></p>
     </div>
   </div>
+
+  <div class="bg-white rounded-lg shadow-md p-6 text-center">
+    <img src="{{ site.baseurl }}/assets/images/Portrait - elda.png" alt="Elda Paja" class="w-32 h-32 rounded-full mx-auto mb-4 object-cover">
+    <h3 class="text-xl font-semibold mb-2">Elda Paja</h3>
+    <p class="text-gray-600 mb-3">Associate Professor</p>
+    <div class="space-y-2">
+      <p><strong>Email:</strong> <a href="mailto:elpa@itu.dk" class="text-blue-600 hover:underline">elpa@itu.dk</a></p>
+    </div>
+  </div>
   
   <div class="bg-white rounded-lg shadow-md p-6 text-center">
     <img src="{{ site.baseurl }}/assets/images/Portrait - vinc.jpeg" alt="Stefano Vincenti" class="w-32 h-32 rounded-full mx-auto mb-4 object-cover">
@@ -29,14 +38,6 @@ permalink: /contact
     </div>
   </div>
   
-  <div class="bg-white rounded-lg shadow-md p-6 text-center">
-    <img src="{{ site.baseurl }}/assets/images/Portrait - elda.png" alt="Elda Paja" class="w-32 h-32 rounded-full mx-auto mb-4 object-cover">
-    <h3 class="text-xl font-semibold mb-2">Elda Paja</h3>
-    <p class="text-gray-600 mb-3">Associate Professor</p>
-    <div class="space-y-2">
-      <p><strong>Email:</strong> <a href="mailto:elpa@itu.dk" class="text-blue-600 hover:underline">elpa@itu.dk</a></p>
-    </div>
-  </div>
 </div>
 
 ## Contact Information by Topic
