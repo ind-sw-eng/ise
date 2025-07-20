@@ -13,7 +13,7 @@ toc: true
 
 ## Partnership Overview
 
-Join our industry-academia collaboration that has been connecting companies with talented students since 2017. Our Industrial Software Engineering course offers your organization access to fresh perspectives, innovative solutions, and potential future talent. You can get a student team of software developers to solve your specific challenge in your organization!  
+Join our industry-academia collaboration that has been connecting companies with talented students since 2017. Our Industrial Software Engineering course offers your organization access to fresh perspectives, innovative solutions, and potential future talent. You can hire a student team of software developers to solve your specific challenge within your organization, at zero cost. We expect you to provide a Product Owner to direct the development project. More info below. 
 
 ## Why Partner with Us?
 
@@ -151,6 +151,7 @@ Download the Word template below:
 2. **Optional sponsorship**: In case you want to provide financial support
 3. 
 
+
 ### ⏰ **Time Investment for the Product Owner**
 1. **Product Guidance**: 2-4 hours per week
 2. **Team Meetings**: 1-2 hours per week
@@ -158,11 +159,13 @@ Download the Word template below:
 4. **Total**: Approximately 4-8 hours per week
 5. 
 
+
 ### 🛠 **Resource Provision**
 1. **Development Environment**: Cloud access or development tools
 2. **Data & APIs**: Access to relevant data sources, if applicable
 3. **Documentation**: Existing system documentation, if applicable
 4. 
+
 
 ## Success Stories
 
@@ -182,11 +185,13 @@ Download the Word template below:
 4. **Partnership Agreement**: Finalize terms and expectations
 5. 
 
+
 ### 📅 **Important Deadlines**
 1. **Project Proposals**: submit in Sept-Nov. For the following semester
 2. **Final Commitment**: 1 month before the semester starts in February
 3. **Course Kickoff**: First week of semester
 4. 
+
 
 ### 📞 **Next Steps**
 Ready to explore partnership opportunities? Submit a Project Proposal and/or contact our team:
@@ -199,31 +204,31 @@ Ready to explore partnership opportunities? Submit a Project Proposal and/or con
 
 ## Frequently Asked Questions
 
-## Q: What is required from the Company as a Project Participant?
-## A: A solid project proposal with a motivating topic. A good "pitch" to be delivered during the Matchmaking event, where companies are matched student teams. Additionally, a Product Owner who will participate in all sprint planning and review meetings, they are accessible throughout the project and participates in the two mid-project reviews in March and May, as well as the final review. Calendar invites will be provided in due time. 
+### Q: What is required from the Company as a Project Participant?
+A: A solid project proposal with a motivating topic. A good "pitch" to be delivered during the Matchmaking event, where companies are matched student teams. Additionally, a Product Owner who will participate in all sprint planning and review meetings, they are accessible throughout the project and participates in the two mid-project reviews in March and May, as well as the final review. Calendar invites will be provided in due time. 
 
-## Q: Can I get some inspiration for filling out the Project Proposal from previous projects?
-## A: Contact either Paolo or Stefano to get inspiration from previous projects we have run successfully in the ISE course. 
+### Q: Can I get some inspiration for filling out the Project Proposal from previous projects?
+A: Contact either Paolo or Stefano to get inspiration from previous projects we have run successfully in the ISE course. 
 
-## Q: What intellectual property rights apply to student projects?
-## A: Industry partners retain rights to their data, and business concepts, and concerning Intellectual Property Rights (IPR) for the code implementations, either one of the following will apply: 
-## Intellectual Property Rights (IPR):
-## 1. The results are published under open-source licence X (name the licence, if already known, e.g., MIT licence)
-## 2. Or... the client gets all IPRs to the results.
+### Q: What intellectual property rights apply to student projects?
+A: Industry partners retain rights to their data, and business concepts, and concerning Intellectual Property Rights (IPR) for the code implementations, either one of the following will apply: 
+Intellectual Property Rights (IPR):
+1. The results are published under open-source licence X (name the licence, if already known, e.g., MIT licence)
+2. Or... the client gets all IPRs to the results.
 
 
-## Q: How do you ensure project quality and professionalism?
-## A: All projects are supervised by experienced faculty and industry coaches. Students follow professional development practices, including code reviews, testing, and documentation standards.
+### Q: How do you ensure project quality and professionalism?
+A: All projects are supervised by experienced faculty and industry coaches. Students follow professional development practices, including code reviews, testing, and documentation standards.
 
-## Q: Can we hire students after the project?
-## A: Yes. Many of our industry partners have successfully hired students who worked on their projects. 
+### Q: Can we hire students after the project?
+A: Yes. Many of our industry partners have successfully hired students who worked on their projects. 
 
-## Q: What if the project doesn't meet our expectations?
-## A: We have regular checkpoints and feedback cycles to ensure projects stay on track. Our experienced team helps navigate any challenges that arise.
+### Q: What if the project doesn't meet our expectations?
+A: We have regular checkpoints and feedback cycles to ensure projects stay on track. Our experienced team helps navigate any challenges that arise.
 
-## Q: Do you work with international companies?
-## A: Yes, we welcome international partnerships. Many projects can be conducted remotely, and we have positive experiences with global collaboration.
+### Q: Do you work with international companies?
+A: Yes, we welcome international partnerships. Many projects can be conducted remotely, and we have positive experiences with global collaboration.
 
 ---
 
-# *Join the growing community of industry partners who are shaping the future of software engineering education while advancing their own innovation goals.*
+### *Join the growing community of industry partners who are shaping the future of software engineering education while advancing their own innovation goals.*
