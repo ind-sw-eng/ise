@@ -40,27 +40,18 @@ permalink: /contact
   
 </div>
 
-## Contact Information by Topic
+## Contact Information
 
 ### 🏢 **For Industry Partners**
 <div class="bg-purple-50 border-l-4 border-purple-500 p-4 mb-6">
   <h4 class="font-semibold text-purple-900 mb-2">Partnership Opportunities</h4>
-  <p class="text-purple-800">
-    <strong>Primary Contact:</strong> Paolo Tell or Stefano Vincenti<br>
+  <p class="text-blue-800">
+    <strong>Primary Contact:</strong> Paolo Tell <br>
     <strong>Email:</strong> <a href="mailto:pate@itu.dk" class="text-purple-600 hover:underline">pate@itu.dk</a><br>
-    <strong>Best for:</strong> New partnerships, project proposals, collaboration inquiries
+    <strong>Best for:</strong> Project proposals, partnerships, sponsor and collaboration inquiries
   </p>
 </div>
 
-### 📧 **Course Registration & Academic Questions**
-<div class="bg-blue-50 border-l-4 border-blue-500 p-4 mb-6">
-  <h4 class="font-semibold text-blue-900 mb-2">Course Registration & Academic Questions</h4>
-  <p class="text-blue-800">
-    <strong>Primary Contact:</strong> Paolo Tell or Elda Paja<br>
-    <strong>Email:</strong> <a href="mailto:pate@itu.dk" class="text-blue-600 hover:underline">pate@itu.dk</a><br>
-    <strong>Best for:</strong> Course enrollment, academic requirements
-  </p>
-</div>
 
 
 
@@ -73,7 +64,7 @@ Rued Langgaards Vej 7
 2300 Copenhagen S
 Denmark
 ```
-
+1. 
 
 ### 🚇 **Getting Here**
 1. **Metro:** Ørestad Station (Line M1/M2)
@@ -84,7 +75,7 @@ Denmark
 ## Frequently Asked Questions
 
 
-**Q: Who should I contact to discuss my company participation to the course?**
+**Q: Who should I contact to discuss my company's participation in the course?**
 A: For company partnership, contact Paolo Tell or Stefano Vincenti by email.
 
 
