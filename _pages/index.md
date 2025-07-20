@@ -79,47 +79,47 @@ permalink: /
 
 
 <section class="mb-16">
-          <div class="bg-white rounded-lg shadow-md p-6">
-            <h2 class="text-2xl font-bold mb-4">What We're Looking For</h2>
-            <ul class="space-y-2">
-              {% for item in site.data.home.benefits %}
-                <li  class="flex items-start ">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-right h-5 w-5 text-blue-600 mr-2 mt-1 flex-shrink-0"><path d="m9 18 6-6-6-6"></path></svg>
-                  <p class="text-black">{{item}}</p>
-                </li>
-              {% endfor %}
-            </ul>
-          </div>
+  <h2 class="text-3xl font-bold mb-8 text-center">Course Overview</h2>
+  <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+    <!-- Key Features -->
+    <div class="bg-white rounded-lg shadow-md p-6">
+      <h3 class="text-xl font-semibold mb-4">Key Features</h3>
+      <ul class="space-y-2">
+        {% for item in site.data.home.keyfeatures %}
+          <li class="flex items-start">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-right h-5 w-5 text-blue-600 mr-2 mt-1 flex-shrink-0"><path d="m9 18 6-6-6-6"></path></svg>
+            <p class="text-black">{{item}}</p>
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
+    <!-- Learning Outcomes -->
+    <div class="bg-white rounded-lg shadow-md p-6">
+      <h3 class="text-xl font-semibold mb-4">Learning Outcomes</h3>
+      <ul class="space-y-2">
+        {% for item in site.data.home.learningoutcomes %}
+          <li class="flex items-start">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-right h-5 w-5 text-blue-600 mr-2 mt-1 flex-shrink-0"><path d="m9 18 6-6-6-6"></path></svg>
+            <p class="text-black">{{item}}</p>
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
+    <!-- What We're Looking For -->
+    <div class="bg-white rounded-lg shadow-md p-6">
+      <h3 class="text-xl font-semibold mb-4">What We're Looking For</h3>
+      <ul class="space-y-2">
+        {% for item in site.data.home.benefits %}
+          <li class="flex items-start">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-right h-5 w-5 text-blue-600 mr-2 mt-1 flex-shrink-0"><path d="m9 18 6-6-6-6"></path></svg>
+            <p class="text-black">{{item}}</p>
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
 </section>
 
-
-<section class="mb-16">
-          <h2 class="text-3xl font-bold mb-8 text-center">Course Overview</h2>
-          <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-            <div class="bg-white rounded-lg shadow-md p-6">
-              <h3 class="text-xl font-semibold mb-4">Key Features</h3>
-              <ul class="space-y-2">
-                {% for item in site.data.home.keyfeatures %}
-                  <li class="flex items-start">
-                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-right h-5 w-5 text-blue-600 mr-2 mt-1 flex-shrink-0"><path d="m9 18 6-6-6-6"></path></svg>
-                     <p class="text-black">{{item}}</p>
-                  </li>
-                {% endfor %}
-              </ul>
-            </div>
-            <div class="bg-white rounded-lg shadow-md p-6">
-              <h3 class="text-xl font-semibold mb-4">Learning Outcomes</h3>
-              <ul class="space-y-2">
-                 {% for item in site.data.home.learningoutcomes %}
-                  <li class="flex items-start">
-                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-right h-5 w-5 text-blue-600 mr-2 mt-1 flex-shrink-0"><path d="m9 18 6-6-6-6"></path></svg>
-                     <p class="text-black">{{item}}</p>
-                  </li>
-                 {% endfor %}
-              </ul>
-            </div>
-        </div>
-</section>
 
 
 <section class="mb-16">
