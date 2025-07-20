@@ -21,21 +21,24 @@ Join our industry-academia collaboration that has been connecting companies with
 1. **7+ years** of successful industry partnerships
 2. **120+ completed projects** across diverse industries
 3. **High satisfaction rate** from returning industry partners
-
+4. 
 ### 💡 **Innovation & Fresh Perspectives**
 1. Students bring unbiased, fresh approaches to complex problems
 2. Exposure to the latest technologies and methodologies
 3. Creative solutions from diverse student backgrounds
+4. 
 
 ### 🎓 **Talent Pipeline**
 1. Early access to skilled, motivated students
 2. Evaluate potential future employees through real projects
 3. Build relationships with top-performing students
-
+4. 
+ 
 ### 🚀 **Business Value**
 1. Prototype development and proof-of-concept solutions
 2. Cost-effective project exploration
 3. Enhanced company reputation in the academic community
+4. 
 
 ## Partnership Models
 
@@ -45,6 +48,7 @@ Join our industry-academia collaboration that has been connecting companies with
 1. Dedicated student team 
 2. Iterative development using Scrum
 3. Get an MVP or a working prototype for your company
+4. 
 
 ### 👨‍💼 **Project Sponsor**
 0. **Commitment**: Provide monetary sponsorship to the ISE Course
@@ -52,9 +56,10 @@ Join our industry-academia collaboration that has been connecting companies with
 1. Sponsor boots and branding exposure benefits
 2. Direct facilitated connection to the next generation of software engineers
 3. Enhance the company's opportunity to attract the best talent
+4. 
 
 
-## What We're Looking For
+## What We are Looking For
 
 ### 📋 **Ideal Project Characteristics**
 1. **Real business value**: Genuine problems that matter to your organization
@@ -62,6 +67,7 @@ Join our industry-academia collaboration that has been connecting companies with
 3. **Learning opportunity**: Allows students to apply and learn new technologies
 4. **Mentorship potential**: Can benefit from industry professional guidance
 5. **Innovation space**: Room for creative and experimental approaches
+6. 
 
 ### 🛠 **Technology Areas**
 Our students work across diverse technology stacks:
@@ -71,8 +77,9 @@ Our students work across diverse technology stacks:
 4. **Data & AI**: Python, R, TensorFlow, PyTorch, data visualization
 5. **Enterprise**: .NET, Java, microservices, APIs
 6. **Emerging Tech**: IoT, GenAI, AI, machine learning/ neural network, AR/VR
+7. 
 
-### Download Project Proposal Template
+## Download Project Proposal Template
 
 To participate as an industry partner, please fill out and return the project proposal form to **Paolo Tell** (ISE Course Manager): [pate@itu.dk](mailto:pate@itu.dk). 
 Download the Word template below:
@@ -126,6 +133,7 @@ Download the Word template below:
 2. Regular retrospectives, progress reviews, and feedback
 3. Mid-semester check-in sessions in March and May 
 4. Continuous mentorship and guidance
+5. 
 
 ### 5. **Project Completion** (Week 13-14)
 0. **Timeline**: End of semester
@@ -134,39 +142,27 @@ Download the Word template below:
 2. Code delivery and documentation
 3. Project retrospective and feedback
 4. Evaluation of partnership success
-
-## Support Structure
-
-### 🎓 **Academic Support**
-1. **Course Instructors**: Provide educational and project guidance
-2. **Teaching Assistants**: Provide facilitation and review of academic submissions
-3. **Agile Coaches**: Industry professionals ensure best practice support to the teams
-
-
-### 🤝 **Communication Channels**
-1. **Primary Contact**: Designated Product Owner from your organization
-2. **Instant Communication**: Discord channels for comms
-3. **Documentation**: Shared project spaces and documentation
-
+5. 
 
 ## Investment & Resources
 
 ### 💰 **Financial Commitment**
 1. **No direct fees**: The Course is funded by ITU University and our Sponsors
 2. **Optional sponsorship**: In case you want to provide financial support
-
+3. 
 
 ### ⏰ **Time Investment for the Product Owner**
 1. **Product Guidance**: 2-4 hours per week
 2. **Team Meetings**: 1-2 hours per week
 3. **Reviews & Feedback**: 1-2 hours per sprint
 4. **Total**: Approximately 4-8 hours per week
+5. 
 
 ### 🛠 **Resource Provision**
 1. **Development Environment**: Cloud access or development tools
 2. **Data & APIs**: Access to relevant data sources, if applicable
 3. **Documentation**: Existing system documentation, if applicable
-
+4. 
 
 ## Success Stories
 
@@ -175,6 +171,7 @@ Download the Word template below:
 1. **Many partners** return with new projects
 2. **Top students** receive internship or job offers from partner companies
 3. **Functioning prototypes** developed into commercial products
+4. 
 
 ## Getting Started
 
@@ -183,12 +180,13 @@ Download the Word template below:
 2. **Project Consultation**: Discuss your ideas and requirements
 3. **Proposal Submission**: Submit formal project proposal
 4. **Partnership Agreement**: Finalize terms and expectations
-
+5. 
 
 ### 📅 **Important Deadlines**
 1. **Project Proposals**: submit in Sept-Nov. For the following semester
 2. **Final Commitment**: 1 month before the semester starts in February
 3. **Course Kickoff**: First week of semester
+4. 
 
 ### 📞 **Next Steps**
 Ready to explore partnership opportunities? Submit a Project Proposal and/or contact our team:
@@ -201,31 +199,31 @@ Ready to explore partnership opportunities? Submit a Project Proposal and/or con
 
 ## Frequently Asked Questions
 
-### Q: What is required from the Company as a Project Participant?
-### A: A solid project proposal with a motivating topic. A good "pitch" to be delivered during the Matchmaking event, where companies are matched student teams. Additionally, a Product Owner who will participate in all sprint planning and review meetings, they are accessible throughout the project and participates in the two mid-project reviews in March and May, as well as the final review. Calendar invites will be provided in due time. 
+## Q: What is required from the Company as a Project Participant?
+## A: A solid project proposal with a motivating topic. A good "pitch" to be delivered during the Matchmaking event, where companies are matched student teams. Additionally, a Product Owner who will participate in all sprint planning and review meetings, they are accessible throughout the project and participates in the two mid-project reviews in March and May, as well as the final review. Calendar invites will be provided in due time. 
 
-### Q: Can I get some inspiration for filling out the Project Proposal from previous projects?
-### A: Contact either Paolo or Stefano to get inspiration from previous projects we have run successfully in the ISE course. 
+## Q: Can I get some inspiration for filling out the Project Proposal from previous projects?
+## A: Contact either Paolo or Stefano to get inspiration from previous projects we have run successfully in the ISE course. 
 
-### Q: What intellectual property rights apply to student projects?
-### A: Industry partners retain rights to their data, and business concepts, and concerning Intellectual Property Rights (IPR) for the code implementations, either one of the following will apply: 
-Intellectual Property Rights (IPR):
-1. The results are published under open-source licence X (name the licence, if already known, e.g., MIT licence)
-2. Or... the client gets all IPRs to the results.
+## Q: What intellectual property rights apply to student projects?
+## A: Industry partners retain rights to their data, and business concepts, and concerning Intellectual Property Rights (IPR) for the code implementations, either one of the following will apply: 
+## Intellectual Property Rights (IPR):
+## 1. The results are published under open-source licence X (name the licence, if already known, e.g., MIT licence)
+## 2. Or... the client gets all IPRs to the results.
 
 
-### Q: How do you ensure project quality and professionalism?
-### A: All projects are supervised by experienced faculty and industry coaches. Students follow professional development practices, including code reviews, testing, and documentation standards.
+## Q: How do you ensure project quality and professionalism?
+## A: All projects are supervised by experienced faculty and industry coaches. Students follow professional development practices, including code reviews, testing, and documentation standards.
 
-### Q: Can we hire students after the project?
-### A: Yes. Many of our industry partners have successfully hired students who worked on their projects. 
+## Q: Can we hire students after the project?
+## A: Yes. Many of our industry partners have successfully hired students who worked on their projects. 
 
-### Q: What if the project doesn't meet our expectations?
-### A: We have regular checkpoints and feedback cycles to ensure projects stay on track. Our experienced team helps navigate any challenges that arise.
+## Q: What if the project doesn't meet our expectations?
+## A: We have regular checkpoints and feedback cycles to ensure projects stay on track. Our experienced team helps navigate any challenges that arise.
 
-### Q: Do you work with international companies?
-### A: Yes, we welcome international partnerships. Many projects can be conducted remotely, and we have positive experiences with global collaboration.
+## Q: Do you work with international companies?
+## A: Yes, we welcome international partnerships. Many projects can be conducted remotely, and we have positive experiences with global collaboration.
 
 ---
 
-### *Join the growing community of industry partners who are shaping the future of software engineering education while advancing their own innovation goals.*
+# *Join the growing community of industry partners who are shaping the future of software engineering education while advancing their own innovation goals.*
