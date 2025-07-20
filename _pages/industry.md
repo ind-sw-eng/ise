@@ -65,7 +65,7 @@ Download the Word template below:
 ## Partnership Models
 
 ### 🏢 **Project Participant**
-0. **Commitment**: Provide a real project challenge, or two (you can submit more than one Project). See the Project Proposal Template below. 
+0. **Commitment**: Provide a real project challenge, or two (you can submit more than one Project). Download the Project Proposal Template above! 
 0. **Benefits**: 
 1. Dedicated student team 
 2. Iterative development using Scrum
