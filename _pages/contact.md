@@ -66,11 +66,6 @@ Denmark
 ```
 1. 
 
-### 🚇 **Getting Here**
-1. **Metro:** Ørestad Station (Line M1/M2)
-2. **Bus:** Lines 5A, 35, 233N
-3. **Parking:** Limited visitor parking available
-4. 
 
 ## Frequently Asked Questions
 
@@ -80,5 +75,5 @@ A: For company partnership, contact Paolo Tell or Stefano Vincenti by email.
 
 
 **Q: Can I contact professors directly about project ideas?**
-A: Yes, but please first discuss it in your company so it is a well-formulated idea. For industry partnerships, contact Paolo Tell or Stefano Vincenti.
+A: Yes, but please first discuss it in your company so it is a well-formulated idea. For industry partnerships, you can contact Paolo Tell or Stefano Vincenti.
 
