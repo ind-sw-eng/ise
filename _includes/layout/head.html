@@ -19,7 +19,7 @@
   <meta property="og:url" content="{{ page.url | absolute_url }}">
   <meta property="og:title" content="{% if page.title %}{{ page.title }} - {{ site.title }}{% else %}{{ site.title }} - Industrial Partnership Portal{% endif %}">
   <meta property="og:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}Industrial Software Engineering course at IT University of Copenhagen. Industry partnership portal for collaborative student projects and academic-industry collaboration.{% endif %}">
-  <meta property="og:image" content="{{ site.url }}/assets/images/logo.png">
+  <meta property="og:image" content="{{ '/assets/images/logo.png' | absolute_url }}">
   <meta property="og:site_name" content="{{ site.title }} - Industrial Partnership Portal">
   <meta property="og:locale" content="en_US">
 
@@ -28,7 +28,7 @@
   <meta property="twitter:url" content="{{ page.url | absolute_url }}">
   <meta property="twitter:title" content="{% if page.title %}{{ page.title }} - {{ site.title }}{% else %}{{ site.title }} - Industrial Partnership Portal{% endif %}">
   <meta property="twitter:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}Industrial Software Engineering course at IT University of Copenhagen. Industry partnership portal for collaborative student projects.{% endif %}">
-  <meta property="twitter:image" content="{{ site.url }}/assets/images/logo.png">
+  <meta property="twitter:image" content="{{ '/assets/images/logo.png' | absolute_url }}">
 
   <meta name="intended-audience" content="Industry professionals seeking academic collaboration, Software companies, Technology partners, Students, Academic researchers">
   <meta name="content-focus" content="Industrial partnerships, Software engineering education, Academic-industry collaboration, Student projects">
@@ -51,21 +51,21 @@
   relative_url }}">
 
   <!-- Favicons -->
-  <link rel="apple-touch-icon" sizes="180x180" href="{{ site.baseurl }}/assets/images/logo.png" />
+  <link rel="apple-touch-icon" sizes="180x180" href="{{ '/assets/images/logo.png' | relative_url }}" />
   <link
     rel="icon"
     type="image/png"
     sizes="32x32"
-    href="{{ site.baseurl }}/assets/images/logo.png"
+    href="{{ '/assets/images/logo.png' | relative_url }}"
   />
   <link
     rel="icon"
     type="image/png"
     sizes="16x16"
-    href="{{ site.baseurl }}/assets/images/logo.png"
+    href="{{ '/assets/images/logo.png' | relative_url }}"
   />
 
-  <link rel="manifest" href="{{ site.baseurl }}/assets/img/site.webmanifest" />
+  <link rel="manifest" href="{{ '/assets/img/site.webmanifest' | relative_url }}" />
   <meta name="theme-color" content="#2563eb" />
   
   <!-- Schema.org markup for enhanced discoverability -->
@@ -76,7 +76,7 @@
     "name": "{{ site.title }} - Industrial Software Engineering Partnership Portal",
     "description": "Industrial Software Engineering course at IT University of Copenhagen facilitating partnerships between academia and industry through collaborative student projects and research initiatives.",
     "url": "{{ site.url }}",
-    "logo": "{{ site.url }}/assets/images/logo.png",
+    "logo": "{{ '/assets/images/logo.png' | absolute_url }}",
     "sameAs": [
       "https://www.itu.dk"
     ],
