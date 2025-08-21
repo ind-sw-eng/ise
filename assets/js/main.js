@@ -1,31 +1,41 @@
-var body = document.body;
-const button = document.querySelector("#menu-button");
-const menu = document.querySelector("#nav-wrap");
-const mobileMenu = document.querySelector("#mobile-menu");
-const burger = document.querySelector("#menu-button svg");
+// Wait for DOM to be fully loaded
+document.addEventListener('DOMContentLoaded', function() {
+  var body = document.body;
+  const button = document.querySelector("#menu-button");
+  const menu = document.querySelector("#nav-wrap");
+  const mobileMenu = document.querySelector("#mobile-menu");
+  const burger = document.querySelector("#menu-button svg");
 
-button.addEventListener("click", () => {
-  // Toggle mobile menu visibility
-  mobileMenu.classList.toggle("hidden");
-  body.classList.toggle("overflow-hidden");
-  
-  // Update aria-expanded for accessibility
-  const isExpanded = button.getAttribute("aria-expanded") === "true";
-  button.setAttribute("aria-expanded", !isExpanded);
-  
-  // Optional: Change hamburger icon to X when open
-  if (mobileMenu.classList.contains("hidden")) {
-    burger.innerHTML = '<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>';
-  } else {
-    burger.innerHTML = '<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>';
+  // Check if all elements exist before adding event listeners
+  if (button && mobileMenu && burger) {
+    button.addEventListener("click", () => {
+      // Toggle mobile menu visibility
+      mobileMenu.classList.toggle("hidden");
+      body.classList.toggle("overflow-hidden");
+      
+      // Update aria-expanded for accessibility
+      const isExpanded = button.getAttribute("aria-expanded") === "true";
+      button.setAttribute("aria-expanded", !isExpanded);
+      
+      // Optional: Change hamburger icon to X when open
+      if (mobileMenu.classList.contains("hidden")) {
+        burger.innerHTML = '<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>';
+      } else {
+        burger.innerHTML = '<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>';
+      }
+    });
   }
 });
 
 // Close mobile menu when clicking outside
 document.addEventListener("click", (e) => {
-  if (!button.contains(e.target) && !mobileMenu.contains(e.target)) {
+  const button = document.querySelector("#menu-button");
+  const mobileMenu = document.querySelector("#mobile-menu");
+  const burger = document.querySelector("#menu-button svg");
+  
+  if (button && mobileMenu && burger && !button.contains(e.target) && !mobileMenu.contains(e.target)) {
     mobileMenu.classList.add("hidden");
-    body.classList.remove("overflow-hidden");
+    document.body.classList.remove("overflow-hidden");
     button.setAttribute("aria-expanded", "false");
     burger.innerHTML = '<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>';
   }
@@ -33,11 +43,17 @@ document.addEventListener("click", (e) => {
 
 // Close mobile menu when pressing Escape
 document.addEventListener("keydown", (e) => {
-  if (e.key === "Escape" && !mobileMenu.classList.contains("hidden")) {
-    mobileMenu.classList.add("hidden");
-    body.classList.remove("overflow-hidden");
-    button.setAttribute("aria-expanded", "false");
-    burger.innerHTML = '<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>';
+  if (e.key === "Escape") {
+    const button = document.querySelector("#menu-button");
+    const mobileMenu = document.querySelector("#mobile-menu");
+    const burger = document.querySelector("#menu-button svg");
+    
+    if (button && mobileMenu && burger && !mobileMenu.classList.contains("hidden")) {
+      mobileMenu.classList.add("hidden");
+      document.body.classList.remove("overflow-hidden");
+      button.setAttribute("aria-expanded", "false");
+      burger.innerHTML = '<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>';
+    }
   }
 });
 
