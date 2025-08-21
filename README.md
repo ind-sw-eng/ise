@@ -31,7 +31,7 @@ This portal is specifically designed for:
 
 ## Live Website
 
-🌐 **Website**: [https://ind-sw-eng.github.io/ise/](https://ind-sw-eng.github.io/ise/)
+**Website**: [https://ind-sw-eng.github.io/ise/](https://ind-sw-eng.github.io/ise/)
 
 The ISE course website is hosted on GitHub Pages and showcases industry partnerships, student projects, and collaboration opportunities between IT University of Copenhagen and various companies.
 
@@ -45,7 +45,7 @@ This project uses a modern, cost-effective technical stack:
 - **Deployment**: GitHub Actions (automated)
 - **Content Management**: Markdown files
 
-> 📖 **For detailed technical information** about hosting, deployment, Jekyll setup, and project architecture, see [TECHNICAL_SETUP.md](TECHNICAL_SETUP.md)
+> **For detailed technical information** about hosting, deployment, Jekyll setup, and project architecture, see [technical-setup.md](technical-setup.md)
 
 
 ## Getting Started
@@ -99,7 +99,7 @@ bundle exec jekyll serve
 
 The site will be available at `http://localhost:4000/ise/`
 
-> **Note**: Make sure you have Ruby installed on your system. The project requires Ruby 3.1+ for optimal compatibility.
+> **Note**: Make sure you have Ruby installed on your system. The project requires Ruby 3.1 for optimal compatibility.
 
 ## Contributing
 
