@@ -6,7 +6,7 @@ This document provides a comprehensive overview of how the ISE (Industrial Softw
 
 ### Hosting Platform: GitHub Pages
 - **Where hosted**: The website is hosted on GitHub Pages at https://ind-sw-eng.github.io/ise/
-- **Cost**: Completely **FREE** - GitHub provides GitHub Pages hosting at no cost for public repositories
+- **Cost**: Free - GitHub provides GitHub Pages hosting at no cost for public repositories
 - **URL Assignment**: The URL follows GitHub's standard pattern: `{organization-name}.github.io/{repository-name}`
   - Organization: `ind-sw-eng` 
   - Repository: `ise`
@@ -92,9 +92,6 @@ gem "github-pages", group: :jekyll_plugins
 
 # Styling framework
 gem "jekyll-tailwindcss", "~> 0.3.1"
-
-# HTTP client for external APIs
-gem "faraday-retry"
 ```
 
 ### Jekyll Plugins
