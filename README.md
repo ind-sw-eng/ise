@@ -7,6 +7,8 @@ Welcome to the ISE (Industrial Software Engineering) course repository. This rep
 - [ISE Course](#ise-course)
   - [Table of Contents](#table-of-contents)
   - [About](#about)
+  - [Live Website](#live-website)
+  - [Technical Architecture](#technical-architecture)
   - [Getting Started](#getting-started)
   - [Project Structure](#project-structure)
   - [Dependencies](#dependencies)
@@ -26,6 +28,24 @@ This portal is specifically designed for:
 - **Software companies** interested in partnering with students on real-world projects
 - **Technology organizations** looking for innovative solutions and fresh perspectives
 - **Potential partners** considering academic-industry collaboration opportunities
+
+## Live Website
+
+🌐 **Website**: [https://ind-sw-eng.github.io/ise/](https://ind-sw-eng.github.io/ise/)
+
+The ISE course website is hosted on GitHub Pages and showcases industry partnerships, student projects, and collaboration opportunities between IT University of Copenhagen and various companies.
+
+## Technical Architecture
+
+This project uses a modern, cost-effective technical stack:
+
+- **Hosting**: GitHub Pages (free hosting)
+- **Static Site Generator**: Jekyll
+- **Styling**: Tailwind CSS
+- **Deployment**: GitHub Actions (automated)
+- **Content Management**: Markdown files
+
+> 📖 **For detailed technical information** about hosting, deployment, Jekyll setup, and project architecture, see [TECHNICAL_SETUP.md](TECHNICAL_SETUP.md)
 
 
 ## Getting Started
@@ -76,6 +96,10 @@ To serve the project locally, run:
 ```sh
 bundle exec jekyll serve
 ```
+
+The site will be available at `http://localhost:4000/ise/`
+
+> **Note**: Make sure you have Ruby installed on your system. The project requires Ruby 3.1+ for optimal compatibility.
 
 ## Contributing
 
