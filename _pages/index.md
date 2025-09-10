@@ -57,8 +57,8 @@ permalink: /
       </a>
       <a href="{{ site.baseurl }}/projects" class="block bg-purple-50 hover:bg-purple-100 rounded-lg p-6 transition-colors border border-purple-200">
         <div class="text-purple-600 text-3xl mb-3">💻</div>
-        <h3 class="text-xl font-semibold mb-2">Projects</h3>
-        <p class="text-gray-600">Explore sample student projects and outcomes</p>
+        <h3 class="text-xl font-semibold mb-2">Current Projects</h3>
+        <p class="text-gray-600">Explore ongoing student projects and outcomes</p>
       </a>
     </div>
   </section>
