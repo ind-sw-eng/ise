@@ -25,11 +25,20 @@ permalink: /
           >
         </div>
       </div>
-      <div class="md:w-1/2 flex items-center justify-center">
-        <video controls poster="{{ site.baseurl }}/assets/images/hero.png" class="w-full max-w-md rounded-lg shadow-lg">
-          <source src="{{ site.baseurl }}/assets/media/SECOND YEAR PROJECT SOFTWARE DEVELOPMENT IN LARGE TEAMS - IT University of Copenhagen.mp4" type="video/mp4" />
-          Your browser does not support the video tag.
-        </video>
+      <div class="md:w-1/2 flex flex-col md:flex-row items-center justify-center gap-4">
+        <!-- New ISE Video -->
+        <div class="w-full max-w-md">
+          <div style="width:100%; height:0; position: relative; padding-bottom:56.25%">
+            <iframe title="New ISE Video Player" src="https://video.itu.dk/v.ihtml/player.html?token=09092da659edba89992b4a0b53ceb5fb&source=embed&photo%5fid=115998198" style="width:100%; height:100%; position: absolute; top: 0; left: 0;" frameborder="0" border="0" scrolling="no" allowfullscreen allow="autoplay; fullscreen" class="rounded-lg shadow-lg"></iframe>
+          </div>
+        </div>
+        <!-- Existing Video -->
+        <div class="w-full max-w-md">
+          <video controls poster="{{ site.baseurl }}/assets/images/hero.png" class="w-full rounded-lg shadow-lg">
+            <source src="{{ site.baseurl }}/assets/media/SECOND YEAR PROJECT SOFTWARE DEVELOPMENT IN LARGE TEAMS - IT University of Copenhagen.mp4" type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
+        </div>
       </div>
     </div>
   </div>
