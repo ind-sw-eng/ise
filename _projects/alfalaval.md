@@ -18,9 +18,9 @@ Alfa Laval partnered with ISE students to build the Maritime Analytics Tool, a d
 
 ## Platform Features
 
-1. **Data import &amp; cleaning**: CSV ingestion with automatic encoding and delimiter handling, plus interpolation and outlier detection
+1. **Data import & cleaning**: CSV ingestion with automatic encoding and delimiter handling, plus interpolation and outlier detection
 2. **Analysis engine**: Background processing of large datasets so the interface stays responsive
-3. **Reporting &amp; visualisation**: A report generator and table-based views that present processed data clearly
+3. **Reporting & visualisation**: A report generator and table-based views that present processed data clearly
 
 
 ## Technical Stack
