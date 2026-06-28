@@ -2,6 +2,7 @@
 layout: post
 title: About
 permalink: /about
+description: "Learn about the Industrial Software Engineering (ISE) course at IT University of Copenhagen — bridging academic learning and real-world industry practice since 2017."
 ---
 
 # About the ISE Course

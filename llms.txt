@@ -1,0 +1,43 @@
+# ISE - Industrial Software Engineering
+
+> Industrial Software Engineering course at IT University of Copenhagen, connecting industry professionals with academic projects and fostering collaborative software development initiatives.
+
+## About
+
+The ISE (Industrial Software Engineering) course is a university program at IT University of Copenhagen that bridges academia and industry through real-world software projects. Running since 2017, it connects companies with talented student teams who work on genuine business challenges using agile (Scrum) methodologies.
+
+## Key Pages
+
+- [Home](https://ind-sw-eng.github.io/ise/): Overview of the ISE course and quick access links
+- [About](https://ind-sw-eng.github.io/ise/about): Detailed course information, philosophy, and track record
+- [For Industry Partners](https://ind-sw-eng.github.io/ise/industry): Partnership models, process, requirements, and FAQ
+- [Projects](https://ind-sw-eng.github.io/ise/projects): Showcase of student projects and outcomes
+- [Contact](https://ind-sw-eng.github.io/ise/contact): Course staff contact information and location
+
+## Partnership Overview
+
+Companies can participate as Project Participants (providing a real project challenge at zero cost) or as Project Sponsors (providing monetary sponsorship). Industry partners provide a Product Owner to direct the development. Student teams of 6-8 members work in Scrum sprints over 12-14 weeks.
+
+## Partnership Process
+
+1. Initial Consultation (August-November): Submit a Project Proposal
+2. Project Definition (Pre-Semester): Finalize scope and requirements
+3. Team Matching (Week 1): Present project at Matchmaking Event
+4. Project Execution (Weeks 2-12): Bi-weekly sprint reviews and continuous development
+5. Project Completion (Weeks 13-14): Final presentations at Celebration Event
+
+## Technology Areas
+
+Students work across: Web Development (React, Angular, Vue.js, Node.js, Django, Spring), Mobile (iOS, Android, React Native, Flutter), Cloud & DevOps (AWS, Azure, GCP, Docker, Kubernetes), Data & AI (Python, TensorFlow, PyTorch), Enterprise (.NET, Java, microservices), Emerging Tech (IoT, GenAI, AR/VR).
+
+## Contact
+
+- Paolo Tell (Course Manager): pate@itu.dk
+- Stefano Vincenti (External Lecturer): vinc@itu.dk
+- Elda Paja (Associate Professor): elpa@itu.dk
+
+## Location
+
+IT University of Copenhagen
+Rued Langgaards Vej 7
+2300 Copenhagen S, Denmark

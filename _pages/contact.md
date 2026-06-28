@@ -4,6 +4,7 @@ title: Contact
 nav: true
 nav_order: 4
 permalink: /contact
+description: "Contact the ISE course team at IT University of Copenhagen. Reach out to discuss partnership opportunities, project proposals, or general inquiries."
 ---
 
 # Contact Us
@@ -76,4 +77,29 @@ A: For company partnership, contact Paolo Tell or Stefano Vincenti by email.
 
 **Q: Can I contact professors directly about project ideas?**
 A: Yes, but please first discuss it in your company so it is a well-formulated idea. For industry partnerships, you can contact Paolo Tell or Stefano Vincenti.
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Who should I contact to discuss my company's participation in the ISE course?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "For company partnership, contact Paolo Tell (pate@itu.dk) or Stefano Vincenti (vinc@itu.dk) by email."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I contact professors directly about project ideas?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, but please first discuss it in your company so it is a well-formulated idea. For industry partnerships, you can contact Paolo Tell or Stefano Vincenti."
+      }
+    }
+  ]
+}
+</script>
 

@@ -2,6 +2,7 @@
 layout: home
 title: Home
 permalink: /
+description: "ISE Course at IT University of Copenhagen — bridging academia and industry through innovative software projects. Partner with us to access talented student teams."
 
 ---
 
@@ -45,7 +46,7 @@ permalink: /
 </div>
 
 
-<main class="   px-4">
+<section class="   px-4">
 
 
  <section class="mb-16 text-center mt-10">
@@ -172,6 +173,6 @@ permalink: /
   </section>
 
 
-</main>
+</section>
 
 

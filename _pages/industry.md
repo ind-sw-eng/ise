@@ -5,6 +5,7 @@ nav: true
 nav_order: 3
 permalink: /industry
 toc: true
+description: "Partner with the ISE course at ITU Copenhagen. Get a dedicated student team to solve your software challenges at zero cost. Learn about partnership models, process, and how to submit a project proposal."
 ---
 
 
@@ -233,3 +234,68 @@ A: Yes, we welcome international partnerships. Many projects can be conducted re
 ---
 
 ### *Join the growing community of industry partners who are shaping the future of software engineering education while advancing their own innovation goals.*
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is required from the Company as a Project Participant?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A solid project proposal with a motivating topic. A good pitch to be delivered during the Matchmaking event, where companies are matched with student teams. Additionally, a Product Owner who will participate in all sprint planning and review meetings, be accessible throughout the project, and participate in the two mid-project reviews in March and May, as well as the final review."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I get inspiration for filling out the Project Proposal from previous projects?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Contact either Paolo Tell or Stefano Vincenti to get inspiration from previous projects we have run successfully in the ISE course."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What intellectual property rights apply to student projects?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Industry partners retain rights to their data and business concepts. Concerning Intellectual Property Rights (IPR) for the code implementations, either the results are published under an open-source licence (e.g., MIT licence), or the client gets all IPRs to the results."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do you ensure project quality and professionalism?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "All projects are supervised by experienced faculty and industry coaches. Students follow professional development practices, including code reviews, testing, and documentation standards."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can we hire students after the project?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Many of our industry partners have successfully hired students who worked on their projects."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What if the project doesn't meet our expectations?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "We have regular checkpoints and feedback cycles to ensure projects stay on track. Our experienced team helps navigate any challenges that arise."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do you work with international companies?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, we welcome international partnerships. Many projects can be conducted remotely, and we have positive experiences with global collaboration."
+      }
+    }
+  ]
+}
+</script>

@@ -4,6 +4,7 @@ title: Projects
 nav: true
 nav_order: 1
 permalink: /projects
+description: "Explore student projects from the ISE course at IT University of Copenhagen — real-world software solutions built in collaboration with industry partners."
 ---
 
 # Projects
