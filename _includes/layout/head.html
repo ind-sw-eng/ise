@@ -18,7 +18,7 @@
   <meta property="og:type" content="website">
   <meta property="og:url" content="{{ page.url | absolute_url }}">
   <meta property="og:title" content="{% if page.title %}{{ page.title }} - {{ site.title }}{% else %}{{ site.title }} - Industrial Partnership Portal{% endif %}">
-  <meta property="og:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}Industrial Software Engineering course at IT University of Copenhagen. Industry partnership portal for collaborative student projects and academic-industry collaboration.{% endif %}">
+  <meta property="og:description" content="{% if page.description %}{{ page.description }}{% elsif page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}Industrial Software Engineering course at IT University of Copenhagen. Industry partnership portal for collaborative student projects and academic-industry collaboration.{% endif %}">
   <meta property="og:image" content="{{ site.url }}{{ site.baseurl }}/assets/images/logo.png">
   <meta property="og:site_name" content="{{ site.title }} - Industrial Partnership Portal">
   <meta property="og:locale" content="en_US">
@@ -27,7 +27,7 @@
   <meta property="twitter:card" content="summary_large_image">
   <meta property="twitter:url" content="{{ page.url | absolute_url }}">
   <meta property="twitter:title" content="{% if page.title %}{{ page.title }} - {{ site.title }}{% else %}{{ site.title }} - Industrial Partnership Portal{% endif %}">
-  <meta property="twitter:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}Industrial Software Engineering course at IT University of Copenhagen. Industry partnership portal for collaborative student projects.{% endif %}">
+  <meta property="twitter:description" content="{% if page.description %}{{ page.description }}{% elsif page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}Industrial Software Engineering course at IT University of Copenhagen. Industry partnership portal for collaborative student projects.{% endif %}">
   <meta property="twitter:image" content="{{ site.url }}{{ site.baseurl }}/assets/images/logo.png">
 
   <meta name="intended-audience" content="Industry professionals seeking academic collaboration, Software companies, Technology partners, Students, Academic researchers">
