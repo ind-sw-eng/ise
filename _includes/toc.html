@@ -6,8 +6,8 @@
   {%- endcomment -%}
   {%- assign sections = content | split: '<h2 id="' -%}
   {%- if sections.size > 1 -%}
-  <nav class="bg-blue-50 border border-blue-200 rounded-lg p-4 mb-8 text-left" aria-labelledby="toc-heading">
-    <h2 id="toc-heading" class="text-lg font-semibold text-blue-900 mb-3 flex items-center">
+  <nav class="bg-itu-mint-20 border border-itu-mint p-4 mb-8 text-left" aria-labelledby="toc-heading">
+    <h2 id="toc-heading" class="font-display text-xl font-semibold text-itu-purple mb-3 flex items-center">
       <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 10h16M4 14h16M4 18h16"></path>
       </svg>
@@ -19,7 +19,7 @@
         {%- assign heading_text = section | split: '>' | slice: 1, 1 | first | split: '</h2' | first | strip_html | strip -%}
         {%- if heading_text != '' -%}
         <li>
-          <a href="#{{ heading_id }}" class="text-blue-700 hover:text-blue-900 hover:underline block py-1">
+          <a href="#{{ heading_id }}" class="text-itu-teal hover:text-itu-teal-dark hover:underline block py-1">
             {{ heading_text }}
           </a>
         </li>

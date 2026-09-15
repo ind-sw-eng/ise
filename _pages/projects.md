@@ -9,20 +9,20 @@ description: >-
 ---
 
 <div class="mx-auto w-full max-w-screen-xl px-6 lg:px-12 py-10">
-  <h1 class="text-3xl font-bold">Projects</h1>
-  <p class="text-lg text-gray-600 mt-2 mb-8 max-w-3xl">{{ page.description }}</p>
+  <h1 class="font-display text-5xl font-bold text-itu-purple">Projects</h1>
+  <p class="text-lg text-itu-ink mt-2 mb-8 max-w-3xl">{{ page.description }}</p>
 
 <ul class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-4">
   {% for project in site.projects %}
-  <li class="bg-white shadow-md rounded-lg overflow-hidden">
+  <li class="bg-white border border-gray-300 hover:border-itu-teal transition-colors overflow-hidden">
     <div class="p-6 flex flex-col items-center">
       <a href="{{ site.baseurl }}{{ project.url }}">
         <img src="{{ site.baseurl }}{{ project.img }}" alt="{{ project.title }} logo" loading="lazy"
              class="mx-auto h-64 max-w-[400px] object-contain bg-white p-4 transition-transform hover:scale-105" />
       </a>
-      <h2 class="text-xl font-semibold mb-2 mt-4 text-center">{{ project.title }}</h2>
-      <p class="text-gray-700 text-center">{{ project.description }}</p>
-      <a href="{{ site.baseurl }}{{ project.url }}" class="text-blue-500 hover:underline mt-4 inline-block">Read more</a>
+      <h2 class="font-display text-2xl font-semibold mb-2 mt-4 text-center text-itu-purple">{{ project.title }}</h2>
+      <p class="text-itu-ink text-center">{{ project.description }}</p>
+      <a href="{{ site.baseurl }}{{ project.url }}" class="text-itu-teal font-semibold hover:underline mt-4 inline-block">Read more</a>
     </div>
   </li>
   {% endfor %}

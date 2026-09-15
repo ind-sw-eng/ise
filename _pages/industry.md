@@ -25,7 +25,7 @@ Download the Word template below:
   <a
     href="{{ site.baseurl }}/assets/docs/ISE_Project_Proposal_Template.docx"
     download
-    class="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-6 rounded-lg shadow-lg transition-colors text-lg inline-flex items-center"
+    class="bg-itu-teal hover:bg-itu-teal-dark text-white font-semibold py-3 px-6 transition-colors text-lg inline-flex items-center"
   >
     <svg class="h-6 w-6 mr-2" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
       <path stroke-linecap="round" stroke-linejoin="round" d="M4 16v2a2 2 0 002 2h12a2 2 0 002-2v-2M7 10l5 5m0 0l5-5m-5 5V4"></path>
