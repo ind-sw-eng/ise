@@ -48,10 +48,10 @@
   <meta name="twitter:image" content="{{ share_image }}">
 
   <!-- Fonts: the two families itu.dk uses - Open Sans for text, Barlow
-       Condensed for display headings -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=Open+Sans:wght@400;600;700&display=swap">
+       Condensed for display headings - served from this site, so no visitor
+       data goes to a third-party font host. Declared in assets/css/tailwind.css. -->
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="{{ site.baseurl }}/assets/fonts/open-sans-400-latin.woff2">
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="{{ site.baseurl }}/assets/fonts/barlow-condensed-700-latin.woff2">
 
 
   <!-- Tailwind CSS -->
