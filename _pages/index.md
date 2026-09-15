@@ -2,7 +2,8 @@
 layout: home
 title: Home
 permalink: /
-
+description: >-
+  Industrial Software Engineering at the IT University of Copenhagen: partner with student teams who build real software for your company over a semester.
 ---
 
 
@@ -34,7 +35,7 @@ permalink: /
         </div>
         <!-- Existing Video -->
         <div class="w-full max-w-md">
-          <video controls poster="{{ site.baseurl }}/assets/images/hero.png" class="w-full rounded-lg shadow-lg">
+          <video controls preload="none" poster="{{ site.baseurl }}/assets/images/hero.jpg" class="w-full rounded-lg shadow-lg">
             <source src="{{ site.baseurl }}/assets/media/SECOND YEAR PROJECT SOFTWARE DEVELOPMENT IN LARGE TEAMS - IT University of Copenhagen.mp4" type="video/mp4" />
             Your browser does not support the video tag.
           </video>
@@ -45,7 +46,7 @@ permalink: /
 </div>
 
 
-<main class="   px-4">
+<div class="px-4">
 
 
  <section class="mb-16 text-center mt-10">
@@ -77,7 +78,7 @@ permalink: /
           <h2 class="text-3xl font-bold mb-8 text-center">Why Partner with Us?</h2>
           <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">           
            {% for partner in site.data.home.whypartner %}
-              <div key={{partner.title}} class="bg-white rounded-lg shadow-md p-6  flex flex-col items-center text-center">
+              <div class="bg-white rounded-lg shadow-md p-6  flex flex-col items-center text-center">
                 <div class="h-12 w-12 text-blue-600 mb-4">{{partner.icon}}</div>
                 <h3 class="text-xl font-semibold mb-2">{{partner.title}}</h3>
                 <p class="text-gray-600">{{partner.description}}</p>
@@ -150,12 +151,14 @@ permalink: /
             <div 
               class="flex flex-col items-center bg-white  rounded-lg shadow-md p-6 transition-transform hover:scale-105"
             >
-              <div class=" relative mb-4 rounded-full overflow-hidden">
-                <Image
-                  src="{{professor.image}}"
-                  alt={{professor.name}}
-                  fill
-                  class="object-cover h-[200px]"
+              <div class="relative mb-4 h-[200px] w-[200px] rounded-full overflow-hidden bg-gray-100">
+                <img
+                  src="{{ site.baseurl }}{{ professor.image }}"
+                  alt="{{ professor.name }}, {{ professor.role }}"
+                  width="200"
+                  height="200"
+                  loading="lazy"
+                  class="h-full w-full object-cover"
                 />
               </div>
               <h3 class="text-xl font-semibold mb-1">{{professor.name}}</h3>
@@ -172,6 +175,6 @@ permalink: /
   </section>
 
 
-</main>
+</div>
 
 

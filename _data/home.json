@@ -53,19 +53,19 @@
       "name": "Paolo Tell",
       "role": "Course manager",
       "email": "pate@itu.dk",
-      "image": "assets\\images\\Portrait - paolo.png"
+      "image": "/assets/images/Portrait - paolo.png"
     },
     {
       "name": "Stefano Vincenti",
       "role": "External Lecturer",
       "email": "vinc@itu.dk",
-      "image": "assets\\images\\Portrait - vinc.jpeg"
+      "image": "/assets/images/Portrait - vinc.jpeg"
     },
     {
       "name": "Elda Paja",
       "role": "Associate Professor",
       "email": "elpa@itu.dk",
-      "image": "assets\\images\\Portrait - elda.png"
+      "image": "/assets/images/Portrait - elda.png"
     }
   ]
 }
