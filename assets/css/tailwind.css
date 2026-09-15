@@ -19,7 +19,7 @@ html, body {
    hand-written page markup. */
 
 .content {
-  color: #1f2937; /* gray-800 */
+  color: #333333; /* itu ink */
   line-height: 1.7;
 }
 
@@ -31,8 +31,8 @@ html, body {
 .content h2:not([class]),
 .content h3:not([class]),
 .content h4:not([class]) {
-  color: #111827; /* gray-900 */
-  font-weight: 700;
+  color: #5d2652; /* itu purple */
+  font-weight: 600;
   line-height: 1.3;
   display: block;
 }
@@ -81,7 +81,7 @@ html, body {
 }
 
 .content li::marker {
-  color: #2563eb; /* blue-600 */
+  color: #1e7873; /* itu teal */
 }
 
 .content li > ul:not([class]),
@@ -91,26 +91,26 @@ html, body {
 }
 
 .content a:not([class]) {
-  color: #2563eb; /* blue-600 */
+  color: #1e7873; /* itu teal */
   text-decoration: underline;
   text-underline-offset: 2px;
 }
 
 .content a:not([class]):hover {
-  color: #1d4ed8; /* blue-700 */
+  color: #18605c; /* itu teal, darker */
 }
 
 .content strong {
-  color: #111827;
+  color: #5d2652;
   font-weight: 600;
 }
 
 .content blockquote:not([class]) {
   margin: 0 0 1.5rem;
   padding: 0.75rem 1.25rem;
-  border-left: 4px solid #bfdbfe; /* blue-200 */
-  background-color: #f8fafc; /* slate-50 */
-  color: #374151; /* gray-700 */
+  border-left: 4px solid #1e7873; /* itu teal */
+  background-color: #eff8f3; /* itu mint, 20% */
+  color: #333333;
   font-style: italic;
 }
 
@@ -130,7 +130,6 @@ html, body {
 .content pre:not([class]) {
   background-color: #111827;
   color: #f9fafb;
-  border-radius: 0.5rem;
   padding: 1rem;
   overflow-x: auto;
   margin-bottom: 1.5rem;
@@ -165,27 +164,23 @@ html, body {
 .content img:not([class]) {
   max-width: 100%;
   height: auto;
-  border-radius: 0.5rem;
 }
 
 /* Shared card / button helpers ------------------------------------------- */
 
 .card {
   background-color: #ffffff;
-  border-radius: 0.5rem;
-  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
-    0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  border: 1px solid #d1d5db;
   padding: 1.5rem;
 }
 
 .button {
-  background-color: #3182ce;
+  background-color: #1e7873; /* itu teal */
   color: #ffffff;
-  font-weight: 700;
-  padding: 0.5rem 1rem;
-  border-radius: 0.25rem;
+  font-weight: 600;
+  padding: 0.75rem 1.5rem;
 }
 
 .button:hover {
-  background-color: #2b6cb0;
+  background-color: #18605c;
 }

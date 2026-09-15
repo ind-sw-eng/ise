@@ -47,7 +47,12 @@
   <meta name="twitter:description" content="{{ page_description }}">
   <meta name="twitter:image" content="{{ share_image }}">
 
-  <!-- Fonts -->
+  <!-- Fonts: the two families itu.dk uses - Open Sans for text, Barlow
+       Condensed for display headings -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=Open+Sans:wght@400;600;700&display=swap">
+
 
   <!-- Tailwind CSS -->
   <link rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'"
@@ -79,7 +84,7 @@
     href="{{ site.baseurl }}/assets/images/logo.png"
   />
 
-  <meta name="theme-color" content="#2563eb" />
+  <meta name="theme-color" content="#5d2652" />
 
   {%- comment -%}
     Structured data. The course/organization entity is declared once, on the home

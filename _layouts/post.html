@@ -3,19 +3,19 @@ layout: default
 ---
 
 <section class="py-12">
-  <div class="bg-white p-8 rounded-lg shadow-lg text-center text-black max-w-3xl mx-auto">
+  <div class="bg-white border border-gray-300 p-8 text-center text-itu-ink max-w-3xl mx-auto">
     {% if page.img %}
       <img src="{{ site.baseurl }}{{ page.img }}" alt="{{ page.title }} logo"
            class="mx-auto h-32 max-w-[200px] object-contain bg-white p-2 mb-4" />
     {% endif %}
     <header class="mb-6">
-      <h1 class="text-4xl font-extrabold text-gray-900">{{ page.title }}</h1>
+      <h1 class="font-display text-5xl font-bold text-itu-purple">{{ page.title }}</h1>
       {% if page.descriptions %}
       {% for desc in page.descriptions %}
-      <p class="text-lg text-gray-600 mt-2">{{ desc }}</p>
+      <p class="text-lg text-itu-ink mt-2">{{ desc }}</p>
       {% endfor %}
       {% elsif page.description %}
-      <p class="text-lg text-gray-600 mt-2">{{ page.description }}</p>
+      <p class="text-lg text-itu-ink mt-2">{{ page.description }}</p>
       {% endif %}
     </header>
     {% include toc.html %}
@@ -23,27 +23,27 @@ layout: default
       {{ content }}
     </div>
     {% if page.testimonials %}
-    <h3 class="text-2xl font-semibold text-gray-900 mt-8 mb-4">Client Testimonials</h3>
+    <h3 class="font-display text-2xl font-semibold text-itu-purple mt-8 mb-4">Client Testimonials</h3>
     {% for t in page.testimonials %}
-    <div class="mt-4 p-6 bg-gray-50 rounded-lg border-l-4 border-blue-500">
-      <blockquote class="text-lg text-gray-700 italic">
+    <div class="mt-4 p-6 bg-itu-mint-20 border-l-4 border-itu-teal">
+      <blockquote class="text-lg text-itu-ink italic">
         "{{ t.quote }}"
       </blockquote>
       {% if t.author %}
-      <div class="mt-4 text-gray-600">
+      <div class="mt-4 text-itu-ink">
         — {{ t.author }}
       </div>
       {% endif %}
     </div>
     {% endfor %}
     {% elsif page.testimonial %}
-    <div class="mt-8 p-6 bg-gray-50 rounded-lg border-l-4 border-blue-500">
-      <h3 class="text-2xl font-semibold text-gray-900 mb-4">Client Testimonial</h3>
-      <blockquote class="text-lg text-gray-700 italic">
+    <div class="mt-8 p-6 bg-itu-mint-20 border-l-4 border-itu-teal">
+      <h3 class="font-display text-2xl font-semibold text-itu-purple mb-4">Client Testimonial</h3>
+      <blockquote class="text-lg text-itu-ink italic">
         "{{ page.testimonial }}"
       </blockquote>
       {% if page.testimonial_author %}
-      <div class="mt-4 text-gray-600">
+      <div class="mt-4 text-itu-ink">
         — {{ page.testimonial_author }}
       </div>
       {% endif %}
