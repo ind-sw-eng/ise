@@ -18,7 +18,8 @@ layout: default
       <p class="text-lg text-gray-600 mt-2">{{ page.description }}</p>
       {% endif %}
     </header>
-    <div class="text-left prose prose-lg mx-auto">
+    {% include toc.html %}
+    <div class="content text-left mx-auto">
       {{ content }}
     </div>
     {% if page.testimonials %}
