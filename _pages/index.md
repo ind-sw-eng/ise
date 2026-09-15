@@ -9,7 +9,7 @@ description: >-
 
 
 <div class="bg-gradient-to-r from-blue-600 to-blue-800 text-white flex items-center w-full">
-  <div class="container mx-auto px-4 py-8 md:py-16">
+  <div class="mx-auto w-full max-w-screen-xl px-6 lg:px-12 py-8 md:py-16">
     <div class="flex flex-col md:flex-row items-center justify-between">
       <div class="md:w-1/2 mb-8 md:mb-0">
         <h1 class="text-4xl md:text-5xl font-bold mb-4">
@@ -46,7 +46,7 @@ description: >-
 </div>
 
 
-<div class="container mx-auto px-6 lg:px-24">
+<div class="mx-auto w-full max-w-screen-xl px-6 lg:px-12">
 
 
  <section class="mb-16 text-center mt-10">
