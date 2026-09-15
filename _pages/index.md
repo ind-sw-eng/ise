@@ -46,7 +46,7 @@ description: >-
 </div>
 
 
-<div class="px-4">
+<div class="container mx-auto px-6 lg:px-24">
 
 
  <section class="mb-16 text-center mt-10">
@@ -60,15 +60,17 @@ description: >-
   <section class="mb-16">
     <h2 class="text-3xl font-bold mb-8 text-center">Quick Access</h2>
     <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-      <a href="{{ site.baseurl }}/industry" class="block bg-green-50 hover:bg-green-100 rounded-lg p-6 transition-colors border border-green-200">
-        <div class="text-green-600 text-3xl mb-3">🏢</div>
+      <a href="{{ site.baseurl }}/industry" class="group block bg-white rounded-lg shadow-md p-6 border border-gray-100 hover:border-blue-200 hover:shadow-lg transition-all">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-10 w-10 text-blue-600 mb-4" aria-hidden="true"><path d="M6 22V4a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v18Z"></path><path d="M6 12H4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h2"></path><path d="M18 9h2a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2h-2"></path><path d="M10 6h4"></path><path d="M10 10h4"></path><path d="M10 14h4"></path><path d="M10 18h4"></path></svg>
         <h3 class="text-xl font-semibold mb-2">For Industry</h3>
-        <p class="text-gray-600">Partnership opportunities and project collaboration</p>
+        <p class="text-gray-600 mb-3">Partnership opportunities and project collaboration</p>
+        <span class="text-blue-600 font-medium group-hover:underline">Partner with us &rarr;</span>
       </a>
-      <a href="{{ site.baseurl }}/projects" class="block bg-purple-50 hover:bg-purple-100 rounded-lg p-6 transition-colors border border-purple-200">
-        <div class="text-purple-600 text-3xl mb-3">💻</div>
+      <a href="{{ site.baseurl }}/projects" class="group block bg-white rounded-lg shadow-md p-6 border border-gray-100 hover:border-blue-200 hover:shadow-lg transition-all">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-10 w-10 text-blue-600 mb-4" aria-hidden="true"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg>
         <h3 class="text-xl font-semibold mb-2">Projects</h3>
-        <p class="text-gray-600">Explore student projects and outcomes</p>
+        <p class="text-gray-600 mb-3">Explore student projects and outcomes</p>
+        <span class="text-blue-600 font-medium group-hover:underline">See the projects &rarr;</span>
       </a>
     </div>
   </section>
