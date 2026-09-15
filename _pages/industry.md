@@ -5,11 +5,12 @@ nav: true
 nav_order: 3
 permalink: /industry
 toc: true
+description: >-
+  Partner with ISE at the IT University of Copenhagen: what a company commits, what students deliver, and how to submit a project proposal for the next semester.
 ---
 
 
 
-# For Industry Partners
 
 ## Partnership Overview
 
