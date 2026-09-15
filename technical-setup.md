@@ -1,3 +1,9 @@
+---
+title: Technical Setup and Architecture Guide
+noindex: true
+sitemap: false
+---
+
 # Technical Setup and Architecture Guide
 
 This document provides a comprehensive overview of how the ISE (Industrial Software Engineering) project website is set up, hosted, and deployed.
