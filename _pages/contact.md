@@ -1,12 +1,13 @@
 ---
 layout: post
-title: Contact
+title: Contact Us
 nav: true
 nav_order: 4
 permalink: /contact
+description: >-
+  Contact the Industrial Software Engineering course team at the IT University of Copenhagen to discuss an industry partnership or a project proposal.
 ---
 
-# Contact Us
 
 ## Course Staff
 

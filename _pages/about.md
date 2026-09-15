@@ -1,10 +1,11 @@
 ---
 layout: post
-title: About
+title: About the ISE Course
 permalink: /about
+description: >-
+  How the ISE course works at the IT University of Copenhagen - semester-long student teams, Scrum practice, and industry projects run with real companies since 2017.
 ---
 
-# About the ISE Course
 
 Welcome to the **Industrial Software Engineering (ISE)** course at the IT University of Copenhagen—a unique educational program bridging academic learning and real-world industry practice since 2017.
 

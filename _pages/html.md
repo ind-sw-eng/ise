@@ -1,7 +1,9 @@
 ---
 layout: home
-title: 404
+title: Markdown and HTML reference
 permalink: /html
+noindex: true
+sitemap: false
 
 ---
 

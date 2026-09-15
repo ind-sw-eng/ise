@@ -17,7 +17,7 @@ Each project is a markdown file with YAML frontmatter and markdown content.
 layout: project
 title: "Project Title"
 description: "Brief one-line description"
-img: /assets/img/projects/[company-logo].png
+img: /assets/images/logos/[company-logo].png
 importance: 1
 category: active
 ---
@@ -42,7 +42,7 @@ category: active
 ## Image Requirements
 
 - Company logos: 400x400px or similar square format
-- Store in: `/assets/img/projects/`
+- Store in: `/assets/images/logos/`
 - Format: PNG or SVG preferred
 - Naming: Use lowercase with hyphens (e.g., `company-name.png`)
 
@@ -51,7 +51,7 @@ category: active
 1. Create a new markdown file in `_projects/` with the company name
 2. Add the YAML frontmatter with project metadata
 3. Write the project content following existing patterns
-4. Add company logo to `/assets/img/projects/`
+4. Add company logo to `/assets/images/logos/`
 5. Test locally with `bundle exec jekyll serve`
 6. Commit and push changes - GitHub Actions will deploy automatically
 

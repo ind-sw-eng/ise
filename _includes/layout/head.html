@@ -3,40 +3,48 @@
   <meta http-equiv="x-ua-compatible" content="ie=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
 
+  {%- comment -%}
+    One description per page: explicit front matter first, then the page excerpt,
+    then the site default. Keeps every URL from sharing the same snippet.
+  {%- endcomment -%}
+  {%- if page.collection == "projects" and page.description -%}
+    {%- capture project_snippet -%}{{ page.description }} - an Industrial Software Engineering student project with {{ page.title }} at the IT University of Copenhagen.{%- endcapture -%}
+    {%- assign page_description = project_snippet | strip_html | strip_newlines | truncate: 160 -%}
+  {%- elsif page.description -%}
+    {%- assign page_description = page.description | strip_html | strip_newlines | truncate: 160 -%}
+  {%- elsif page.excerpt and page.excerpt != empty -%}
+    {%- assign page_description = page.excerpt | strip_html | strip_newlines | truncate: 160 -%}
+  {%- else -%}
+    {%- assign page_description = site.description -%}
+  {%- endif -%}
+  {%- if page.title -%}
+    {%- assign page_title = page.title | append: " - " | append: site.title -%}
+  {%- else -%}
+    {%- assign page_title = site.title | append: " - Industrial Partnership Portal" -%}
+  {%- endif -%}
+  {%- assign share_image = "/assets/images/hero.jpg" | absolute_url -%}
+
   <!-- SEO Meta Tags -->
-  <title>{% if page.title %}{{ page.title }} - {{ site.title }}{% else %}{{ site.title }} - {{ site.description }}{% endif %}</title>
-  <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}Industrial Software Engineering course at IT University of Copenhagen. Industry partnership portal for collaborative student projects, academic-industry collaboration, and software engineering education.{% endif %}">
-  <meta name="keywords" content="industrial software engineering, ITU, software development, industry collaboration, academic partnerships, student projects, scrum, agile, industry portal, software engineering education, Copenhagen, Denmark">
+  <title>{{ page_title }}</title>
+  <meta name="description" content="{{ page_description }}">
   <meta name="author" content="IT University of Copenhagen">
-  <meta name="robots" content="index, follow">
-  <meta name="audience" content="Industry professionals, Software companies, Academic partners, Students, Researchers">
-  <meta name="subject" content="Industrial Software Engineering Education and Industry Partnerships">
-  <meta name="classification" content="Education, Technology, Industry Collaboration">
+  <meta name="robots" content="{% if page.noindex %}noindex, follow{% else %}index, follow{% endif %}">
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
 
   <!-- Open Graph / Facebook -->
   <meta property="og:type" content="website">
-  <meta property="og:url" content="{{ page.url | absolute_url }}">
-  <meta property="og:title" content="{% if page.title %}{{ page.title }} - {{ site.title }}{% else %}{{ site.title }} - Industrial Partnership Portal{% endif %}">
-  <meta property="og:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}Industrial Software Engineering course at IT University of Copenhagen. Industry partnership portal for collaborative student projects and academic-industry collaboration.{% endif %}">
-  <meta property="og:image" content="{{ site.url }}/assets/images/logo.png">
+  <meta property="og:url" content="{{ page.url | replace:'index.html','' | absolute_url }}">
+  <meta property="og:title" content="{{ page_title }}">
+  <meta property="og:description" content="{{ page_description }}">
+  <meta property="og:image" content="{{ share_image }}">
   <meta property="og:site_name" content="{{ site.title }} - Industrial Partnership Portal">
   <meta property="og:locale" content="en_US">
 
   <!-- Twitter -->
-  <meta property="twitter:card" content="summary_large_image">
-  <meta property="twitter:url" content="{{ page.url | absolute_url }}">
-  <meta property="twitter:title" content="{% if page.title %}{{ page.title }} - {{ site.title }}{% else %}{{ site.title }} - Industrial Partnership Portal{% endif %}">
-  <meta property="twitter:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}Industrial Software Engineering course at IT University of Copenhagen. Industry partnership portal for collaborative student projects.{% endif %}">
-  <meta property="twitter:image" content="{{ site.url }}/assets/images/logo.png">
-
-  <meta name="intended-audience" content="Industry professionals seeking academic collaboration, Software companies, Technology partners, Students, Academic researchers">
-  <meta name="content-focus" content="Industrial partnerships, Software engineering education, Academic-industry collaboration, Student projects">
-  <meta name="geographic-focus" content="Denmark, Copenhagen, Europe, Global">
-  <meta name="institution" content="IT University of Copenhagen">
-  <meta name="department" content="Software Engineering">
-  <meta name="course-code" content="ISE">
-  <meta name="partnership-type" content="Academic-Industry Collaboration, Student Projects, Research Partnerships">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="{{ page_title }}">
+  <meta name="twitter:description" content="{{ page_description }}">
+  <meta name="twitter:image" content="{{ share_image }}">
 
   <!-- Fonts -->
 
@@ -49,6 +57,11 @@
   <link rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'"
   href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision |
   relative_url }}">
+
+  <noscript>
+    <link rel="stylesheet" href="{{ "/assets/css/tailwind.css?v=" | append: site.github.build_revision | relative_url }}">
+    <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
+  </noscript>
 
   <!-- Favicons -->
   <link rel="apple-touch-icon" sizes="180x180" href="{{ site.baseurl }}/assets/images/logo.png" />
@@ -65,42 +78,84 @@
     href="{{ site.baseurl }}/assets/images/logo.png"
   />
 
-  <link rel="manifest" href="{{ site.baseurl }}/assets/img/site.webmanifest" />
   <meta name="theme-color" content="#2563eb" />
-  
-  <!-- Schema.org markup for enhanced discoverability -->
+
+  {%- comment -%}
+    Structured data. The course/organization entity is declared once, on the home
+    page, so search engines and LLM crawlers see one canonical entity instead of
+    the same Course repeated on every URL. Inner pages describe themselves.
+  {%- endcomment -%}
+  {% if page.url == "/" %}
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": ["EducationalOrganization", "Course"],
-    "name": "{{ site.title }} - Industrial Software Engineering Partnership Portal",
-    "description": "Industrial Software Engineering course at IT University of Copenhagen facilitating partnerships between academia and industry through collaborative student projects and research initiatives.",
-    "url": "{{ site.url }}",
-    "logo": "{{ site.url }}/assets/images/logo.png",
-    "sameAs": [
-      "https://www.itu.dk"
-    ],
-    "address": {
-      "@type": "PostalAddress",
-      "streetAddress": "Rued Langgaards Vej 7",
-      "addressLocality": "Copenhagen",
-      "postalCode": "2300",
-      "addressCountry": "DK"
-    },
+    "@type": "Course",
+    "@id": "{{ "/#course" | absolute_url }}",
+    "name": "Industrial Software Engineering (ISE)",
+    "description": "{{ site.description }}",
+    "url": "{{ "/" | absolute_url }}",
+    "image": "{{ share_image }}",
     "courseCode": "ISE",
     "educationalLevel": "University",
+    "inLanguage": "en",
+    "teaches": "Industrial software engineering, agile project execution with Scrum, and collaboration with industry partners on real software products.",
+    "keywords": "industrial software engineering, industry partnerships, academic collaboration, student projects, software development, Copenhagen, Denmark",
     "provider": {
-      "@type": "EducationalOrganization",
+      "@type": "CollegeOrUniversity",
       "name": "IT University of Copenhagen",
-      "url": "https://www.itu.dk"
+      "url": "https://www.itu.dk",
+      "logo": "{{ "/assets/images/logo.png" | absolute_url }}",
+      "sameAs": ["https://www.itu.dk"],
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Rued Langgaards Vej 7",
+        "addressLocality": "Copenhagen",
+        "postalCode": "2300",
+        "addressCountry": "DK"
+      }
     },
     "audience": {
       "@type": "Audience",
-      "audienceType": "Industry professionals, Software companies, Academic partners, Students"
+      "audienceType": "Industry professionals, software companies and technology partners looking for academic collaboration"
     },
-    "keywords": "industrial software engineering, industry partnerships, academic collaboration, student projects, software development, Denmark",
-    "inLanguage": "en",
-    "availableLanguage": "en"
+    "hasCourseInstance": {
+      "@type": "CourseInstance",
+      "courseMode": "onsite",
+      "location": {
+        "@type": "Place",
+        "name": "IT University of Copenhagen",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Rued Langgaards Vej 7",
+          "addressLocality": "Copenhagen",
+          "postalCode": "2300",
+          "addressCountry": "DK"
+        }
+      }
+    }
   }
   </script>
+  {% elsif page.collection == "projects" %}
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "CreativeWork",
+    "name": "{{ page.title | escape }} - ISE industry project",
+    "description": "{{ page_description | escape }}",
+    "url": "{{ page.url | absolute_url }}",
+    {% if page.img %}"image": "{{ page.img | absolute_url }}",{% endif %}
+    "inLanguage": "en",
+    "isPartOf": { "@id": "{{ "/#course" | absolute_url }}" },
+    "sponsor": {
+      "@type": "Organization",
+      "name": "{{ page.title | escape }}"
+    },
+    "author": {
+      "@type": "CollegeOrUniversity",
+      "name": "IT University of Copenhagen",
+      "url": "https://www.itu.dk"
+    }
+  }
+  </script>
+  {% endif %}
 </head>
