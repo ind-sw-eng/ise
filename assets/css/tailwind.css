@@ -281,6 +281,30 @@ html, body {
   height: auto;
 }
 
+/* Code blocks --------------------------------------------------------------
+   Rouge wraps highlighted code in .highlight. These were the only rules the
+   site still took from the theme stylesheet. */
+
+.highlight {
+  background-color: #111827;
+  color: #f9fafb;
+  padding: 1rem;
+  overflow-x: auto;
+  margin-bottom: 1.5rem;
+}
+
+.highlight pre {
+  margin: 0;
+  background: none;
+  padding: 0;
+}
+
+.highlight code {
+  background: none;
+  padding: 0;
+  color: inherit;
+}
+
 /* Shared card / button helpers ------------------------------------------- */
 
 .card {
