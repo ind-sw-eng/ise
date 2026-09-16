@@ -17,6 +17,8 @@ const itu = {
   "pale-green-20": "#f5faf6",
   cream: "#fff799",
   "cream-20": "#fffdeb",
+  beige: "#ffdfad",
+  "beige-20": "#fff9ee",
   rose: "#fbd3d1",
   ocean: "#005e7e",
   arctic: "#90d6ec",

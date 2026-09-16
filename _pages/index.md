@@ -12,14 +12,15 @@ description: >-
   inner container, square corners, 1px borders instead of drop shadows.
 {%- endcomment -%}
 
-<section class="bg-itu-purple text-white">
-  <div class="mx-auto w-full max-w-screen-xl px-6 lg:px-12 py-12 md:py-20">
-    <div class="flex flex-col md:flex-row items-center justify-between gap-10">
+<section class="bg-white pt-8 pb-4">
+  <div class="mx-auto w-full max-w-screen-xl px-6 lg:px-12">
+   <div class="bg-itu-beige border border-itu-purple text-itu-ink px-6 lg:px-10 py-10 md:py-14">
+    <div class="flex flex-col md:flex-row items-center justify-between gap-8">
       <div class="md:w-1/2">
-        <h1 class="font-display text-5xl md:text-6xl font-bold leading-[1.05] mb-5">
+        <h1 class="font-display text-4xl md:text-5xl font-bold leading-[1.1] mb-5 text-itu-purple">
           ISE Course: Industrial Software Engineering
         </h1>
-        <p class="text-lg md:text-xl text-itu-mint mb-8 max-w-xl">
+        <p class="text-lg md:text-xl text-itu-ink mb-8 max-w-xl">
           Bridging academia and industry closer together through innovative software projects
         </p>
         <div class="flex flex-col sm:flex-row gap-4">
@@ -30,7 +31,7 @@ description: >-
           >
           <a
             href="{{ site.baseurl }}/industry"
-            class="border border-white hover:bg-white hover:text-itu-purple text-white font-semibold py-3 px-8 transition-colors text-center"
+            class="border border-itu-purple text-itu-purple hover:bg-itu-purple hover:text-white font-semibold py-3 px-8 transition-colors text-center"
             >Partner with us</a
           >
         </div>
@@ -51,6 +52,7 @@ description: >-
         </div>
       </div>
     </div>
+   </div>
   </div>
 </section>
 
