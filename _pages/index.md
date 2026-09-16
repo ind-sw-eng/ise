@@ -17,7 +17,7 @@ description: >-
   <div class="mx-auto w-full max-w-screen-xl px-6 lg:px-12">
    <div class="bg-itu-beige border border-itu-purple text-itu-ink px-6 lg:px-10 py-10 md:py-14">
     <div class="flex flex-col md:flex-row items-center justify-between gap-8">
-      <div class="md:w-1/2">
+      <div class="md:w-3/5">
         <p class="text-sm font-semibold uppercase tracking-wide text-itu-teal mb-3">Industrial Software Engineering &middot; IT University of Copenhagen</p>
         <h1 class="font-display text-4xl md:text-5xl font-bold leading-[1.1] mb-5 text-itu-purple">
           Bring us a real development challenge. Leave with working software.
@@ -38,20 +38,11 @@ description: >-
           >
         </div>
       </div>
-      <div class="md:w-1/2 flex flex-col md:flex-row items-center justify-center gap-4">
-        <!-- ITU-hosted course video -->
-        <div class="w-full max-w-md">
-          <div style="width:100%; height:0; position: relative; padding-bottom:56.25%">
-            <iframe title="New ISE Video Player" src="https://video.itu.dk/v.ihtml/player.html?token=09092da659edba89992b4a0b53ceb5fb&source=embed&photo%5fid=115998198" style="width:100%; height:100%; position: absolute; top: 0; left: 0;" frameborder="0" border="0" scrolling="no" allowfullscreen allow="autoplay; fullscreen"></iframe>
-          </div>
+      <div class="md:w-2/5 w-full">
+        <div class="border border-itu-purple bg-white" style="width:100%; height:0; position: relative; padding-bottom:56.25%">
+          <iframe title="Introduction to the ISE course" src="https://video.itu.dk/v.ihtml/player.html?token=09092da659edba89992b4a0b53ceb5fb&source=embed&photo%5fid=115998198" style="width:100%; height:100%; position: absolute; top: 0; left: 0;" frameborder="0" border="0" scrolling="no" allowfullscreen allow="autoplay; fullscreen"></iframe>
         </div>
-        <!-- Second year project video -->
-        <div class="w-full max-w-md">
-          <video controls preload="none" poster="{{ site.baseurl }}/assets/images/hero.jpg" class="w-full">
-            <source src="{{ site.baseurl }}/assets/media/SECOND YEAR PROJECT SOFTWARE DEVELOPMENT IN LARGE TEAMS - IT University of Copenhagen.mp4" type="video/mp4" />
-            Your browser does not support the video tag.
-          </video>
-        </div>
+        <p class="text-sm text-itu-ink mt-2">A short introduction to the course</p>
       </div>
     </div>
    </div>
@@ -171,6 +162,20 @@ description: >-
     <p class="text-center mt-8">
       <a href="{{ site.baseurl }}/industry" class="text-itu-teal font-semibold hover:underline">Read the full partnership guide &rarr;</a>
     </p>
+  </div>
+</section>
+
+<section class="bg-white">
+  <div class="mx-auto w-full max-w-screen-xl px-6 lg:px-12 py-16">
+    <h2 class="font-display text-4xl font-bold mb-3 text-center text-itu-purple">See a team at work</h2>
+    <p class="text-lg text-itu-ink text-center max-w-2xl mx-auto mb-8">Students building software together in large teams at ITU &mdash; the practice ISE projects are run on.</p>
+    <div class="max-w-3xl mx-auto">
+      <video controls preload="none" poster="{{ site.baseurl }}/assets/images/hero.jpg" class="w-full border border-gray-300">
+        <source src="{{ site.baseurl }}/assets/media/SECOND YEAR PROJECT SOFTWARE DEVELOPMENT IN LARGE TEAMS - IT University of Copenhagen.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+      <p class="text-sm text-itu-ink mt-2">Software development in large teams, IT University of Copenhagen</p>
+    </div>
   </div>
 </section>
 

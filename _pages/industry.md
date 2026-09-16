@@ -74,7 +74,7 @@ Download the Word template below:
 
 **Benefits**:
 
-- Sponsor boots and branding exposure benefits
+- A sponsor booth and branding exposure
 - Direct facilitated connection to the next generation of software engineers
 - Enhance the company's opportunity to attract the best talent
 
