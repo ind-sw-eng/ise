@@ -60,12 +60,12 @@ description: >-
 
 
 ### 🏛️ **IT University of Copenhagen**
-```
-Rued Langgaards Vej 7
-2300 Copenhagen S
-Denmark
-```
-1. 
+
+<address class="not-italic text-itu-ink">
+  Rued Langgaards Vej 7<br>
+  2300 Copenhagen S<br>
+  Denmark
+</address>
 
 
 ## Frequently Asked Questions
