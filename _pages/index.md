@@ -32,7 +32,7 @@ description: >-
             >Submit a project</a
           >
           <a
-            href="mailto:pate@itu.dk?subject=ISE%20sponsorship"
+            href="{{ site.baseurl }}/sponsor"
             class="border border-itu-purple text-itu-purple hover:bg-itu-purple hover:text-white font-semibold py-3 px-8 transition-colors text-center"
             >Become a sponsor</a
           >
@@ -125,8 +125,8 @@ description: >-
         </ul>
 
         <div class="mt-auto">
-          <a href="mailto:pate@itu.dk?subject=ISE%20sponsorship%20enquiry&amp;cc=vinc@itu.dk" class="inline-block bg-itu-purple hover:bg-itu-purple-80 text-white font-semibold py-3 px-8 transition-colors">Talk to us about sponsoring</a>
-          <p class="text-sm text-itu-ink mt-3">Goes to Paolo Tell, course manager, and Stefano Vincenti.</p>
+          <a href="{{ site.baseurl }}/sponsor" class="inline-block bg-itu-purple hover:bg-itu-purple-80 text-white font-semibold py-3 px-8 transition-colors">How sponsorship works</a>
+          <p class="text-sm text-itu-ink mt-3">What it covers, what you get, and who to write to.</p>
         </div>
       </div>
 
@@ -224,9 +224,9 @@ description: >-
           <img src="{{ site.baseurl }}/assets/images/sponsors/{{ sponsor.image }}" alt="{{ sponsor.name }}" loading="lazy" class="max-h-24 object-contain">
         </a>
       {% endfor %}
-      <a href="mailto:pate@itu.dk?subject=ISE%20sponsorship%20enquiry&amp;cc=vinc@itu.dk" class="flex flex-col items-center justify-center text-center bg-itu-purple-05 border border-dashed border-itu-purple p-6 hover:bg-itu-purple hover:text-white transition-colors group">
+      <a href="{{ site.baseurl }}/sponsor" class="flex flex-col items-center justify-center text-center bg-itu-purple-05 border border-dashed border-itu-purple p-6 hover:bg-itu-purple hover:text-white transition-colors group">
         <span class="font-display text-2xl font-semibold text-itu-purple group-hover:text-white">This space is open</span>
-        <span class="text-sm text-itu-ink group-hover:text-white mt-1">We are looking for one more sponsor for next year &mdash; talk to us</span>
+        <span class="text-sm text-itu-ink group-hover:text-white mt-1">We are looking for one more sponsor for next year &mdash; see how it works</span>
       </a>
     </div>
   </div>
