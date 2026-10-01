@@ -23,7 +23,7 @@ description: >-
           Bring us a real development challenge. Leave with working software.
         </h1>
         <p class="text-lg md:text-xl text-itu-ink mb-8 max-w-xl">
-          A team of software engineering students builds it over one semester, in two-week sprints, with you as Product Owner. No fee, roughly four to eight hours of your week.
+          Eight to ten ITU students build it over a semester, led by a Scrum Master, with you as Product Owner. No fee, roughly four to eight hours of your week.
         </p>
         <div class="flex flex-col sm:flex-row gap-4">
           <a
@@ -65,11 +65,11 @@ description: >-
         <ul class="space-y-2 mb-6">
           <li class="flex items-start">
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-5 w-5 text-itu-teal mr-2 mt-1 flex-shrink-0" aria-hidden="true"><path d="m9 18 6-6-6-6"></path></svg>
-            <span class="text-itu-ink">A real problem that matters to your organisation, scoped to 12&ndash;14 weeks</span>
+            <span class="text-itu-ink">A real problem that matters to your organisation, scoped to a semester &mdash; best framed as an MVP with room to go further</span>
           </li>
           <li class="flex items-start">
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-5 w-5 text-itu-teal mr-2 mt-1 flex-shrink-0" aria-hidden="true"><path d="m9 18 6-6-6-6"></path></svg>
-            <span class="text-itu-ink">A Product Owner for 4&ndash;8 hours a week: sprint planning, reviews, feedback</span>
+            <span class="text-itu-ink">A Product Owner for 4&ndash;8 hours a week, at every Scrum event and reachable in between</span>
           </li>
           <li class="flex items-start">
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-5 w-5 text-itu-teal mr-2 mt-1 flex-shrink-0" aria-hidden="true"><path d="m9 18 6-6-6-6"></path></svg>
@@ -81,7 +81,7 @@ description: >-
         <ul class="space-y-2 mb-8">
           <li class="flex items-start">
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-5 w-5 text-itu-teal mr-2 mt-1 flex-shrink-0" aria-hidden="true"><path d="m9 18 6-6-6-6"></path></svg>
-            <span class="text-itu-ink">A dedicated team with a Scrum Master and an Agile Coach, at no cost</span>
+            <span class="text-itu-ink">8&ndash;10 developers with a Scrum Master and an industrial Agile Coach, at no cost</span>
           </li>
           <li class="flex items-start">
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-5 w-5 text-itu-teal mr-2 mt-1 flex-shrink-0" aria-hidden="true"><path d="m9 18 6-6-6-6"></path></svg>
@@ -95,7 +95,7 @@ description: >-
 
         <div class="mt-auto">
           <a href="{{ site.baseurl }}/industry#download-project-proposal-template" class="inline-block bg-itu-teal hover:bg-itu-teal-dark text-white font-semibold py-3 px-8 transition-colors">Download the proposal template</a>
-          <p class="text-sm text-itu-ink mt-3">Proposals for the spring semester come in September&ndash;November. Questions first? <a href="mailto:pate@itu.dk?subject=ISE%20project%20proposal" class="text-itu-teal font-semibold hover:underline">Email Paolo Tell</a>.</p>
+          <p class="text-sm text-itu-ink mt-3">Project proposals are due 29 November for the following semester. Questions first? <a href="mailto:pate@itu.dk?subject=ISE%20project%20proposal" class="text-itu-teal font-semibold hover:underline">Email Paolo Tell</a>.</p>
         </div>
       </div>
 
@@ -141,22 +141,22 @@ description: >-
       <div class="bg-white border border-gray-300 p-6">
         <p class="font-display text-3xl font-bold text-itu-teal mb-2">1</p>
         <h3 class="font-display text-2xl font-semibold mb-2 text-itu-purple">Propose</h3>
-        <p class="text-itu-ink">September&ndash;November: send us the proposal template with your challenge. We talk it through and check the scope together.</p>
+        <p class="text-itu-ink">By 29 November: send us the proposal template with your challenge. We talk it through and check the scope together.</p>
       </div>
       <div class="bg-white border border-gray-300 p-6">
         <p class="font-display text-3xl font-bold text-itu-teal mb-2">2</p>
         <h3 class="font-display text-2xl font-semibold mb-2 text-itu-purple">Pitch and match</h3>
-        <p class="text-itu-ink">Week 1 of the semester: you pitch the project at the Match Making Event and a team, a Scrum Master and an Agile Coach are assigned.</p>
+        <p class="text-itu-ink">The course opens in week 5; in week 6 you pitch at the Match Making Event and a team, a Scrum Master and an Agile Coach are assigned.</p>
       </div>
       <div class="bg-white border border-gray-300 p-6">
         <p class="font-display text-3xl font-bold text-itu-teal mb-2">3</p>
         <h3 class="font-display text-2xl font-semibold mb-2 text-itu-purple">Build in sprints</h3>
-        <p class="text-itu-ink">Weeks 2&ndash;12: two-week sprints with planning, reviews and retrospectives, plus mid-semester check-ins in March and May.</p>
+        <p class="text-itu-ink">Two weeks of kickoff, then eleven weeks of sprints with planning, reviews and retrospectives, plus mid-semester reviews in March and May.</p>
       </div>
       <div class="bg-white border border-gray-300 p-6">
         <p class="font-display text-3xl font-bold text-itu-teal mb-2">4</p>
         <h3 class="font-display text-2xl font-semibold mb-2 text-itu-purple">Take delivery</h3>
-        <p class="text-itu-ink">Weeks 13&ndash;14: final presentations at the Celebration Event, then code, documentation and a retrospective on the partnership.</p>
+        <p class="text-itu-ink">Projects end in week 20: final presentations at the Celebration Event, then code, documentation and a retrospective on the partnership.</p>
       </div>
     </div>
     <p class="text-center mt-8">
@@ -182,7 +182,7 @@ description: >-
 <section class="bg-white">
   <div class="mx-auto w-full max-w-screen-xl px-6 lg:px-12 py-16">
     <h2 class="font-display text-4xl font-bold mb-3 text-center text-itu-purple">What partners get out of it</h2>
-    <p class="text-lg text-itu-ink text-center max-w-2xl mx-auto mb-10">Seven years of projects, many partners returning with a second one.</p>
+    <p class="text-lg text-itu-ink text-center max-w-2xl mx-auto mb-10">Around 16 teams run every semester. Seven years of projects, many partners returning with a second one.</p>
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
       {% for partner in site.data.home.whypartner %}
         <div class="bg-white border border-gray-300 p-6 flex flex-col items-center text-center">
