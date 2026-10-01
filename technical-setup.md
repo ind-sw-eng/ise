@@ -128,6 +128,28 @@ The site is specifically designed for:
 - Automatic project listing and detail pages
 - Company logos and branding integration
 
+### Styling and the CSS build
+
+**`assets/css/tailwind.css` is committed as compiled CSS. Do not edit it by hand.**
+
+GitHub Pages for this repository is currently set to *Deploy from a branch*, so
+the site is published by GitHub's built-in Jekyll, which refuses custom plugins.
+`jekyll-tailwindcss` therefore never runs, and anything with `@tailwind`
+directives in it reaches the browser uncompiled - which renders the site with no
+styles at all.
+
+So the stylesheet is compiled ahead of time and committed:
+
+- edit `_tailwind/input.css` (the Jekyll build ignores underscore directories)
+- run `bin/build-css.sh`, which needs the Tailwind CLI (`npx tailwindcss@3`, or
+  the standalone binary)
+- commit both files
+
+If an organisation owner ever switches Pages back to *GitHub Actions* under
+Settings → Pages → Build and deployment, the workflow in `.github/workflows`
+compiles the stylesheet itself and this step becomes optional - the committed
+file is simply served as-is either way.
+
 ### SEO and Discoverability
 - **Canonical URLs**: Built from `url` (origin only) + `baseurl` (`/ise`). Keep them split that way - putting the `/ise` path into `url` makes every canonical point at a non-existent `/ise/ise/` URL.
 - **Meta descriptions**: `description:` in a page's front matter wins, then the page excerpt, then the site description. Give every new page its own `description:`.
