@@ -56,6 +56,14 @@ Download the Word template below:
 - Cost-effective project exploration
 - Enhanced company reputation in the academic community
 
+## What a team looks like
+
+- **8-10 bachelor students** as developers, with a **master's student as Scrum Master**
+- Each bachelor student works about **14 hours a week** on the project
+- An **industrial agile coach** supports the team with Scrum practice
+- Around **16 teams** run at once, each with its own company and project
+- Students are trained in Scrum during the course; Scrum Masters go through a workshop and certification
+
 ## Partnership Models
 
 ### 🏢 **Project Participant**
@@ -84,10 +92,12 @@ Download the Word template below:
 
 ### 📋 **Ideal Project Characteristics**
 - **Real business value**: Genuine problems that matter to your organization
-- **Appropriate scope**: Completable within a semester (12-14 weeks)
+- **Appropriate scope**: Completable in a semester - two weeks of kickoff and eleven weeks of sprints
 - **Learning opportunity**: Allows students to apply and learn new technologies
 - **Mentorship potential**: Can benefit from industry professional guidance
 - **Innovation space**: Room for creative and experimental approaches
+- **Shaped as an MVP**: A minimum viable product the team can reach, with extension possibilities beyond it
+- **Few technical constraints**: The fewer platforms and tools we must work inside, the more the team can build
 
 ### 🛠 **Technology Areas**
 Our students work across diverse technology stacks:
@@ -100,9 +110,9 @@ Our students work across diverse technology stacks:
 
 ## Partnership Process
 
-### 1. **Initial Consultation** (August-November)
+### 1. **Initial Consultation** (autumn, before the proposal deadline)
 
-**Timeline**: 5-6 months before course start
+**Timeline**: Project topics are due to Paolo Tell by **29 November**, using the Project Proposal Template above
 
 **Activities**:
 
@@ -111,18 +121,18 @@ Our students work across diverse technology stacks:
 - Assess feasibility and learning objectives
 - Define success criteria and deliverables
 
-### 2. **Project Definition** (Pre-Semester)
+### 2. **Project Definition** (before the course starts)
 
-**Timeline**: 1 month before course start
+**Timeline**: The course opens in week 5
 
 **Activities**:
 
 - Finalize project scope and requirements
 - Prepare project brief and "pitch" for the students
 
-### 3. **Team Matching** (Week 1)
+### 3. **Team Matching** (week 6)
 
-**Timeline**: First week of semester
+**Timeline**: The team formation event, a week after the course opens
 
 **Activities**:
 
@@ -132,20 +142,20 @@ Our students work across diverse technology stacks:
 - Set up access and infrastructure to work with the team
 - Establish a regular Scrum events meeting schedule
 
-### 4. **Project Execution** (Weeks 2-12)
+### 4. **Project Execution** (two weeks of kickoff, then eleven weeks of sprints)
 
-**Timeline**: Core semester period
+**Timeline**: From team formation until week 20
 
 **Activities**:
 
-- Bi-weekly sprint reviews & planning with the student team
+- Sprint planning and reviews with the student team, every sprint
 - Regular retrospectives, progress reviews, and feedback
-- Mid-semester check-in sessions in March and May
+- Two mid-semester review sessions, in March and May
 - Continuous mentorship and guidance
 
-### 5. **Project Completion** (Week 13-14)
+### 5. **Project Completion** (end of the semester)
 
-**Timeline**: End of semester
+**Timeline**: Projects end in week 20
 
 **Activities**:
 
@@ -165,6 +175,10 @@ Our students work across diverse technology stacks:
 - **Team Meetings**: 1-2 hours per week
 - **Reviews & Feedback**: 1-2 hours per sprint
 - **Total**: Approximately 4-8 hours per week
+
+The Product Owner takes part in **all** Scrum events, is reachable to the team
+between them, and attends the two mid-semester review sessions. Calendar invites
+come in due time.
 
 ### 🛠 **Resource Provision**
 - **Development Environment**: Cloud access or development tools
@@ -187,9 +201,10 @@ Our students work across diverse technology stacks:
 4. **Partnership Agreement**: Finalize terms and expectations
 
 ### 📅 **Important Deadlines**
-- **Project Proposals**: submit in Sept-Nov. For the following semester
-- **Final Commitment**: 1 month before the semester starts in February
-- **Course Kickoff**: First week of semester
+- **Project proposals**: due **29 November**, for the semester that follows
+- **Course start**: week 5
+- **Team formation event**: week 6
+- **Projects end**: week 20
 
 ### 📞 **Next Steps**
 Ready to explore partnership opportunities? Submit a Project Proposal and/or contact our team:
