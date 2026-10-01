@@ -78,6 +78,8 @@ Download the Word template below:
 - Direct facilitated connection to the next generation of software engineers
 - Enhance the company's opportunity to attract the best talent
 
+[How sponsorship works, in full]({{ site.baseurl }}/sponsor)
+
 ## What We are Looking For
 
 ### 📋 **Ideal Project Characteristics**
