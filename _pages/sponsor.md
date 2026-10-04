@@ -12,7 +12,7 @@ description: >-
   <div class="mx-auto w-full max-w-screen-xl px-6 lg:px-12">
     <div class="bg-itu-beige border border-itu-purple text-itu-ink px-6 lg:px-10 py-10 md:py-14">
       <div class="max-w-3xl">
-        <p class="text-sm font-semibold uppercase tracking-wide text-itu-teal mb-3">Call for sponsors &middot; 2026 edition</p>
+        <p class="text-sm font-semibold uppercase tracking-wide text-itu-teal mb-3">Call for sponsors &middot; 2027 edition</p>
         <h1 class="font-display text-4xl md:text-5xl font-bold leading-[1.1] mb-5 text-itu-purple">Sponsor the ISE course</h1>
         <p class="text-lg md:text-xl text-itu-ink mb-8">
           Around 16 teams of ITU students spend a semester building software for real companies. Sponsoring the course puts your organisation, your products and your people in front of those students &mdash; and in front of the companies that bring the projects.
