@@ -249,7 +249,7 @@ description: >-
               class="h-full w-full object-cover"
             />
           </div>
-          <h3 class="font-display text-2xl font-semibold mb-1 text-itu-purple">{{ professor.name }}</h3>
+          <h3 class="font-display text-2xl font-semibold mb-1 text-itu-purple"><a href="{{ professor.profile }}" target="_blank" rel="noopener" class="hover:underline">{{ professor.name }}</a></h3>
           <p class="text-itu-ink mb-3">{{ professor.role }}</p>
           <a
             href="mailto:{{ professor.email }}"
@@ -257,6 +257,7 @@ description: >-
           >
             {{ professor.email }}
           </a>
+          <a href="{{ professor.profile }}" target="_blank" rel="noopener" class="text-sm text-itu-ink hover:text-itu-teal hover:underline mt-2">ITU researcher profile &rarr;</a>
         </div>
       {% endfor %}
     </div>
