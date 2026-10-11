@@ -99,6 +99,19 @@
     "educationalLevel": "University",
     "inLanguage": "en",
     "teaches": "Industrial software engineering, agile project execution with Scrum, and collaboration with industry partners on real software products.",
+    "instructor": [
+      {%- for person in site.data.home.professors %}
+      {
+        "@type": "Person",
+        "name": "{{ person.name }}",
+        "jobTitle": "{{ person.role }}",
+        "email": "mailto:{{ person.email }}",
+        "url": "{{ person.profile }}",
+        "sameAs": [{% if person.orcid %}"{{ person.orcid }}", {% endif %}"{{ person.profile }}"],
+        "worksFor": { "@type": "CollegeOrUniversity", "name": "IT University of Copenhagen", "url": "https://www.itu.dk" }
+      }{% unless forloop.last %},{% endunless %}
+      {%- endfor %}
+    ],
     "keywords": "industrial software engineering, industry partnerships, academic collaboration, student projects, software development, Copenhagen, Denmark",
     "provider": {
       "@type": "CollegeOrUniversity",

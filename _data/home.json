@@ -51,18 +51,22 @@
   "professors": [
     {
       "name": "Paolo Tell",
+      "profile": "https://researcher.itu.dk/p/en/persons/paolo-tell",
       "role": "Course manager",
       "email": "pate@itu.dk",
       "image": "/assets/images/Portrait - paolo.png"
     },
     {
       "name": "Stefano Vincenti",
+      "profile": "https://researcher.itu.dk/p/en/persons/stefano-vincenti-2",
+      "orcid": "https://orcid.org/0009-0007-2447-877X",
       "role": "External Lecturer",
       "email": "vinc@itu.dk",
       "image": "/assets/images/Portrait - vinc.jpeg"
     },
     {
       "name": "Elda Paja",
+      "profile": "https://researcher.itu.dk/p/en/persons/elda-paja",
       "role": "Associate Professor",
       "email": "elpa@itu.dk",
       "image": "/assets/images/Portrait - elda.png"

@@ -81,7 +81,7 @@ ISE emphasizes active, hands-on learning through agile methodologies, applying S
 
 ## 🎓 Academic Context
 
-ISE is an integral part of ITU's curriculum:
+ISE is an integral part of ITU's curriculum. In ITU's course catalogue it runs as [Second Year Project: Software Development in Large Teams](https://researcher.itu.dk/p/en/courses/second-year-project-software-development-in-large-teams-15-ects) (BSc, 15 ECTS) for the developers and [Industrial Scrum Master Training](https://researcher.itu.dk/p/en/courses/industrial-scrum-master-training) (MSc) for the Scrum Masters.
 
 1. **Foundation Building:** Builds on prior software engineering coursework
 2. **Practical Application:** Bridges theory and practice
