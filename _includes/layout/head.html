@@ -103,11 +103,11 @@
       {%- for person in site.data.home.professors %}
       {
         "@type": "Person",
-        "name": "{{ person.name }}",
-        "jobTitle": "{{ person.role }}",
-        "email": "mailto:{{ person.email }}",
-        "url": "{{ person.profile }}",
-        "sameAs": [{% if person.orcid %}"{{ person.orcid }}", {% endif %}"{{ person.profile }}"],
+        "name": {{ person.name | jsonify | replace: '<', '\u003c' }},
+        "jobTitle": {{ person.role | jsonify | replace: '<', '\u003c' }},
+        "email": {{ person.email | prepend: 'mailto:' | jsonify | replace: '<', '\u003c' }},
+        "url": {{ person.profile | jsonify | replace: '<', '\u003c' }},
+        "sameAs": [{% if person.orcid %}{{ person.orcid | jsonify | replace: '<', '\u003c' }}, {% endif %}{{ person.profile | jsonify | replace: '<', '\u003c' }}],
         "worksFor": { "@type": "CollegeOrUniversity", "name": "IT University of Copenhagen", "url": "https://www.itu.dk" }
       }{% unless forloop.last %},{% endunless %}
       {%- endfor %}
