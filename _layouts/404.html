@@ -3,6 +3,20 @@ layout: default
 title: 404 - Page Not Found
 ---
 
+<script>
+  // Pages are served without a trailing slash (/sponsor, not /sponsor/).
+  // Send /sponsor/ and similar to the working URL instead of showing a 404.
+  (function () {
+    var path = window.location.pathname;
+    if (path.length > 1 && path.charAt(path.length - 1) === "/") {
+      var target = path.replace(/\/+$/, "");
+      if (target && target !== "{{ site.baseurl }}") {
+        window.location.replace(target + window.location.search + window.location.hash);
+      }
+    }
+  })();
+</script>
+
 <section class="py-12">
   <div class="bg-white border border-gray-300 p-8 text-center max-w-3xl mx-auto">
     <header class="mb-6">
