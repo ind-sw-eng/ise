@@ -140,7 +140,7 @@ description: >-
         <p class="text-itu-ink">The course opens: the cohort, the teaching team and the companies in one room at the start of the semester.</p>
       </div>
       <div class="bg-white border border-gray-300 p-6">
-        <h3 class="font-display text-2xl font-semibold mb-2 text-itu-purple">Matchmaking session</h3>
+        <h3 class="font-display text-2xl font-semibold mb-2 text-itu-purple">Match Making Event</h3>
         <p class="text-itu-ink">Companies pitch their projects and the teams form around them. This is where students choose who they will work with.</p>
       </div>
       <div class="bg-white border border-gray-300 p-6">

@@ -69,7 +69,7 @@ description: >-
           </li>
           <li class="flex items-start">
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-5 w-5 text-itu-teal mr-2 mt-1 flex-shrink-0" aria-hidden="true"><path d="m9 18 6-6-6-6"></path></svg>
-            <span class="text-itu-ink">A Product Owner for 4&ndash;8 hours a week, at every Scrum event and reachable in between</span>
+            <span class="text-itu-ink">A Product Owner for 4&ndash;8 hours a week, at every sprint planning and reachable in between</span>
           </li>
           <li class="flex items-start">
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-5 w-5 text-itu-teal mr-2 mt-1 flex-shrink-0" aria-hidden="true"><path d="m9 18 6-6-6-6"></path></svg>
@@ -182,7 +182,7 @@ description: >-
 <section class="bg-white">
   <div class="mx-auto w-full max-w-screen-xl px-6 lg:px-12 py-16">
     <h2 class="font-display text-4xl font-bold mb-3 text-center text-itu-purple">What partners get out of it</h2>
-    <p class="text-lg text-itu-ink text-center max-w-2xl mx-auto mb-10">Around 16 teams every semester. Seven years of projects, and many partners come back with a second one.</p>
+    <p class="text-lg text-itu-ink text-center max-w-2xl mx-auto mb-10">Around 16 teams every semester. Projects since 2017, and many partners come back with a second one.</p>
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
       {% for partner in site.data.home.whypartner %}
         <div class="bg-white border border-gray-300 p-6 flex flex-col items-center text-center">

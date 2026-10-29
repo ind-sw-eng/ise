@@ -55,7 +55,7 @@ ISE is hands-on. Every team applies Scrum in practice:
 
 ## Track record
 
-1. **7+ years** of running and improving this course
+1. **Since 2017** we have run this course and kept improving it
 2. High satisfaction among industry partners, and many of them come back
 3. Good student outcomes, and good chances of a job at the partner companies
 4. A method for connecting academic theory with industry practice, tested over many semesters

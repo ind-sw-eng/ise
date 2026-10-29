@@ -37,7 +37,7 @@ Download the Word template below:
 ## Why partner with us?
 
 ### Proven track record
-- **7+ years** of industry partnerships
+- **Since 2017** in partnership with industry
 - **120+ completed projects** across many industries
 - High satisfaction among the partners who come back
 
@@ -148,8 +148,8 @@ Our students work across many technology stacks:
 
 **Activities**:
 
-- Sprint planning and review with the student team, every sprint
-- Regular retrospectives, progress reviews and feedback
+- Sprint planning with you, every sprint
+- Sprint reviews and retrospectives, which you join when it makes sense
 - Two mid-semester review sessions, in March and May
 - Ongoing mentoring and guidance
 
@@ -176,9 +176,10 @@ Our students work across many technology stacks:
 - **Reviews and feedback**: 1-2 hours per sprint
 - **Total**: approximately 4-8 hours per week
 
-The Product Owner takes part in **all** Scrum events, is reachable by the team
-between them, and attends the two mid-semester review sessions. Calendar invites
-come in due time.
+The Product Owner takes part in every sprint planning and is reachable by the team
+between sprints. Sprint reviews, retrospectives and the two mid-semester review
+sessions are optional: join when you want to, or when the team needs you.
+Calendar invites come in due time.
 
 ### What you provide
 - **Development environment**: cloud access or development tools
@@ -217,7 +218,7 @@ Have a project in mind? Submit a Project Proposal, contact us, or both:
 ## Frequently Asked Questions
 
 ### Q: What is required from the Company as a Project Participant?
-A: A solid project proposal with a motivating topic, and a good pitch for the Match Making Event, where companies are matched with student teams. You also need a Product Owner who takes part in all sprint planning and review meetings, is reachable throughout the project, and joins the two mid-project reviews in March and May as well as the final review. Calendar invites come in due time.
+A: A solid project proposal with a motivating topic, and a good pitch for the Match Making Event, where companies are matched with student teams. You also need a Product Owner who takes part in every sprint planning and is reachable throughout the project. Sprint reviews, the mid-project reviews in March and May and the final review are optional: join when you want to, or when the team needs you. Calendar invites come in due time.
 
 ### Q: Can I get some inspiration for filling out the Project Proposal from previous projects?
 A: Yes. Contact Paolo or Stefano, and they will walk you through earlier projects that worked well in the ISE course.
