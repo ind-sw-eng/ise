@@ -11,33 +11,33 @@ testimonial: "The digital board games created by the ISE team have brought our p
 testimonial_author: "Founder, Almenr"
 ---
 
-## Project Overview 
+## Project Overview
 
-Almenr collaborated with ISE students to develop a collection of digital board games for their gaming platform. This project focused on creating engaging, multiplayer digital experiences that capture the essence of traditional board games.
+Almenr collaborated with ISE students to develop a collection of digital board games for their gaming platform. The focus was on multiplayer games that keep the feel of traditional board games.
 
 ## Games
 
-1. **Board Games**: Delivered 4 board games to the Almenr platform
+1. **Board Games**: 4 board games delivered to the Almenr platform
 
 
 ## Technical Features
 
 The platform includes:
 1. High modularity
-2. Good usability for 4 different dialogue scenarios
+2. Good usability across 4 different dialogue scenarios
 
 
 ## Development Stack
 
-Built using modern technologies:
-1. Coolify with CI/CD pipeline
+The games were built using:
+1. Coolify with a CI/CD pipeline
 2. Docker
-3. WebSockets for a real-time solution
+3. WebSockets for real-time communication
 4. React Contexts for improved modularity
-5. APIs with endpoints
-6. MS SQL database
+5. API endpoints
+6. MS SQL as the database
 
 
 ## Success Metric
 
-The digital board games have achieved Almenr goals and got positive user feedback.
+The digital board games met Almenr's goals and received positive user feedback.

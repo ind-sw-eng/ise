@@ -3,7 +3,7 @@ layout: home
 title: Industrial Software Engineering at ITU
 permalink: /
 description: >-
-  Bring a real digital challenge to the IT University of Copenhagen: a student team builds it over a semester, at no cost, using Scrum with you as Product Owner.
+  Bring a real digital challenge to the IT University of Copenhagen. A student team builds it over a semester in Scrum, with you as Product Owner. No fee.
 ---
 
 
@@ -23,7 +23,7 @@ description: >-
           Bring us a real development challenge. Leave with working software.
         </h1>
         <p class="text-lg md:text-xl text-itu-ink mb-8 max-w-xl">
-          Eight to ten ITU students build it over a semester, led by a Scrum Master, with you as Product Owner. No fee, roughly four to eight hours of your week.
+          Eight to ten ITU students build it over a semester, led by a Scrum Master, with you as Product Owner. No fee. Your part is roughly four to eight hours a week.
         </p>
         <div class="flex flex-col sm:flex-row gap-4">
           <a
@@ -53,7 +53,7 @@ description: >-
   <div class="mx-auto w-full max-w-screen-xl px-6 lg:px-12 py-12">
     <h2 class="font-display text-4xl font-bold mb-3 text-center text-itu-purple">Two ways to work with us</h2>
     <p class="text-lg text-itu-ink text-center max-w-2xl mx-auto mb-10">
-      Companies join ISE either by bringing a project for a student team to build, or by sponsoring the course and meeting the students who graduate from it.
+      Bring a project for a student team to build, or sponsor the course and get to know the students who graduate from it.
     </p>
     <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
 
@@ -65,7 +65,7 @@ description: >-
         <ul class="space-y-2 mb-6">
           <li class="flex items-start">
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-5 w-5 text-itu-teal mr-2 mt-1 flex-shrink-0" aria-hidden="true"><path d="m9 18 6-6-6-6"></path></svg>
-            <span class="text-itu-ink">A real problem that matters to your organisation, scoped to a semester &mdash; best framed as an MVP with room to go further</span>
+            <span class="text-itu-ink">A real problem that matters to your organisation, scoped to one semester. Frame it as an MVP, with room to go further</span>
           </li>
           <li class="flex items-start">
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-5 w-5 text-itu-teal mr-2 mt-1 flex-shrink-0" aria-hidden="true"><path d="m9 18 6-6-6-6"></path></svg>
@@ -102,21 +102,21 @@ description: >-
       <div class="bg-itu-beige-20 border border-gray-300 border-t-4 border-t-itu-purple p-8 flex flex-col">
         <p class="inline-block self-start bg-itu-purple text-white text-sm font-semibold px-3 py-1 mb-3">Open for next year</p>
         <h3 class="font-display text-3xl font-semibold mb-2 text-itu-purple">You want to reach our students</h3>
-        <p class="text-itu-ink mb-6">We are looking for one more sponsor for the coming year, alongside Saxo, Capgemini and agile42.</p>
+        <p class="text-itu-ink mb-6">We have room for one more sponsor next year, alongside Saxo, Capgemini and agile42.</p>
 
         <p class="font-semibold text-itu-purple mb-2">What sponsorship gives you</p>
         <ul class="space-y-2 mb-8">
           <li class="flex items-start">
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-5 w-5 text-itu-purple mr-2 mt-1 flex-shrink-0" aria-hidden="true"><path d="m9 18 6-6-6-6"></path></svg>
-            <span class="text-itu-ink">A direct, facilitated connection to the next generation of software engineers</span>
+            <span class="text-itu-ink">Direct, facilitated contact with software engineers before they graduate</span>
           </li>
           <li class="flex items-start">
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-5 w-5 text-itu-purple mr-2 mt-1 flex-shrink-0" aria-hidden="true"><path d="m9 18 6-6-6-6"></path></svg>
-            <span class="text-itu-ink">A sponsor booth and branding through the course and its events</span>
+            <span class="text-itu-ink">A sponsor booth, and your brand visible across the course and its events</span>
           </li>
           <li class="flex items-start">
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-5 w-5 text-itu-purple mr-2 mt-1 flex-shrink-0" aria-hidden="true"><path d="m9 18 6-6-6-6"></path></svg>
-            <span class="text-itu-ink">A stronger hand in hiring the students you have already worked beside</span>
+            <span class="text-itu-ink">A head start on hiring the students you have already worked with</span>
           </li>
           <li class="flex items-start">
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-5 w-5 text-itu-purple mr-2 mt-1 flex-shrink-0" aria-hidden="true"><path d="m9 18 6-6-6-6"></path></svg>
@@ -141,22 +141,22 @@ description: >-
       <div class="bg-white border border-gray-300 p-6">
         <p class="font-display text-3xl font-bold text-itu-teal mb-2">1</p>
         <h3 class="font-display text-2xl font-semibold mb-2 text-itu-purple">Propose</h3>
-        <p class="text-itu-ink">By 29 November: send us the proposal template with your challenge. We talk it through and check the scope together.</p>
+        <p class="text-itu-ink">Send us the proposal template with your challenge by 29 November. We talk it through and check the scope together.</p>
       </div>
       <div class="bg-white border border-gray-300 p-6">
         <p class="font-display text-3xl font-bold text-itu-teal mb-2">2</p>
         <h3 class="font-display text-2xl font-semibold mb-2 text-itu-purple">Pitch and match</h3>
-        <p class="text-itu-ink">The course opens in week 5; in week 6 you pitch at the Match Making Event and a team, a Scrum Master and an Agile Coach are assigned.</p>
+        <p class="text-itu-ink">The course opens in week 5. In week 6 you pitch at the Match Making Event and get your team, a Scrum Master and an Agile Coach.</p>
       </div>
       <div class="bg-white border border-gray-300 p-6">
         <p class="font-display text-3xl font-bold text-itu-teal mb-2">3</p>
         <h3 class="font-display text-2xl font-semibold mb-2 text-itu-purple">Build in sprints</h3>
-        <p class="text-itu-ink">Two weeks of kickoff, then eleven weeks of sprints with planning, reviews and retrospectives, plus mid-semester reviews in March and May.</p>
+        <p class="text-itu-ink">Two weeks of kickoff, then eleven weeks of sprints: planning, reviews, retrospectives. Mid-semester reviews fall in March and May.</p>
       </div>
       <div class="bg-white border border-gray-300 p-6">
         <p class="font-display text-3xl font-bold text-itu-teal mb-2">4</p>
         <h3 class="font-display text-2xl font-semibold mb-2 text-itu-purple">Take delivery</h3>
-        <p class="text-itu-ink">Projects end in week 20: final presentations at the Celebration Event, then code, documentation and a retrospective on the partnership.</p>
+        <p class="text-itu-ink">Projects end in week 20 with final presentations at the Celebration Event. Then the handover: code, documentation and a retrospective on the partnership.</p>
       </div>
     </div>
     <p class="text-center mt-8">
@@ -168,7 +168,7 @@ description: >-
 <section class="bg-white">
   <div class="mx-auto w-full max-w-screen-xl px-6 lg:px-12 py-16">
     <h2 class="font-display text-4xl font-bold mb-3 text-center text-itu-purple">See a team at work</h2>
-    <p class="text-lg text-itu-ink text-center max-w-2xl mx-auto mb-8">Students building software together in large teams at ITU &mdash; the practice ISE projects are run on.</p>
+    <p class="text-lg text-itu-ink text-center max-w-2xl mx-auto mb-8">ITU students building software together in large teams. ISE projects run the same way.</p>
     <div class="max-w-3xl mx-auto">
       <video controls preload="none" poster="{{ site.baseurl }}/assets/images/hero.jpg" class="w-full border border-gray-300">
         <source src="{{ site.baseurl }}/assets/media/SECOND YEAR PROJECT SOFTWARE DEVELOPMENT IN LARGE TEAMS - IT University of Copenhagen.mp4" type="video/mp4" />
@@ -182,7 +182,7 @@ description: >-
 <section class="bg-white">
   <div class="mx-auto w-full max-w-screen-xl px-6 lg:px-12 py-16">
     <h2 class="font-display text-4xl font-bold mb-3 text-center text-itu-purple">What partners get out of it</h2>
-    <p class="text-lg text-itu-ink text-center max-w-2xl mx-auto mb-10">Around 16 teams run every semester. Seven years of projects, many partners returning with a second one.</p>
+    <p class="text-lg text-itu-ink text-center max-w-2xl mx-auto mb-10">Around 16 teams every semester. Seven years of projects, and many partners come back with a second one.</p>
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
       {% for partner in site.data.home.whypartner %}
         <div class="bg-white border border-gray-300 p-6 flex flex-col items-center text-center">
@@ -226,7 +226,7 @@ description: >-
       {% endfor %}
       <a href="{{ site.baseurl }}/sponsor" class="flex flex-col items-center justify-center text-center bg-itu-purple-05 border border-dashed border-itu-purple p-6 hover:bg-itu-purple hover:text-white transition-colors group">
         <span class="font-display text-2xl font-semibold text-itu-purple group-hover:text-white">This space is open</span>
-        <span class="text-sm text-itu-ink group-hover:text-white mt-1">We are looking for one more sponsor for next year &mdash; see how it works</span>
+        <span class="text-sm text-itu-ink group-hover:text-white mt-1">We are looking for one more sponsor for next year. See how it works</span>
       </a>
     </div>
   </div>
@@ -235,7 +235,7 @@ description: >-
 <section class="bg-itu-purple-05 border-t border-itu-purple-20">
   <div class="mx-auto w-full max-w-screen-xl px-6 lg:px-12 py-16">
     <h2 class="font-display text-4xl font-bold text-center mb-3 text-itu-purple">Talk to the course team</h2>
-    <p class="text-lg text-itu-ink text-center max-w-2xl mx-auto mb-10">A project idea, a question about scope, or sponsorship &mdash; write to any of us.</p>
+    <p class="text-lg text-itu-ink text-center max-w-2xl mx-auto mb-10">A project idea, a question about scope, or sponsorship: write to any of us.</p>
     <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
       {% for professor in site.data.home.professors %}
         <div class="flex flex-col items-center bg-white border border-gray-300 p-6 text-center">

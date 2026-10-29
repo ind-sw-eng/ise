@@ -5,11 +5,11 @@ nav: true
 nav_order: 4
 permalink: /contact
 description: >-
-  Contact the Industrial Software Engineering course team at the IT University of Copenhagen to discuss an industry partnership or a project proposal.
+  Write to the Industrial Software Engineering course team at the IT University of Copenhagen about a project proposal or an industry partnership.
 ---
 
 
-## Course Staff
+## Course team
 
 <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
   <div class="bg-white border border-gray-300 p-6 text-center">
@@ -41,25 +41,25 @@ description: >-
   
 </div>
 
-## Contact Information
+## Who to write to
 
-### 🏢 **For Industry Partners**
+### For industry partners
 <div class="bg-itu-purple-05 border-l-4 border-itu-purple p-4 mb-6">
-  <h4 class="font-display text-xl font-semibold text-itu-purple mb-2">Partnership Opportunities</h4>
+  <h4 class="font-display text-xl font-semibold text-itu-purple mb-2">Projects and partnerships</h4>
   <p class="text-itu-ink">
     <strong>Primary Contact:</strong> Paolo Tell <br>
     <strong>Email:</strong> <a href="mailto:pate@itu.dk" class="text-itu-teal font-semibold hover:underline">pate@itu.dk</a><br>
-    <strong>Best for:</strong> Project proposals, partnerships, sponsor and collaboration inquiries
+    <strong>Best for:</strong> Project proposals, partnerships, sponsorship and collaboration
   </p>
 </div>
 
 
 
 
-## Physical Location
+## Where we are
 
 
-### 🏛️ **IT University of Copenhagen**
+### IT University of Copenhagen
 
 <address class="not-italic text-itu-ink">
   Rued Langgaards Vej 7<br>
@@ -72,9 +72,9 @@ description: >-
 
 
 **Q: Who should I contact to discuss my company's participation in the course?**
-A: For company partnership, contact Paolo Tell or Stefano Vincenti by email.
+A: Email Paolo Tell or Stefano Vincenti.
 
 
-**Q: Can I contact professors directly about project ideas?**
-A: Yes, but please first discuss it in your company so it is a well-formulated idea. For industry partnerships, you can contact Paolo Tell or Stefano Vincenti.
+**Q: Can I write to the teachers directly about a project idea?**
+A: Yes. Talk it through inside your company first, so you come to us with a clear idea. For industry partnerships, write to Paolo Tell or Stefano Vincenti.
 

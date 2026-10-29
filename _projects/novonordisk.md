@@ -13,12 +13,12 @@ testimonial_author: "Product Owner, Novo Nordisk"
 
 ## Project Overview
 
-Novo Nordisk partnered with ISE students to build an MVP exploring how far the Scrum roles of Product Owner and Scrum Master can be supplemented, or even replaced, by a Claude-based multi-agent system. The agents plan, prioritise and document work autonomously, and already generated a full sprint backlog on their own.
+Novo Nordisk partnered with ISE students to build an MVP exploring how far the Scrum roles of Product Owner and Scrum Master can be supplemented, or even replaced, by a Claude-based multi-agent system. The agents plan, prioritise and document work autonomously, and have already generated a full sprint backlog on their own.
 
 ## Platform Features
 
 1. **Product Owner & Scrum Master agents**: AI agents that discuss priorities, review the project vision and agree a sprint plan autonomously
-2. **Scrum tool integrations**: Connectors for the everyday tools of a Scrum team — Outlook, GitHub and a graphical planning board
+2. **Scrum tool integrations**: Connectors for a Scrum team's everyday tools: Outlook, GitHub and a graphical planning board
 3. **Orchestrated multi-agent design**: A coordinator agent that delegates tasks to specialised subagents and supports inter-agent dialogue
 
 ## Technical Stack
@@ -31,4 +31,4 @@ The system was developed using:
 
 ## Impact
 
-The agentic system generated an entire Sprint backlog on its own, laying the foundation for a cloud-deployed assistant that could support development teams across Novo Nordisk.
+The agentic system generated an entire sprint backlog on its own, laying the foundation for a cloud-deployed assistant that could support development teams across Novo Nordisk.

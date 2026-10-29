@@ -15,7 +15,7 @@ description: >-
         <p class="text-sm font-semibold uppercase tracking-wide text-itu-teal mb-3">Call for sponsors &middot; 2027 edition</p>
         <h1 class="font-display text-4xl md:text-5xl font-bold leading-[1.1] mb-5 text-itu-purple">Sponsor the ISE course</h1>
         <p class="text-lg md:text-xl text-itu-ink mb-8">
-          Around 16 teams of ITU students spend a semester building software for real companies. Sponsoring the course puts your organisation, your products and your people in front of those students &mdash; and in front of the companies that bring the projects.
+          Around 16 teams of ITU students spend a semester building software for real companies. As a sponsor, you put your organisation, your products and your people in front of those students. And in front of the companies that bring the projects.
         </p>
         <div class="flex flex-col sm:flex-row gap-4">
           <a href="#packages" class="bg-itu-purple hover:bg-itu-purple-80 text-white font-semibold py-3 px-8 transition-colors text-center">See the packages</a>
@@ -31,10 +31,10 @@ description: >-
     <div class="max-w-3xl">
       <h2 class="font-display text-4xl font-bold mb-4 text-itu-purple">What you are sponsoring</h2>
       <p class="text-lg text-itu-ink mb-4">
-        Industrial Software Engineering puts bachelor and master students together in teams &mdash; eight to ten developers with a master&rsquo;s student as Scrum Master &mdash; and gives each team a real project from a real company. Two weeks of kickoff, eleven weeks of sprints, around 16 teams running at once, with industrial agile coaches alongside them.
+        Industrial Software Engineering puts bachelor and master students into teams: eight to ten developers, with a master&rsquo;s student as Scrum Master. Each team gets a real project from a real company. Two weeks of kickoff, eleven weeks of sprints, around 16 teams running at once, with industrial agile coaches alongside them.
       </p>
       <p class="text-lg text-itu-ink">
-        Companies bring the projects and a Product Owner; they pay no fee for the team&rsquo;s work. Sponsorship is what funds the course around those projects &mdash; the Scrum training and certification, the simulation, the events where everyone meets &mdash; and it is why we can take a good project from a company of any size.
+        Companies bring the projects and a Product Owner. They pay no fee for the team&rsquo;s work. Sponsorship funds everything around those projects: the Scrum training and certification, the simulation, and the events where everyone meets. It is also why we can say yes to a good project from a company of any size.
       </p>
     </div>
   </div>
@@ -43,7 +43,7 @@ description: >-
 <section id="packages" class="bg-itu-pale-green-20 border-y border-itu-pale-green">
   <div class="mx-auto w-full max-w-screen-xl px-6 lg:px-12 py-16">
     <h2 class="font-display text-4xl font-bold mb-3 text-center text-itu-purple">Sponsorship packages</h2>
-    <p class="text-lg text-itu-ink text-center max-w-2xl mx-auto mb-10">Course sponsorship stands on its own. The two additions are single-sponsor roles, taken on top of it.</p>
+    <p class="text-lg text-itu-ink text-center max-w-2xl mx-auto mb-10">Course sponsorship stands on its own. Each of the two additions goes to a single sponsor, on top of it.</p>
 
     <div class="bg-white border border-gray-300 border-t-4 border-t-itu-teal p-8 mb-6">
       <div class="flex flex-col md:flex-row md:items-baseline md:justify-between mb-6 gap-2">
@@ -61,7 +61,7 @@ description: >-
           </li>
           <li class="flex items-start">
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-5 w-5 text-itu-teal mr-2 mt-1 flex-shrink-0" aria-hidden="true"><path d="m9 18 6-6-6-6"></path></svg>
-            <span class="text-itu-ink">A dedicated booth at the final celebration, announced when the session opens &mdash; we build it, you staff it</span>
+            <span class="text-itu-ink">A dedicated booth at the final celebration, announced when the session opens (we build it, you staff it)</span>
           </li>
           <li class="flex items-start">
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-5 w-5 text-itu-teal mr-2 mt-1 flex-shrink-0" aria-hidden="true"><path d="m9 18 6-6-6-6"></path></svg>
@@ -96,7 +96,7 @@ description: >-
           </li>
           <li class="flex items-start">
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-5 w-5 text-itu-purple mr-2 mt-1 flex-shrink-0" aria-hidden="true"><path d="m9 18 6-6-6-6"></path></svg>
-            <span class="text-itu-ink">Your name on the award wherever it is mentioned &mdash; events, event material, publicity</span>
+            <span class="text-itu-ink">Your name on the award wherever it is mentioned: events, event material, publicity</span>
           </li>
           <li class="flex items-start">
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-5 w-5 text-itu-purple mr-2 mt-1 flex-shrink-0" aria-hidden="true"><path d="m9 18 6-6-6-6"></path></svg>
@@ -118,14 +118,14 @@ description: >-
           </li>
           <li class="flex items-start">
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-5 w-5 text-itu-purple mr-2 mt-1 flex-shrink-0" aria-hidden="true"><path d="m9 18 6-6-6-6"></path></svg>
-            <span class="text-itu-ink">Your name on the celebration wherever it is mentioned &mdash; events, event material, publicity</span>
+            <span class="text-itu-ink">Your name on the celebration wherever it is mentioned: events, event material, publicity</span>
           </li>
         </ul>
       </div>
     </div>
 
     <p class="text-itu-ink text-center mt-8 max-w-2xl mx-auto">
-      Amounts are invoiced by ITU, which adds VAT. Have something else in mind? We are happy to put together a tailored package.
+      ITU invoices the amounts and adds VAT. Have something else in mind? Tell us, and we will put together a tailored package.
     </p>
   </div>
 </section>
@@ -133,7 +133,7 @@ description: >-
 <section class="bg-white">
   <div class="mx-auto w-full max-w-screen-xl px-6 lg:px-12 py-16">
     <h2 class="font-display text-4xl font-bold mb-3 text-center text-itu-purple">Where you meet the students</h2>
-    <p class="text-lg text-itu-ink text-center max-w-2xl mx-auto mb-10">Three official events carry the course year. Sponsors are named at all of them, and invited to take part in selected course activities.</p>
+    <p class="text-lg text-itu-ink text-center max-w-2xl mx-auto mb-10">The course year has three official events. Your company is named at all three, and you are invited to take part in selected course activities.</p>
     <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
       <div class="bg-white border border-gray-300 p-6">
         <h3 class="font-display text-2xl font-semibold mb-2 text-itu-purple">Opening session</h3>
@@ -141,7 +141,7 @@ description: >-
       </div>
       <div class="bg-white border border-gray-300 p-6">
         <h3 class="font-display text-2xl font-semibold mb-2 text-itu-purple">Matchmaking session</h3>
-        <p class="text-itu-ink">Companies pitch their projects and the teams form around them &mdash; the moment students choose who they will work with.</p>
+        <p class="text-itu-ink">Companies pitch their projects and the teams form around them. This is where students choose who they will work with.</p>
       </div>
       <div class="bg-white border border-gray-300 p-6">
         <h3 class="font-display text-2xl font-semibold mb-2 text-itu-purple">Final celebration</h3>
@@ -167,7 +167,7 @@ description: >-
           </li>
           <li class="flex items-start">
             <span class="font-display text-2xl font-bold text-itu-teal mr-4 mt-0.5">3</span>
-            <span class="text-itu-ink"><span class="font-semibold text-itu-purple">An invoice from ITU.</span> We need your company name and address, your CVR number &mdash; or an EAN number if you are a Danish public enterprise &mdash; and a contact person.</span>
+            <span class="text-itu-ink"><span class="font-semibold text-itu-purple">An invoice from ITU.</span> We need your company name and address, your CVR number (or an EAN number if you are a Danish public enterprise) and a contact person.</span>
           </li>
         </ol>
       </div>
@@ -219,7 +219,7 @@ description: >-
     <div class="max-w-3xl mx-auto text-center">
       <h2 class="font-display text-4xl font-bold mb-4 text-itu-purple">Talk to us about sponsoring</h2>
       <p class="text-lg text-itu-ink mb-8">
-        Write to Paolo Tell, who runs the course, with a line about your company and which package interests you. We will take it from there &mdash; including a tailored package, if that suits you better.
+        Email Paolo Tell, who runs the course. A line about your company and the package you are looking at is enough. We will take it from there, and put together a tailored package if that suits you better.
       </p>
       <div class="flex flex-col sm:flex-row gap-4 justify-center">
         <a href="mailto:pate@itu.dk?subject=ISE%20sponsorship%20enquiry&amp;cc=vinc@itu.dk" class="bg-itu-purple hover:bg-itu-purple-80 text-white font-semibold py-3 px-8 transition-colors text-center">Email Paolo Tell</a>
