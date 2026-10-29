@@ -19,7 +19,7 @@ testimonials:
 
 ## AI Learning Platform (2026)
 
-Toolpack Solutions returned as an ISE partner in 2026, working with students to deliver an MVP of an AI Learning Platform: an online platform for teaching people about AI through structured learning. It supports the EU AI Pact goal of upskilling one million people in Denmark by 2028 and aims to make AI education accessible to everyone.
+Toolpack Solutions returned as an ISE partner in 2026, working with students to deliver an MVP of an AI Learning Platform, an online platform that teaches people about AI through structured learning. It supports the EU AI Pact goal of upskilling one million people in Denmark by 2028 and aims to make AI education accessible to everyone.
 
 ### Platform Features
 
@@ -37,28 +37,28 @@ The platform was developed using:
 
 ### Impact
 
-The platform gives Toolpack a scalable foundation for delivering accessible AI education, contributing to national upskilling goals and broader, more diverse participation in AI.
+The platform gives Toolpack a scalable foundation for accessible AI education and contributes to national upskilling goals and broader, more diverse participation in AI.
 
 ---
 
 ## Unified School Platform (2025)
 
-Toolpack partnered with ISE students to develop a comprehensive MVP for a unified school platform for high schools. This all-in-one solution integrates various educational tools and services into a single, cohesive system for high schools.
+Toolpack partnered with ISE students to develop an MVP of a unified school platform for high schools. It brings educational tools and services together in a single system.
 
 ### Platform Features
 
-1. **Student Management**: Comprehensive student information system
-2. **Course Administration**: Enable administrators to add and remove users and manage courses by editing and scheduling
-3. **Teachers and Students Tools**: Providing calendar integration
+1. **Student Management**: A student information system
+2. **Course Administration**: Administrators can add and remove users, and edit and schedule courses
+3. **Teachers and Students Tools**: Calendar integration
 
 ### Technical Stack
 
 The platform was developed using:
-1. Next.js /React for the frontend
+1. Next.js and React for the frontend
 2. .NET for the backend API
-3. MS SQL as database
-4. Tailwind CSS & shadcn/ui as component library
+3. MS SQL as the database
+4. Tailwind CSS and shadcn/ui as the component library
 
 ### Impact
 
-The MVP has successfully demonstrated the viability of a unified school platform approach, leading to potential full-scale deployment in the future.
+The MVP demonstrated that a unified school platform is viable, opening the door to a possible full-scale deployment.

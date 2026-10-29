@@ -11,9 +11,9 @@ testimonial: "The gamified approach to cybersecurity education that the ISE team
 testimonial_author: "Product Owner, Cyberjuice"
 ---
 
-## Project Overview 
+## Project Overview
 
-Cyberjuice collaborated with ISE students to develop an innovative gamified cybersecurity browser extension. This unique solution combines security education with engaging gameplay to improve user cybersecurity awareness and behavior.
+Cyberjuice collaborated with ISE students to develop a gamified cybersecurity browser extension. It combines security education with gameplay to improve users' cybersecurity awareness and behavior.
 
 
 ## Key Features
@@ -27,16 +27,16 @@ Cyberjuice collaborated with ISE students to develop an innovative gamified cybe
 ## Technical Implementation
 
 The browser extension was built using:
-1. Pycharm and Django Frameworks
-2. Web API endpoints well-documented
-3. Relational database PostgreSQL
-4. Chromium extension written in React TypeScript
+1. PyCharm and the Django framework
+2. Well-documented web API endpoints
+3. PostgreSQL as the relational database
+4. Chromium extension written in React and TypeScript
 
 
 ## Educational Impact
 
-The extension has successfully met Cyberjuice's expectations, with good improvements in security behavior and awareness among participants.
+The extension met Cyberjuice's expectations, with participants showing improved security behavior and awareness.
 
 ## Innovation
 
-This project pioneered the use of gamification in browser-based security education, creating a new paradigm for making cybersecurity training engaging and effective.
+The project brings gamification into browser-based security education, with the aim of making cybersecurity training engaging and effective.

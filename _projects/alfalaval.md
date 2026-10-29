@@ -13,13 +13,13 @@ testimonial_author: "Product Owner, Alfa Laval"
 
 ## Project Overview
 
-Alfa Laval partnered with ISE students to build the Maritime Analytics Tool, a desktop application that helps engineers turn raw ship operating data into reliable insight in support of lower fuel emissions. It replaces slow, manual steps with a faster and more dependable workflow.
+Alfa Laval partnered with ISE students to build the Maritime Analytics Tool, a desktop application that helps engineers turn raw ship operating data into reliable insight, with the aim of lowering fuel emissions. It replaces slow, manual steps with a faster, more dependable workflow.
 
 
 ## Platform Features
 
 1. **Data import & cleaning**: CSV ingestion with automatic encoding and delimiter handling, plus interpolation and outlier detection
-2. **Analysis engine**: Background processing of large datasets so the interface stays responsive
+2. **Analysis engine**: Large datasets are processed in the background, so the interface stays responsive
 3. **Reporting & visualisation**: A report generator and table-based views that present processed data clearly
 
 
@@ -34,4 +34,4 @@ The tool was developed using:
 
 ## Impact
 
-The tool gives Alfa Laval a faster, more accurate way to work with ship emissions data — a quality-of-life upgrade over their previous application and a concrete contribution to reducing fuel emissions.
+The tool gives Alfa Laval a faster, more accurate way to work with ship emissions data. It is a quality-of-life upgrade over their previous application and a concrete contribution to reducing fuel emissions.

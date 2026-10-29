@@ -3,115 +3,116 @@ layout: post
 title: About the ISE Course
 permalink: /about
 description: >-
-  How the ISE course works at the IT University of Copenhagen - semester-long student teams, Scrum practice, and industry projects run with real companies since 2017.
+  How the ISE course works at the IT University of Copenhagen: semester-long student teams, Scrum in practice, and industry projects run with real companies since 2017.
 ---
 
 
-Welcome to the **Industrial Software Engineering (ISE)** course at the IT University of Copenhagen—a unique educational program bridging academic learning and real-world industry practice since 2017.
+**Industrial Software Engineering (ISE)** is a course at the IT University of Copenhagen where student teams build software for real companies. We have run it since 2017.
 
 ---
 
-## 🚀 Course Overview
+## Course overview
 
 **For companies**: 
-1. ISE gives companies direct access to motivated, talented students who work on your real-world software challenges. By participating, your company can: 
-2. Explore innovative solutions tailored to your organization’s needs
-3. Engage with multidisciplinary agile teams guided by a scrum master M.Sc, student, and an Agile Coach from the industry
-4. Evaluate potential future hires in a real project setting
-5. Support talent development and strengthen ties with ITU and the next generation of engineers
-6. Your partnership shapes the practical skills of tomorrow’s tech professionals.
+
+ISE gives you direct access to motivated students who work on a real software challenge from your organization. As a partner, you can:
+
+1. Try out solutions built around your own needs
+2. Work with a multidisciplinary agile team, guided by a Scrum Master (an M.Sc. student) and an Agile Coach from industry
+3. Get to know potential future hires in a real project
+4. Support talent development and build closer ties with ITU and the next generation of engineers
+
+Your project shapes the practical skills of tomorrow's developers.
 
 **For students:** 
-1. ISE offers students the chance to collaborate with leading companies, work in agile teams, and gain hands-on experience with real industry projects.
-2. The course is designed to foster meaningful partnerships between students and professionals, equipping them with practical skills, critical thinking, and the ability to work in large teams, fostering their future careers.
+1. You work with real companies in agile teams and get hands-on experience with real industry projects.
+2. You build working relationships with professionals. You leave with practical skills, critical thinking and experience in a large team, and that counts when your career starts.
 
 ---
 
 
-## 🌍 Real-World Experience
+## Real projects, real business needs
 
-ISE students collaborate with industrial partners on projects that address genuine business needs. This ensures students:
+ISE students work with industrial partners on projects that solve genuine business problems. That means students:
 
-1. Experience authentic project environments
-2. Apply software engineering skills in practical contexts
-3. Learn new, industry-driven technologies
+1. Work in an actual project environment
+2. Apply their software engineering skills to a practical problem
+3. Learn new technologies that industry uses
 4. Build professional relationships
 
 ---
 
-## 🌀 Educational Philosophy
+## How we teach: Scrum in practice
 
-ISE emphasizes active, hands-on learning through agile methodologies, applying Scrum in practice:
+ISE is hands-on. Every team applies Scrum in practice:
 
-1. **Short Sprint Iterations:** Regular development cycles with clear deliverables
-2. **Continuous Feedback:** Frequent reviews and retrospectives
-3. **Professional Practices:** Use of industry-standard tools and workflows
-4. **Teamwork:** Focus on communication and collaboration
-
----
-
-## 📈 Track Record
-
-1. **7+ years** of continuous operation and improvements on this course
-2. **High industry satisfaction** with many returning partners
-3. **Strong student outcomes** and good opportunities for employment at the companies
-4. **Proven methodology** that bridges academic theory and industry practice
+1. Short sprints with clear deliverables
+2. Frequent reviews and retrospectives, so feedback never stops
+3. The tools and workflows used in industry
+4. A strong focus on communication and collaboration in the team
 
 ---
 
-## 🤝 Industry Partnership
+## Track record
 
-1, Partners return with new projects annually
-2. A growing network of companies and startups
-3. Diverse range of project types and technologies applied
-4. Strong mentorship and industry engagement
+1. **Since 2017** we have run this course and kept improving it
+2. High satisfaction among industry partners, and many of them come back
+3. Good student outcomes, and good chances of a job at the partner companies
+4. A method for connecting academic theory with industry practice, tested over many semesters
 
 ---
 
-## 🎯 Course Impact
+## Industry partnership
+
+1. Partners return every year with new projects
+2. The network of companies and startups keeps growing
+3. Projects vary widely in type and technology
+4. Strong mentorship and engagement from industry
+
+---
+
+## Course impact
 
 ### For Industry Partners
 
-1. **Fresh Perspectives:** Innovative ideas from motivated students
-2. **Talent Pipeline:** Early access to future employees
-3. **Research Collaboration:** Links to academic research and innovation
-4. **Cost-Effective Solutions:** Prototype and proof-of-concept development
+1. **Fresh perspectives:** new ideas from motivated students
+2. **Talent pipeline:** early access to future employees
+3. **Research collaboration:** links to academic research at ITU
+4. **Low-cost development:** prototypes and proofs of concept
 
 ---
 
-## 🎓 Academic Context
+## Academic context
 
-ISE is an integral part of ITU's curriculum. In ITU's course catalogue it runs as [Second Year Project: Software Development in Large Teams](https://researcher.itu.dk/p/en/courses/second-year-project-software-development-in-large-teams-15-ects) (BSc, 15 ECTS) for the developers and [Industrial Scrum Master Training](https://researcher.itu.dk/p/en/courses/industrial-scrum-master-training) (MSc) for the Scrum Masters.
+ISE is a core part of ITU's curriculum. In ITU's course catalogue it runs as [Second Year Project: Software Development in Large Teams](https://researcher.itu.dk/p/en/courses/second-year-project-software-development-in-large-teams-15-ects) (BSc, 15 ECTS) for the developers and [Industrial Scrum Master Training](https://researcher.itu.dk/p/en/courses/industrial-scrum-master-training) (MSc) for the Scrum Masters.
 
-1. **Foundation Building:** Builds on prior software engineering coursework
-2. **Practical Application:** Bridges theory and practice
-3. **Career Preparation:** Industry-relevant experience before graduation
+It builds on your earlier software engineering courses, puts the theory to work, and gives you industry-relevant experience before you graduate.
 
-## 🎓 Learning Objectives
+## Learning objectives
 
-ISE graduates demonstrate:
+By the end of ISE, students can:
 
-1. **Technical Proficiency:** Advanced software development skills
-2. **Project Management Capabilities:** Scrum and Agile in practice
-3. **Professional Communication:** Effective interactions with a Product Owner from the Industry
-4. **Problem-Solving:** Tackling complex, real-world challenges in a large development team
+1. Develop software at an advanced level
+2. Run a project with Scrum and agile methods in practice
+3. Work professionally with a Product Owner from industry
+4. Solve complex, real-world problems inside a large development team
 
 ---
 
-## 💡 Get Involved
+## Get involved
 
 ### For Industry Partners
 
-Interested in collaborating? Visit our [For Industry Partners](/industry) page for:
+Have a project in mind? The [For Industry Partners]({{ site.baseurl }}/industry) page covers:
 
-1. Partnership opportunities & benefits
-2. Project requirements & expectations
+1. What a partnership involves and what you get out of it
+2. What we expect from a project, and from you
 3. How to get started
 
 ---
 
-## 📬 Contact
+## Contact
 
-For general inquiries about the ISE course, see contacts below. 
+For general questions about the ISE course, use the contacts below. 
 
 --- 

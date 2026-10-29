@@ -13,21 +13,21 @@ testimonial_author: "Software Development Manager, PerfusionTech"
 
 ## Project Overview
 
-PerfusionTech collaborated with ISE students to develop the MVP of a web application tool for medical professionals to annotate angiographic images. The Web App will enable data collection intended for AI training. 
+PerfusionTech collaborated with ISE students to develop the MVP of a web application where medical professionals annotate angiographic images. The web app collects this data for AI training. 
 
 
 ## Key Features
 
-1. **Web App for Visualization**: a web app deployable in the client's environment
-2. **Handling Sensitive Information**: Secure, privacy, and confidentiality requirements met
-3. **Process Workflow**: Seamless process workflow for the medical professionals
+1. **Web App for Visualization**: A web app that can be deployed in the client's environment
+2. **Handling Sensitive Information**: Meets security, privacy and confidentiality requirements
+3. **Process Workflow**: A smooth workflow for the medical professionals
 4. **User-friendly Interface**: Intuitive design for medical professionals
 
 
 ## Technical Overview
 
 The platform was built using:
-1. Front-end Blazor application and C#
+1. Blazor front-end application and C#
 2. MatBlazor styles and components
 3. SQLite databases
 4. RESTful APIs
@@ -36,4 +36,4 @@ The platform was built using:
 
 ## Clinical Impact
 
-The platform has been successfully developed, and it provides major improvements to the workflow of medical professionals, so that patient outcomes and surgical precision can be improved. 
+The platform has been developed and brings major improvements to the workflow of medical professionals, which in turn can improve patient outcomes and surgical precision. 
