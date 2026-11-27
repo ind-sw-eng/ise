@@ -1,6 +1,6 @@
-<header class="bg-white border-t-4 border-itu-purple border-b border-gray-200">
+<header class="sticky top-0 z-40 bg-white/95 backdrop-blur border-t-4 border-itu-purple-dark border-b border-gray-200">
   <nav
-    class="mx-auto w-full max-w-screen-xl px-6 lg:px-12 flex justify-center py-6"
+    class="mx-auto w-full max-w-screen-xl px-6 lg:px-12 flex justify-center py-3"
     role="navigation"
     aria-label="main navigation"
   >
@@ -10,19 +10,19 @@
           <img
             src="{{ site.baseurl }}/assets/images/logo.png"
             alt="{{ site.title }}"
-            class="h-12 w-auto"
+            class="h-11 w-auto"
           />
         </a>
       </div>
       <div id="nav-wrap" class="hidden md:block">
         <ul
-          class="flex items-center space-x-6 text-black"
+          class="flex items-center space-x-4 lg:space-x-6 text-black"
         >
           {% include menus/menu-nav.html %}
         </ul>
       </div>
       <!-- Mobile menu -->
-      <div id="mobile-menu" class="hidden md:hidden absolute top-20 left-0 right-0 bg-white border-t border-b border-gray-200 z-50">
+      <div id="mobile-menu" class="hidden md:hidden absolute top-full left-0 right-0 bg-white border-t border-b border-gray-200 z-50">
         <ul class="flex flex-col items-center py-4 space-y-4 text-black">
           {% include menus/menu-nav.html %}
         </ul>

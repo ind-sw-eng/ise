@@ -117,9 +117,23 @@
 }
 
 
-/* Prevent horizontal scrolling on mobile */
+/* Editorial marker -------------------------------------------------------
+   A short hatched bar that sits above a small label, the way an editorial
+   site flags a section. It takes its colour from the text colour. */
+
+.hatch {
+  display: block;
+  width: 4.5rem;
+  height: 0.75rem;
+  background-image: repeating-linear-gradient(-45deg, currentColor 0 2px, transparent 2px 7px);
+}
+
+/* Prevent horizontal scrolling on mobile. "clip" rather than "hidden", so the
+   body does not become a scroll container and the sticky header keeps
+   working; browsers without "clip" fall back to "hidden". */
 html, body {
   overflow-x: hidden;
+  overflow-x: clip;
 }
 
 /* Long-form content ------------------------------------------------------
@@ -148,15 +162,21 @@ html, body {
   display: block;
 }
 
+/* Section headings in long-form pages use the condensed display face, large,
+   the way the hand-written pages set their section titles. */
 .content h2:not([class]) {
-  font-size: 1.5rem;
-  margin-top: 2.5rem;
-  margin-bottom: 0.75rem;
+  font-family: "Barlow Condensed", "Open Sans", sans-serif;
+  font-size: 2.5rem;
+  font-weight: 700;
+  line-height: 1.05;
+  margin-top: 3.5rem;
+  margin-bottom: 1rem;
 }
 
 .content h3:not([class]) {
-  font-size: 1.25rem;
-  margin-top: 2rem;
+  font-family: "Barlow Condensed", "Open Sans", sans-serif;
+  font-size: 1.75rem;
+  margin-top: 2.25rem;
   margin-bottom: 0.5rem;
 }
 

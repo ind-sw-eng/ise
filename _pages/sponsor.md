@@ -8,28 +8,27 @@ description: >-
   Sponsor Industrial Software Engineering at the IT University of Copenhagen: around 16 student teams building software for real companies over a semester, and your company in the room with them.
 ---
 
-<section class="bg-white pt-8 pb-4">
-  <div class="mx-auto w-full max-w-screen-xl px-6 lg:px-12">
-    <div class="bg-itu-beige border border-itu-purple text-itu-ink px-6 lg:px-10 py-10 md:py-14">
-      <div class="max-w-3xl">
-        <p class="text-sm font-semibold uppercase tracking-wide text-itu-teal mb-3">Call for sponsors &middot; {{ site.data.sponsor.edition }} edition</p>
-        <h1 class="font-display text-4xl md:text-5xl font-bold leading-[1.1] mb-5 text-itu-purple">Sponsor the ISE course</h1>
-        <p class="text-lg md:text-xl text-itu-ink mb-8">
-          Around 16 teams of ITU students spend a semester building software for real companies. As a sponsor, you put your organisation, your products and your people in front of those students. And in front of the companies that bring the projects.
-        </p>
-        <div class="flex flex-col sm:flex-row gap-4">
-          <a href="#packages" class="bg-itu-purple hover:bg-itu-purple-80 text-white font-semibold py-3 px-8 transition-colors text-center">See the packages</a>
-          <a href="#talk-to-us" class="border border-itu-purple text-itu-purple hover:bg-itu-purple hover:text-white font-semibold py-3 px-8 transition-colors text-center">Talk to Paolo</a>
-        </div>
+<section class="bg-itu-purple-dark text-white">
+  <div class="mx-auto w-full max-w-screen-xl px-6 lg:px-12 py-16 md:py-24">
+    <div class="max-w-3xl">
+      <span class="hatch text-itu-mint mb-3" aria-hidden="true"></span>
+      <p class="text-sm font-semibold text-itu-mint mb-5">Call for sponsors &middot; {{ site.data.sponsor.edition }} edition</p>
+      <h1 class="font-display text-5xl md:text-7xl font-bold leading-[1.02] mb-6">Sponsor the ISE course</h1>
+      <p class="text-lg md:text-xl text-white/90 mb-8">
+        Around 16 teams of ITU students spend a semester building software for real companies. As a sponsor, you put your organisation, your products and your people in front of those students. And in front of the companies that bring the projects.
+      </p>
+      <div class="flex flex-col sm:flex-row gap-4">
+        <a href="#packages" class="bg-itu-teal hover:bg-itu-teal-dark text-white font-semibold py-3 px-8 transition-colors text-center">See the packages</a>
+        <a href="#talk-to-us" class="border border-white text-white hover:bg-white hover:text-itu-purple font-semibold py-3 px-8 transition-colors text-center">Talk to Paolo</a>
       </div>
     </div>
   </div>
 </section>
 
 <section class="bg-white">
-  <div class="mx-auto w-full max-w-screen-xl px-6 lg:px-12 py-16">
+  <div class="mx-auto w-full max-w-screen-xl px-6 lg:px-12 py-16 md:py-24">
     <div class="max-w-3xl">
-      <h2 class="font-display text-4xl font-bold mb-4 text-itu-purple">What you are sponsoring</h2>
+      <h2 class="font-display text-5xl md:text-6xl font-bold leading-none mb-5 text-itu-purple">What you are sponsoring</h2>
       <p class="text-lg text-itu-ink mb-4">
         Industrial Software Engineering puts bachelor and master students into teams: eight to ten developers, with a master&rsquo;s student as Scrum Master. Each team gets a real project from a real company. Two weeks of kickoff, eleven weeks of sprints, around 16 teams running at once, with industrial agile coaches alongside them.
       </p>
@@ -40,10 +39,10 @@ description: >-
   </div>
 </section>
 
-<section id="packages" class="bg-itu-pale-green-20 border-y border-itu-pale-green">
-  <div class="mx-auto w-full max-w-screen-xl px-6 lg:px-12 py-16">
-    <h2 class="font-display text-4xl font-bold mb-3 text-center text-itu-purple">Sponsorship packages</h2>
-    <p class="text-lg text-itu-ink text-center max-w-2xl mx-auto mb-10">Course sponsorship stands on its own. Each of the two additions goes to a single sponsor, on top of it.</p>
+<section id="packages" class="bg-itu-mint-20 border-y border-itu-mint">
+  <div class="mx-auto w-full max-w-screen-xl px-6 lg:px-12 py-16 md:py-24">
+    <h2 class="font-display text-5xl md:text-6xl font-bold leading-none mb-4 text-itu-purple">Sponsorship packages</h2>
+    <p class="text-lg text-itu-ink max-w-2xl mb-10">Course sponsorship stands on its own. Each of the two additions goes to a single sponsor, on top of it.</p>
 
     <div class="bg-white border border-gray-300 border-t-4 border-t-itu-teal p-8 mb-6">
       <div class="flex flex-col md:flex-row md:items-baseline md:justify-between mb-6 gap-2">
@@ -124,16 +123,16 @@ description: >-
       </div>
     </div>
 
-    <p class="text-itu-ink text-center mt-8 max-w-2xl mx-auto">
+    <p class="text-itu-ink mt-8 max-w-2xl">
       ITU invoices the amounts and adds VAT. Have something else in mind? Tell us, and we will put together a tailored package.
     </p>
   </div>
 </section>
 
 <section class="bg-white">
-  <div class="mx-auto w-full max-w-screen-xl px-6 lg:px-12 py-16">
-    <h2 class="font-display text-4xl font-bold mb-3 text-center text-itu-purple">Where you meet the students</h2>
-    <p class="text-lg text-itu-ink text-center max-w-2xl mx-auto mb-10">The course year has three official events. Your company is named at all three, and you are invited to take part in selected course activities.</p>
+  <div class="mx-auto w-full max-w-screen-xl px-6 lg:px-12 py-16 md:py-24">
+    <h2 class="font-display text-5xl md:text-6xl font-bold leading-none mb-4 text-itu-purple">Where you meet the students</h2>
+    <p class="text-lg text-itu-ink max-w-2xl mb-10">The course year has three official events. Your company is named at all three, and you are invited to take part in selected course activities.</p>
     <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
       <div class="bg-white border border-gray-300 p-6">
         <h3 class="font-display text-2xl font-semibold mb-2 text-itu-purple">Opening session</h3>
@@ -151,11 +150,11 @@ description: >-
   </div>
 </section>
 
-<section class="bg-itu-beige-20 border-y border-itu-beige">
-  <div class="mx-auto w-full max-w-screen-xl px-6 lg:px-12 py-16">
+<section class="bg-itu-purple-05 border-y border-itu-purple-20">
+  <div class="mx-auto w-full max-w-screen-xl px-6 lg:px-12 py-16 md:py-24">
     <div class="grid grid-cols-1 lg:grid-cols-2 gap-10">
       <div>
-        <h2 class="font-display text-4xl font-bold mb-4 text-itu-purple">How it is set up</h2>
+        <h2 class="font-display text-5xl md:text-6xl font-bold leading-none mb-5 text-itu-purple">How it is set up</h2>
         <ol class="space-y-6">
           <li class="flex items-start">
             <span class="font-display text-2xl font-bold text-itu-teal mr-4 mt-0.5">1</span>
@@ -172,7 +171,7 @@ description: >-
         </ol>
       </div>
       <div>
-        <h2 class="font-display text-4xl font-bold mb-4 text-itu-purple">Worth knowing</h2>
+        <h2 class="font-display text-5xl md:text-6xl font-bold leading-none mb-5 text-itu-purple">Worth knowing</h2>
         <dl class="space-y-4">
           <div class="border-l-4 border-itu-mint pl-4">
             <dt class="font-semibold text-itu-purple">Intellectual property</dt>
@@ -196,28 +195,28 @@ description: >-
   </div>
 </section>
 
-<section class="bg-itu-cream-20 border-y border-itu-cream">
-  <div class="mx-auto w-full max-w-screen-xl px-6 lg:px-12 py-16">
-    <h2 class="font-display text-4xl font-bold mb-3 text-center text-itu-purple">The companies behind the course</h2>
-    <p class="text-lg text-itu-ink text-center max-w-2xl mx-auto mb-10">Three today. We have room for one more.</p>
-    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 items-stretch">
+<section class="bg-white">
+  <div class="mx-auto w-full max-w-screen-xl px-6 lg:px-12 py-16 md:py-24">
+    <h2 class="font-display text-5xl md:text-6xl font-bold leading-none mb-4 text-itu-purple">The companies behind the course</h2>
+    <p class="text-lg text-itu-ink max-w-2xl mb-10">Three today. We have room for one more.</p>
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 border-l border-t border-gray-300">
       {% for sponsor in site.data.sponsor.sponsors %}
-        <a href="{{ sponsor.link }}" target="_blank" rel="noopener" class="flex items-center justify-center bg-white border border-gray-300 hover:border-itu-teal p-6 transition-colors">
-          <img src="{{ site.baseurl }}/assets/images/sponsors/{{ sponsor.image }}" alt="{{ sponsor.name }}" loading="lazy" class="max-h-24 object-contain">
+        <a href="{{ sponsor.link }}" target="_blank" rel="noopener" class="flex items-center justify-center bg-white border-r border-b border-gray-300 p-8 h-40 hover:bg-itu-mint-20 transition-colors">
+          <img src="{{ site.baseurl }}/assets/images/sponsors/{{ sponsor.image }}" alt="{{ sponsor.name }}" loading="lazy" class="max-h-20 max-w-full object-contain">
         </a>
       {% endfor %}
-      <a href="#talk-to-us" class="flex flex-col items-center justify-center text-center bg-white border border-dashed border-itu-purple p-6 hover:bg-itu-purple hover:text-white transition-colors group">
-        <span class="font-display text-2xl font-semibold text-itu-purple group-hover:text-white">This space is open</span>
-        <span class="text-sm text-itu-ink group-hover:text-white mt-1">Your logo, here and through the course</span>
+      <a href="#talk-to-us" class="flex flex-col justify-end bg-itu-purple border-r border-b border-gray-300 text-white p-8 h-40 hover:bg-itu-purple-dark transition-colors">
+        <span class="font-display text-3xl font-bold">This space is open</span>
+        <span class="text-sm text-white/90 mt-1">Your logo, here and through the course</span>
       </a>
     </div>
   </div>
 </section>
 
 <section id="talk-to-us" class="bg-itu-purple-05 border-t border-itu-purple-20">
-  <div class="mx-auto w-full max-w-screen-xl px-6 lg:px-12 py-16">
+  <div class="mx-auto w-full max-w-screen-xl px-6 lg:px-12 py-16 md:py-24">
     <div class="max-w-3xl mx-auto text-center">
-      <h2 class="font-display text-4xl font-bold mb-4 text-itu-purple">Talk to us about sponsoring</h2>
+      <h2 class="font-display text-5xl md:text-6xl font-bold leading-none mb-5 text-itu-purple">Talk to us about sponsoring</h2>
       <p class="text-lg text-itu-ink mb-8">
         Email Paolo Tell, who runs the course. A line about your company and the package you are looking at is enough. We will take it from there, and put together a tailored package if that suits you better.
       </p>
