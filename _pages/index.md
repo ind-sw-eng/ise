@@ -100,9 +100,9 @@ description: >-
       </div>
 
       <div class="bg-itu-beige-20 border border-gray-300 border-t-4 border-t-itu-purple p-8 flex flex-col">
-        <p class="inline-block self-start bg-itu-purple text-white text-sm font-semibold px-3 py-1 mb-3">Open for next year</p>
+        <p class="inline-block self-start bg-itu-purple text-white text-sm font-semibold px-3 py-1 mb-3">Open for {{ site.data.sponsor.edition }}</p>
         <h3 class="font-display text-3xl font-semibold mb-2 text-itu-purple">You want to reach our students</h3>
-        <p class="text-itu-ink mb-6">We have room for one more sponsor next year, alongside Saxo, Capgemini and agile42.</p>
+        <p class="text-itu-ink mb-6">Saxo, Capgemini and agile42 fund the course. There is room for one more sponsor in {{ site.data.sponsor.edition }}, from DKK 30,000.</p>
 
         <p class="font-semibold text-itu-purple mb-2">What sponsorship gives you</p>
         <ul class="space-y-2 mb-8">
@@ -226,7 +226,7 @@ description: >-
       {% endfor %}
       <a href="{{ site.baseurl }}/sponsor" class="flex flex-col items-center justify-center text-center bg-itu-purple-05 border border-dashed border-itu-purple p-6 hover:bg-itu-purple hover:text-white transition-colors group">
         <span class="font-display text-2xl font-semibold text-itu-purple group-hover:text-white">This space is open</span>
-        <span class="text-sm text-itu-ink group-hover:text-white mt-1">We are looking for one more sponsor for next year. See how it works</span>
+        <span class="text-sm text-itu-ink group-hover:text-white mt-1">Your logo, here and through the course. See how it works</span>
       </a>
     </div>
   </div>
