@@ -1,6 +1,8 @@
 // Wait for DOM to be fully loaded
 document.addEventListener('DOMContentLoaded', function() {
-  var body = document.body;
+  // Scroll lock goes on <html>, not <body>: overflow on the body would make it a
+  // scroll container and unstick the sticky header.
+  var body = document.documentElement;
   const button = document.querySelector("#menu-button");
   const menu = document.querySelector("#nav-wrap");
   const mobileMenu = document.querySelector("#mobile-menu");
@@ -35,7 +37,7 @@ document.addEventListener("click", (e) => {
   
   if (button && mobileMenu && burger && !button.contains(e.target) && !mobileMenu.contains(e.target)) {
     mobileMenu.classList.add("hidden");
-    document.body.classList.remove("overflow-hidden");
+    document.documentElement.classList.remove("overflow-hidden");
     button.setAttribute("aria-expanded", "false");
     burger.innerHTML = '<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>';
   }
@@ -50,7 +52,7 @@ document.addEventListener("keydown", (e) => {
     
     if (button && mobileMenu && burger && !mobileMenu.classList.contains("hidden")) {
       mobileMenu.classList.add("hidden");
-      document.body.classList.remove("overflow-hidden");
+      document.documentElement.classList.remove("overflow-hidden");
       button.setAttribute("aria-expanded", "false");
       burger.innerHTML = '<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>';
     }

@@ -5,6 +5,9 @@
 // the pastel band colours ITU uses to separate sections.
 const itu = {
   purple: "#5d2652",
+  // Deeper than the brand purple: the dark panels and the footer, where an
+  // editorial site would use black.
+  "purple-dark": "#3b1634",
   "purple-80": "#7d5175",
   "purple-20": "#dfd4dc",
   "purple-05": "#f7f4f6",

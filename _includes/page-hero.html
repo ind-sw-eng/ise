@@ -1,0 +1,24 @@
+{%- comment -%}
+  The title band at the top of every inner page: solid ITU purple, a hatched
+  marker over a small label, then the title and its lead paragraph.
+
+  Parameters: title, lead (optional), eyebrow (optional, defaults to the course
+  name), img (optional, a logo shown in a white tile on the right).
+{%- endcomment -%}
+<section class="bg-itu-purple text-white">
+  <div class="mx-auto w-full max-w-screen-xl px-6 lg:px-12 py-14 md:py-20 flex flex-col md:flex-row md:items-end md:justify-between gap-10">
+    <div class="max-w-3xl">
+      <span class="hatch text-itu-mint mb-3" aria-hidden="true"></span>
+      <p class="text-sm font-semibold text-itu-mint mb-4">{{ include.eyebrow | default: "Industrial Software Engineering" }}</p>
+      <h1 class="font-display text-5xl md:text-6xl font-bold leading-[1.02]">{{ include.title }}</h1>
+      {% if include.lead and include.lead != "" %}
+      <p class="text-lg md:text-xl text-white/90 mt-5">{{ include.lead }}</p>
+      {% endif %}
+    </div>
+    {% if include.img %}
+    <div class="bg-white w-40 h-40 md:w-56 md:h-56 p-6 flex items-center justify-center shrink-0">
+      <img src="{{ site.baseurl }}{{ include.img }}" alt="{{ include.title }} logo" class="max-h-full max-w-full object-contain">
+    </div>
+    {% endif %}
+  </div>
+</section>

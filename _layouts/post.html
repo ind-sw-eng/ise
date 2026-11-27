@@ -2,52 +2,48 @@
 layout: default
 ---
 
-<section class="py-12">
-  <div class="bg-white border border-gray-300 p-8 text-center text-itu-ink max-w-3xl mx-auto">
-    {% if page.img %}
-      <img src="{{ site.baseurl }}{{ page.img }}" alt="{{ page.title }} logo"
-           class="mx-auto h-32 max-w-[200px] object-contain bg-white p-2 mb-4" />
-    {% endif %}
-    <header class="mb-6">
-      <h1 class="font-display text-5xl font-bold text-itu-purple">{{ page.title }}</h1>
-      {% if page.descriptions %}
-      {% for desc in page.descriptions %}
-      <p class="text-lg text-itu-ink mt-2">{{ desc }}</p>
-      {% endfor %}
-      {% elsif page.description %}
-      <p class="text-lg text-itu-ink mt-2">{{ page.description }}</p>
-      {% endif %}
-    </header>
+{%- if page.descriptions -%}
+  {%- assign lead = page.descriptions | join: " " -%}
+{%- else -%}
+  {%- assign lead = page.description -%}
+{%- endif -%}
+{%- if page.collection == "projects" -%}
+  {%- assign eyebrow = "Project" -%}
+{%- endif -%}
+{% include page-hero.html title=page.title lead=lead img=page.img eyebrow=eyebrow %}
+
+<section class="py-12 md:py-16">
+  <div class="mx-auto w-full max-w-screen-xl px-6 lg:px-12 text-itu-ink">
+   <div class="max-w-4xl">
     {% include toc.html %}
-    <div class="content text-left mx-auto">
+    <div class="content">
       {{ content }}
     </div>
     {% if page.testimonials %}
-    <h3 class="font-display text-2xl font-semibold text-itu-purple mt-8 mb-4">Client Testimonials</h3>
+    <h2 class="font-display text-4xl font-bold text-itu-purple mt-14 mb-6">Client Testimonials</h2>
     {% for t in page.testimonials %}
-    <div class="mt-4 p-6 bg-itu-mint-20 border-l-4 border-itu-teal">
-      <blockquote class="text-lg text-itu-ink italic">
-        "{{ t.quote }}"
+    <figure class="mt-6 bg-itu-purple text-white p-8 md:p-10">
+      <span class="hatch text-itu-mint mb-5" aria-hidden="true"></span>
+      <blockquote class="font-display text-2xl md:text-3xl font-semibold leading-snug">
+        &ldquo;{{ t.quote }}&rdquo;
       </blockquote>
       {% if t.author %}
-      <div class="mt-4 text-itu-ink">
-        {{ t.author }}
-      </div>
+      <figcaption class="mt-5 text-itu-mint">{{ t.author }}</figcaption>
       {% endif %}
-    </div>
+    </figure>
     {% endfor %}
     {% elsif page.testimonial %}
-    <div class="mt-8 p-6 bg-itu-mint-20 border-l-4 border-itu-teal">
-      <h3 class="font-display text-2xl font-semibold text-itu-purple mb-4">Client Testimonial</h3>
-      <blockquote class="text-lg text-itu-ink italic">
-        "{{ page.testimonial }}"
+    <h2 class="font-display text-4xl font-bold text-itu-purple mt-14 mb-6">Client Testimonial</h2>
+    <figure class="bg-itu-purple text-white p-8 md:p-10">
+      <span class="hatch text-itu-mint mb-5" aria-hidden="true"></span>
+      <blockquote class="font-display text-2xl md:text-3xl font-semibold leading-snug">
+        &ldquo;{{ page.testimonial }}&rdquo;
       </blockquote>
       {% if page.testimonial_author %}
-      <div class="mt-4 text-itu-ink">
-        {{ page.testimonial_author }}
-      </div>
+      <figcaption class="mt-5 text-itu-mint">{{ page.testimonial_author }}</figcaption>
       {% endif %}
-    </div>
+    </figure>
     {% endif %}
+   </div>
   </div>
 </section>
