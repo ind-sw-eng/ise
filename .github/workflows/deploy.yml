@@ -29,7 +29,10 @@ concurrency:
 jobs:
   # Build job
   build:
-    runs-on: ubuntu-latest
+    # Pinned rather than ubuntu-latest: the pinned ruby/setup-ruby release does
+    # not know the ubuntu-26.04 image that ubuntu-latest moved to, and stops at
+    # "Setup Ruby". Move both forward together.
+    runs-on: ubuntu-24.04
     steps:
       - name: Checkout
         uses: actions/checkout@v4
